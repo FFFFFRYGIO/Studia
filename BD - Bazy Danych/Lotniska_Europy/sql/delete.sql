@@ -1,0 +1,16 @@
+DROP TABLE licencja;
+DROP TABLE rola_w_locie;
+DROP TABLE bilet;
+DROP TABLE klient;
+DROP TABLE miejsce;
+DROP TABLE pracownik;
+DROP TABLE lot;
+DROP TABLE znizka;
+DROP TABLE lotnisko;
+DROP TABLE samolot;
+DROP TABLE model;
+DROP VIEW koszty_biletow;
+DROP VIEW najwiecej_lotow;
+DROP VIEW najczestsi_piloci;
+DROP VIEW zwyciezcy_konkursu;
+DROP VIEW najwiekszy_zysk;

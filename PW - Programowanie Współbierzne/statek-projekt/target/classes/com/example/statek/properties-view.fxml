@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.statek.PropertiesController">
+   <children>
+      <VBox layoutX="43.0" layoutY="19.0" prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;">
+         <children>
+            <HBox style="-fx-alignment: center-right;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pojemność statku:" wrappingWidth="240.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="tf_N" alignment="CENTER_RIGHT" minWidth="-Infinity" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin></TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="18.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefWidth="200.0" style="-fx-alignment: center-right;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pojemność mostka:" wrappingWidth="240.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="tf_K" alignment="CENTER_RIGHT" minWidth="-Infinity" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin></TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="18.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="110.0" prefWidth="200.0" style="-fx-alignment: center-right;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ilość pasażerów:" wrappingWidth="240.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="tf_P" alignment="CENTER_RIGHT" minWidth="-Infinity" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="18.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="150.0" prefWidth="200.0" style="-fx-alignment: center-right;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Czas przejścia przez mostek" wrappingWidth="240.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="tf_m_delay" alignment="CENTER_RIGHT" minWidth="-Infinity" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ms" wrappingWidth="18.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="178.0" prefWidth="200.0" style="-fx-alignment: center-right;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Czas między rejsami (rzeczywisty=1h)" wrappingWidth="240.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="tf_k_delay" alignment="CENTER_RIGHT" minWidth="-Infinity" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ms" wrappingWidth="18.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="250.0" prefWidth="200.0" style="-fx-alignment: center-right;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Czas rejsu" wrappingWidth="240.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="tf_r_delay" alignment="CENTER_RIGHT" minWidth="-Infinity" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ms" wrappingWidth="18.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="50.0" prefWidth="80.0" text="Zapisz" textAlignment="CENTER" textOverrun="CLIP">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#loadFromFile" prefHeight="50.0" prefWidth="80.0" text="Wczytaj" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#set" prefWidth="80.0" text="Zastosuj" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
