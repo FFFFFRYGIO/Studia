@@ -1,0 +1,14 @@
+Kompresja i dekompresja na raz:
+
+g++ lab4_Radoslaw_Relidzynki.cpp -o lab4.exe
+lab4.exe
+
+Sama kompresja:
+
+g++ compress.cpp -o compress.exe
+compress.exe
+
+Sama dekompresja:
+
+g++ decompress.cpp -o decompress.exe
+decompress.exe

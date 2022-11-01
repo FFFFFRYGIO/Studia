@@ -1,0 +1,135 @@
+C51 COMPILER V8.12   ZAD3                                                                  06/06/2022 23:15:01 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE ZAD3
+OBJECT MODULE PLACED IN zad3.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE zad3.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          //PWM_Przyklad
+   2          // zmiana wspolczynnika wypelnienia
+   3          // zmiana czestotliwosci impulsow PWM (Pulse Width Modulation)
+   4          
+   5          #include <REGX52.H>
+   6          
+   7          sbit IN1_Pin = P2^1;
+   8          sbit IN2_Pin = P2^2;
+   9          sbit PWM_Pin = P2^3;
+  10          
+  11          // zmienne globalne
+  12          unsigned char PWM = 0; // wartosc od 0 (0% duty cycle) do 255 (100% duty cycle)
+  13          unsigned int temp = 0; // zmienna robocza w procedurze obs³ugi przerwania Timer0
+  14          
+  15          #define PWM_Freq_Num 40 // 1 = najwyzsza czestotliwosc gdy PWM_Freq_Num, zakres 1 - 255
+  16          
+  17          unsigned char c0 = 0; // Counter0 - dla Timer0
+  18          unsigned char c1 = 0; // Counter1 - dla Timer1
+  19          
+  20          void handlebuttonI0() interrupt 2
+  21          {
+  22   1          IN1_Pin = IN2_Pin;
+  23   1              IN2_Pin = !IN2_Pin;
+  24   1      }
+  25          
+  26          void handlebuttonT0() interrupt 1
+  27          {
+  28   1              TH0 = 0xFF;
+  29   1              TL0 = 0xFF;
+  30   1              TF0 = 0;
+  31   1              
+  32   1              c0++;
+  33   1              c1=0;
+  34   1              if(c0==2){
+  35   2                      TR2=1; // Wlacz silnik
+  36   2                      PWM_Pin = 0;
+  37   2              }
+  38   1      }
+  39          
+  40          void handlebuttonT1() interrupt 3
+  41          {
+  42   1              TH1 = 0xFF;
+  43   1              TL1 = 0xFF;
+  44   1              TF1 = 0;
+  45   1              
+  46   1              c1++;
+  47   1              c0=0;
+  48   1              if(c1==3){
+  49   2                      TR2=0; // Wylacz silnik
+  50   2                      PWM_Pin = 0;
+  51   2              }
+  52   1      }
+  53          
+  54          int main(void)
+  55          {
+C51 COMPILER V8.12   ZAD3                                                                  06/06/2022 23:15:01 PAGE 2   
+
+  56   1          EA = 1; // Wlacz interrupty
+  57   1              IT1 = 1; // INT1 aktywne zero
+  58   1          EX1 = 1; // Wlaczenia INT1
+  59   1      
+  60   1              T2CON = 0x04; // tryb timera2
+  61   1              //timer2
+  62   1              TH2 = 0x00;
+  63   1              TL2 = 0x00;
+  64   1              ET2 = 1;
+  65   1              TR2 = 0;
+  66   1      
+  67   1              TMOD = 0x55; // tryb licznikow
+  68   1              // lciznik0
+  69   1              TH0 = 0xFF;
+  70   1              TL0 = 0xFF;
+  71   1              TF0 = 0;
+  72   1              ET0 = 1;
+  73   1              TR0 = 1;
+  74   1              //licznik1
+  75   1              TH1 = 0xFF;
+  76   1              TL1 = 0xFF;
+  77   1              TF1 = 0;
+  78   1              ET1 = 1;
+  79   1              TR1 = 1;
+  80   1      
+  81   1          IN1_Pin = 0;
+  82   1          IN2_Pin = 1;
+  83   1          PWM_Pin = 0;
+  84   1      
+  85   1          PWM = 69;
+  86   1          while(1) {;}
+  87   1      }
+  88          
+  89          void Timer2_ISR(void) interrupt 5
+  90          {
+  91   1              TR2 = 0; // stop Timer 2
+  92   1              if(PWM_Pin) {
+  93   2                      temp = (255 - PWM) * PWM_Freq_Num;
+  94   2                      TH2  = 0xFF - (temp >> 8) & 0xFF;
+  95   2                      TL2  = 0xFF - temp & 0xFF;
+  96   2              } else {
+  97   2                      temp = PWM * PWM_Freq_Num;
+  98   2                      TH2  = 0xFF - (temp >> 8) & 0xFF;
+  99   2                      TL2  = 0xFF - temp & 0xFF;
+ 100   2              }
+ 101   1              PWM_Pin = !PWM_Pin;
+ 102   1              TF2 = 0; // wyczysc flage
+ 103   1              TR2 = 1; // start Timer 2
+ 104   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    238    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      5    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+C51 COMPILER V8.12   ZAD3                                                                  06/06/2022 23:15:01 PAGE 3   
+
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

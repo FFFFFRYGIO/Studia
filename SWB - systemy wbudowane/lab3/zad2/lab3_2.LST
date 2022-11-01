@@ -1,0 +1,96 @@
+C51 COMPILER V8.12   LAB3_2                                                                05/22/2022 17:09:10 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE LAB3_2
+OBJECT MODULE PLACED IN lab3_2.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE lab3_2.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          unsigned char code tab[] = {0xEF, 0xDF, 0xBF, 0x7F};
+   4          unsigned char bdata key;
+   5          sbit k1 = key^1;
+   6          sbit k2 = key^2;
+   7          sbit k3 = key^3;
+   8          sbit k4 = key^4;
+   9          sbit k5 = key^5;
+  10          sbit k6 = key^6;
+  11          sbit k7 = key^7;
+  12          
+  13          void Delay(void)
+  14          {
+  15   1              unsigned char i, j;
+  16   1              for(i=0;i<190;i++) 
+  17   1                      for(j=0;j<200;j++) {;}
+  18   1      }
+  19          
+  20          void main (void)
+  21          {
+  22   1              unsigned char data i = 0, flashes;
+  23   1              bit Enabled = 1;
+  24   1              while(1)
+  25   1              {
+  26   2                      P2 = tab[i];
+  27   2                      key = P2;
+  28   2                      if(!(k1 & k2 & k3))
+  29   2                      {
+  30   3                              if (Enabled)
+  31   3                              {
+  32   4                                      // Wiersze
+  33   4                                      if(!k4) flashes = 1;
+  34   4                                      else if(!k5) flashes = 2;
+  35   4                                      else if(!k6) flashes = 3;
+  36   4                                      else if(!k7) flashes = 4;
+  37   4                                      while(flashes--)
+  38   4                                      {
+  39   5                                              P0_0 = 0;
+  40   5                                              Delay();
+  41   5                                              P0_0 = 1;
+  42   5                                              Delay();
+  43   5                                      }
+  44   4                                      Delay(); Delay();
+  45   4                                      // Kolumny
+  46   4                                      if(!k3) flashes = 1;
+  47   4                                      else if(!k2)  flashes = 2;
+  48   4                                      else if(!k1) flashes = 3;
+  49   4                                      while(flashes--)
+  50   4                                      {
+  51   5                                              P0_0 = 0;
+  52   5                                              Delay();
+  53   5                                              P0_0 = 1;
+  54   5                                              Delay();
+  55   5                                      }
+C51 COMPILER V8.12   LAB3_2                                                                05/22/2022 17:09:10 PAGE 2   
+
+  56   4                                      Enabled = 0;
+  57   4                              }
+  58   3                      } else
+  59   2                      {
+  60   3                              if (i < 3) 
+  61   3                                      i++;
+  62   3                              else 
+  63   3                                      i = 0;
+  64   3                              Enabled = 1;
+  65   3                      }
+  66   2              }
+  67   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    137    ----
+   CONSTANT SIZE    =      4    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

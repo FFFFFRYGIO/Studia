@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "bit": "cpp",
+        "bitset": "cpp",
+        "random": "cpp",
+        "memory_resource": "cpp",
+        "limits": "cpp",
+        "fstream": "cpp"
+    }
+}

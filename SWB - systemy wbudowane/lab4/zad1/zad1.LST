@@ -1,0 +1,57 @@
+C51 COMPILER V8.12   ZAD1                                                                  05/28/2022 15:47:49 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE ZAD1
+OBJECT MODULE PLACED IN zad1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE zad1.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          // przerwania1
+   2          //
+   3          
+   4          #include <REGX52.H>
+   5          
+   6          sbit LEDZielona = P2^0; // mrugaj od przerwania od licznika
+   7          sbit LEDZolta = P2^7; // mrugaj od przycisku
+   8          sbit SW = P3^2;
+   9          
+  10          void timer0_isr() interrupt 1
+  11          {
+  12   1      TH0 = 0XC3; //zaladuj od nowa wybrana TH0
+  13   1      TL0 = 0X40;
+  14   1      LEDZielona =!LEDZielona; // Zmien stan diody zielonej
+  15   1      }
+  16          
+  17          void main()
+  18          {
+  19   1         SW = 1; //SW ma pracowac jako wejscie
+  20   1         TMOD = 0x01; //Timer0 mode 1 czyli timer 16-bitowy => zakres 0 - 65 535
+  21   1         TH0 = 0XC3; //Zaladuj wybrana wartosc TH0
+  22   1         TL0 = 0X40;
+  23   1         ET0 = 1; //Enable Timer0 Interrupt
+  24   1         EA = 1; //Enable Global Interrupt bit
+  25   1         TR0 = 1; // ON Timer0
+  26   1              while(1)
+  27   1                {
+  28   2             LEDZolta= SW; //Stan przycisku na diodzie zoltej
+  29   2          }
+  30   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     35    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

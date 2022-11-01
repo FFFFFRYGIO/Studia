@@ -1,0 +1,63 @@
+C51 COMPILER V8.12   PROG2                                                                 04/30/2022 16:36:09 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE PROG2
+OBJECT MODULE PLACED IN prog2.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE prog2.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          void Delay(void) // funkcja okreslajaca dlugosc przerwy miedzy kazda iteracja
+   4          {
+   5   1              unsigned char j;
+   6   1              unsigned char i;
+   7   1              for(i=0;i<100;i++)
+   8   1                      for(j=0;j<254;j++);
+   9   1      }
+  10          
+  11          void main (void)
+  12          {
+  13   1              unsigned char zmienna = 128;
+  14   1              bit temp = 0; // flaga do podwojenia przerwy miedzy co druga iteracja
+  15   1              while(1)
+  16   1        {
+  17   2                      // Chcemy zapalic lampke jak poprzednio oraz na prawo od niej
+  18   2                      // Operacja '^' zaklada przypadek, gdzie chcemy zapalic 2 skrajne, wtedy nie mozemy odejmowac
+  19   2                      P2 = ((255 - zmienna) ^ (zmienna / 2)); 
+  20   2                      Delay();
+  21   2                      if(temp==1)
+  22   2                      {
+  23   3                              // wykonuje sie co druga operacje
+  24   3                              Delay();
+  25   3                              temp=0;
+  26   3                      }
+  27   2                      else
+  28   2                              temp=1;
+  29   2                      // Robimy przeskok na 128 z 2, a nie z 1, zeby
+  30   2                      // pominac krok ze swieceniem sie po obu stronach
+  31   2                      if(zmienna == 2)
+  32   2                              zmienna = 128;
+  33   2                      else
+  34   2                              zmienna /= 2;
+  35   2        }
+  36   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     56    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

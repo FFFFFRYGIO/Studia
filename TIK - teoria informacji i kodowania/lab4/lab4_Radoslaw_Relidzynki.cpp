@@ -1,0 +1,398 @@
+#include <iostream>
+#include <random>
+#include <algorithm>
+#include <fstream>
+#include <bitset>
+#include <map>
+
+using namespace std;
+
+struct HuffmanNode{
+    int symbol;
+    int freq;
+};
+typedef struct HuffmanNode HuffmanNode;
+vector<HuffmanNode> huffmanModelNodes;
+
+struct HuffmanNodeTree{
+    string symbol;
+    int freq;
+    string code;
+    HuffmanNodeTree *parent;
+    HuffmanNodeTree *left;
+    HuffmanNodeTree *right;
+};
+typedef struct HuffmanNodeTree HuffmanNodeTree;
+HuffmanNodeTree *root;
+
+int readedBytesCount = 0;
+map<string, string> codes;
+
+/////////////
+//Kompresja//
+/////////////
+
+
+int CompareHuffmanNodes(HuffmanNode n1, HuffmanNode n2){
+    // Funkcja pomocnicza do sortowania modelu
+
+    if(n1.freq == n2.freq){
+        return n1.symbol > n2.symbol;
+    }
+    else{
+        return n1.freq > n2.freq;
+    }
+}
+
+void GenerateModelFromFile(char* inputTextFile, vector<HuffmanNode> *huffmanModel, int *readedBytesCount){
+    // Wyznacza model dla zadanego pliku i zapisuje go w odpowiedniej strukturze
+
+    FILE *textfile = fopen(inputTextFile, "r");
+    if(!textfile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+
+    int readCount = 0;
+    unsigned char buffer[1];
+    int readBytesLength = 1;
+    int countBytesReaded = 0;
+    bool found;
+
+    while (readCount = fread(buffer, sizeof(unsigned char), readBytesLength, textfile)){
+        //Obsługa odczytanego bajtu
+        found = false;
+
+        // Szukanie w aktualnym zbiorze symboli
+        for(HuffmanNode &x : *huffmanModel){
+            if(x.symbol==int(buffer[0])){
+                x.freq++;
+                found = true;
+            }
+        }
+
+        // Jesli jest to nowy symbol
+        if(!found){
+            HuffmanNode huffmanNode;
+            huffmanNode.symbol=int(buffer[0]);
+            huffmanNode.freq=1;
+            huffmanModel->push_back(huffmanNode);
+        }
+        countBytesReaded++;
+    }
+
+    *readedBytesCount = countBytesReaded;
+    fclose(textfile);
+
+    sort(huffmanModelNodes.begin(), huffmanModelNodes.end(), CompareHuffmanNodes);
+}
+
+void WriteModelToFile(char* outputModelFile, vector<HuffmanNode> huffmanModelNodes){
+    // Zapisuje wyznaczony model do pliku tekstowego (z odpowiednim formatowaniem)
+
+    ofstream modelfile;
+    modelfile.open(outputModelFile);
+    if(!modelfile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+
+    modelfile << huffmanModelNodes.size() << endl;
+
+    for(HuffmanNode x : huffmanModelNodes){
+        modelfile << x.symbol << ":" << x.freq << endl;
+    }
+    modelfile.close();
+}
+
+int CompareHuffmanTreeNodes(HuffmanNodeTree *n1, HuffmanNodeTree *n2){
+    // Funkcja pomocnicza do sortowania drzewa
+    return n1->freq > n2->freq;
+}
+
+void GenerateHuffmanTreeFromModel(vector<HuffmanNode> huffmanModelNodes){
+    // Generuje drzewo kodowania
+
+    vector<HuffmanNodeTree*> huffmanNodeTreeVector;
+    for (HuffmanNode x : huffmanModelNodes){
+        HuffmanNodeTree *temp = new HuffmanNodeTree;
+        temp->symbol=to_string(x.symbol);
+        temp->freq=x.freq;
+        temp->parent=NULL;
+        temp->left=NULL;
+        temp->right=NULL;
+        huffmanNodeTreeVector.push_back(temp);
+    }
+
+    for(int i=1; huffmanNodeTreeVector.size()!=1; i++){
+
+        HuffmanNodeTree *temp = new HuffmanNodeTree;
+
+        temp->parent=NULL;
+        temp->symbol="#"+ to_string(i);
+
+        temp->left = new HuffmanNodeTree;
+        temp->left=huffmanNodeTreeVector[huffmanNodeTreeVector.size()-1];
+        temp->left->parent=temp;
+
+        temp->right = new HuffmanNodeTree;
+        temp->right=huffmanNodeTreeVector[huffmanNodeTreeVector.size()-2];
+        temp->right->parent=temp;
+
+        temp->freq = temp->left->freq + temp->right->freq;
+
+        huffmanNodeTreeVector.pop_back();
+        huffmanNodeTreeVector.pop_back();
+        huffmanNodeTreeVector.push_back(temp);
+
+        sort(huffmanNodeTreeVector.begin(), huffmanNodeTreeVector.end(), CompareHuffmanTreeNodes);
+    }
+    root = huffmanNodeTreeVector[0];
+
+}
+
+void WriteHuffmanTreeToFile_preorder(HuffmanNodeTree *curr, FILE *treefile) {
+    // Funkcja pomocnicza dla zapisywania drzewa - przeszukuje w kolejności preorder
+
+    if(curr){
+        // Wezel
+        fprintf(treefile, "%s ", curr->symbol.c_str());
+
+        // Czestotliwosc
+        fprintf(treefile, "%s ", to_string(curr->freq).c_str());
+
+        // Lewy potomek
+        if(curr->left)
+            fprintf(treefile, "%s ", curr->left->symbol.c_str());
+        else
+            fprintf(treefile, "nn ");
+
+        // Prawy potomek
+        if(curr->right)
+            fprintf(treefile, "%s ", curr->right->symbol.c_str());
+        else
+            fprintf(treefile, "nn ");
+
+        // Rodzic
+        if(curr->parent)
+            fprintf(treefile, "%s ", curr->parent->symbol.c_str());
+        else
+            fprintf(treefile, "nn ");
+
+        fprintf(treefile, "\n");
+
+        if(curr->left != NULL) WriteHuffmanTreeToFile_preorder(curr->left, treefile);
+        if(curr->right != NULL) WriteHuffmanTreeToFile_preorder(curr->right, treefile);
+    }
+
+
+}
+
+void WriteHuffmanTreeToFile(char* outputTreeFile, HuffmanNodeTree *root){
+    // Zapisuje drzewo kodowania do pliku
+
+    FILE *treefile = fopen(outputTreeFile, "w");
+    if(!treefile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+    
+    fprintf(treefile, "wezel czestosc l_child r_child parent\n");
+    WriteHuffmanTreeToFile_preorder(root, treefile);
+    fclose(treefile);
+}
+
+void GenerateCodeTableFromTree(HuffmanNodeTree *curr, string code){
+    // Generuje kody znakow - przeszukuje w kolejności preorder
+
+    if(curr){
+            curr->code=code;
+
+        if(curr->left) GenerateCodeTableFromTree(curr->left, code+"0");
+        if(curr->right) GenerateCodeTableFromTree(curr->right, code+"1");
+    }
+}
+
+void WriteCodeTableToFile_preorder(HuffmanNodeTree *curr, FILE *codefile) {
+    // Funkcja pomocnicza dla zapisywania kodów - przeszukuje w kolejności preorder
+
+    if(curr==NULL) return;
+    if(curr->symbol[0] != '#'){
+        fprintf(codefile, "%s %s\n", curr->symbol.c_str(), curr->code.c_str());
+    }
+    if(curr->left != NULL) WriteCodeTableToFile_preorder(curr->left, codefile);
+    if(curr->right != NULL) WriteCodeTableToFile_preorder(curr->right, codefile);
+}
+
+void WriteCodeTableToFile(char* outputCodeFile, HuffmanNodeTree *root){
+    // Zapisuje kody znakow do pliku
+
+    FILE *codefile;
+    codefile = fopen(outputCodeFile, "w");
+    if(!codefile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+
+    fprintf(codefile, "znak kod\n");
+    WriteCodeTableToFile_preorder(root, codefile);
+    fclose(codefile);
+}
+
+string GetSymbolCodeFromTree(HuffmanNodeTree *curr, string symbol){
+    // Funkcja zwracajaca kod znakow na podstawie symbolu
+
+    if(curr==NULL) return "";
+
+    // Znaleziony
+    if(curr->symbol==symbol) return curr->code;
+
+    // Szukaj
+    if(curr->left != NULL)
+        if(GetSymbolCodeFromTree(curr->left, symbol)!="")
+            return GetSymbolCodeFromTree(curr->left, symbol);
+    if(curr->right != NULL)
+        if(GetSymbolCodeFromTree(curr->right, symbol)!="")
+            return GetSymbolCodeFromTree(curr->right, symbol);
+
+    // Koncowy element drzewa, nie ten znak
+    return "";
+}
+
+void WriteCompressedFile(char* input_text_file, char* output_compressed_file, HuffmanNodeTree *root){
+    // Funkcja dokonujaca kompresji pliku
+
+    FILE *textfile = fopen(input_text_file, "r");
+    if(!textfile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+    ofstream compressedfile(output_compressed_file, std::ios_base::out | std::ios::binary);
+    if(!compressedfile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+
+    string binary;
+    unsigned char buffer[1];
+    if(textfile){
+        while(fread(buffer, sizeof(unsigned char), 1, textfile)){
+            binary += GetSymbolCodeFromTree(root, to_string(int(buffer[0])));
+            if(binary.size()>=8){
+                compressedfile << char(stoi(binary.substr(0,8), 0, 2));
+                binary.erase(0, 8);
+            }
+        }
+    }
+    fclose(textfile);
+    if(binary.size()) compressedfile << char(stoi(binary, 0, 2));
+    compressedfile.close();
+}
+
+
+///////////////
+//Dekompresja//
+///////////////
+
+
+void ImportAndMapCodesFromFile(char* output_code_file, map<string, string> *codes){
+    // Funkcja pobierająca tablicę kodową do programu
+
+    ifstream codefile;
+    codefile.open(output_code_file);
+    if(!codefile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+
+    string code, symbol, temp;
+    codefile >> symbol >> code;
+
+    while(!codefile.eof()){
+        codefile >> symbol >> code;
+        codes->insert(pair<string, string>(code, symbol));
+    }
+
+    codefile.close();
+}
+
+string DecompressCurrentBitset(string *code, map<string, string> codes){
+    string result, binary;
+    int i=0; // Indeks dla niezdekompresowanych bitow
+    for(char c : *code){
+        binary+=c;
+        if(codes.find(binary) != codes.end()){
+            result+=char(stoi(codes.find(binary)->second));
+            i+=binary.size();
+            binary="";
+        }
+    }
+    *code=code->erase(0, i);
+    return result;
+}
+
+void decompress(char* input_compressed_file, char* output_decompressed_file, map<string, string> codes){
+    // Dekompresuje plik do pierwotnej postaci
+
+    ifstream compressedfile(input_compressed_file, ios_base::in | ios::binary);
+    if(!compressedfile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+    ofstream decompressedfile;
+    decompressedfile.open(output_decompressed_file);
+    if(!decompressedfile){cout<<"Nie mozna otworzyc pliku!"; exit(0);}
+
+    string binary, decomp, t;
+    unsigned char temp='\0', buffer='\0';
+
+    compressedfile.read((char *) &buffer, 1);
+    temp=buffer;
+    
+    while(compressedfile.read((char *) &buffer, 1)) {
+        binary+=bitset<8>(temp).to_string();
+        decomp=DecompressCurrentBitset(&binary, codes);
+        if(decomp != "") decompressedfile << decomp.c_str();
+        temp=buffer;
+    }
+
+    // Uzupelnij ostatnim bajtem
+    int i = int(temp);
+    while(i>0){
+        t += to_string(i%2);
+        i /= 2;
+    }
+    reverse(t.begin(), t.end());
+    binary+= t;
+    decompressedfile << DecompressCurrentBitset(&binary, codes).c_str();
+
+    compressedfile.close();
+    decompressedfile.close();
+}
+
+int main(int argc, char* argv[]){
+
+    char inputTextFile[] = "test.txt";
+    char outputModelFile[] = "output_model.txt";
+    char outputTreeFile[] = "output_tree.txt";
+    char outputCodeFile[] = "output_code.txt";
+    char outputCompressedTextFile[] = "output_compressed.txt";
+    char outputDecompressedTextFile[] = "output_decompressed.txt";
+
+    // Compress
+    //if(argv[1] == "1"){
+        cout << endl << "START kompresji" << endl << endl;
+
+        GenerateModelFromFile(inputTextFile, &huffmanModelNodes, &readedBytesCount);
+        WriteModelToFile(outputModelFile, huffmanModelNodes);
+        cout << "Zapisano model" << endl;
+
+        GenerateHuffmanTreeFromModel(huffmanModelNodes);
+        WriteHuffmanTreeToFile(outputTreeFile, root);
+        cout << "Zapisano drzewo" << endl;
+
+        GenerateCodeTableFromTree(root, "");
+        WriteCodeTableToFile(outputCodeFile, root);
+        cout << "Zapisano kody znakow" << endl;
+
+        cout << endl << "Kodowanie pliku ..." << endl;
+        WriteCompressedFile(inputTextFile, outputCompressedTextFile, root);
+        cout << "Zapisano zakodowany plik" << endl;
+
+        cout << endl << "KONIEC kompresji" << endl;
+    //}
+
+
+    // Decompress
+    //if(argv[1] == "2"){
+        cout << endl << "START dekompresji" << endl << endl;
+
+        map<string, string> codes;
+        ImportAndMapCodesFromFile(outputCodeFile, &codes);
+        cout << "Pobrano kody znakow" << endl;
+
+        cout << endl << "Odkodowanie pliku ..." << endl;
+        decompress(outputCompressedTextFile, outputDecompressedTextFile, codes);
+        cout << "Zapisano odkodowany plik" << endl;
+
+        cout << endl << "KONIEC dekompresji" << endl;
+    //}
+
+    return 0;
+}

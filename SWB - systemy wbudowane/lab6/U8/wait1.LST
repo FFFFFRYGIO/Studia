@@ -1,0 +1,67 @@
+A51 MACRO ASSEMBLER  WAIT1                                                                06/24/2022 17:48:14 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02b
+OBJECT MODULE PLACED IN wait1.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE wait1.a51 SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     ;Autor: dr inz. Krzysztof Murawski
+                       2     
+                       3     NAME    wait
+                       4     
+                       5     EXTRN   DATA (Var1, Var2, Var3)
+                       6     
+                       7     PUBLIC  w1ms, w5mS, w50mS
+                       8     
+                       9     Wait_ROUTINES  SEGMENT  CODE
+                      10     
+----                  11             RSEG  Wait_ROUTINES
+                      12     
+0000                  13     w1ms:                 ; 
+0000 750004   F       14           MOV        Var2,#4    ; 
+0003 7500E0   F       15           MOV        Var1,#224  ;  
+0006 D500FD   F       16     TT2:    DJNZ Var1,TT2   ; 
+0009 D500FA   F       17                 DJNZ Var2,TT2   ; 
+000C 22               18                 RET             ;
+                      19     
+000D                  20     w5mS:                 ; 
+000D 750014   F       21           MOV        Var2,#20   ; 
+0010 750070   F       22           MOV        Var1,#112  ;  
+0013 D500FD   F       23     TT3:    DJNZ Var1,TT3   ; 
+0016 D500FA   F       24                 DJNZ Var2,TT3   ; 
+0019 22               25                 RET                   ;
+                      26     
+001A                  27     w50mS:                ;
+001A 7500C3   F       28           MOV        Var2,# 195 ;
+001D 750089   F       29           MOV        Var1,# 137 ;
+0020 D500FD   F       30     TT5:    DJNZ Var1,TT5   ;
+0023 D500FA   F       31                 DJNZ Var2,TT5   ;   
+0026 22               32                 RET         
+                      33     END
+A51 MACRO ASSEMBLER  WAIT1                                                                06/24/2022 17:48:14 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+TT2. . . . . . . .  C ADDR   0006H   R   SEG=WAIT_ROUTINES
+TT3. . . . . . . .  C ADDR   0013H   R   SEG=WAIT_ROUTINES
+TT5. . . . . . . .  C ADDR   0020H   R   SEG=WAIT_ROUTINES
+VAR1 . . . . . . .  D ADDR   -----       EXT
+VAR2 . . . . . . .  D ADDR   -----       EXT
+VAR3 . . . . . . .  D ADDR   -----       EXT
+W1MS . . . . . . .  C ADDR   0000H   R   SEG=WAIT_ROUTINES
+W50MS. . . . . . .  C ADDR   001AH   R   SEG=WAIT_ROUTINES
+W5MS . . . . . . .  C ADDR   000DH   R   SEG=WAIT_ROUTINES
+WAIT . . . . . . .  N NUMB   -----       
+WAIT_ROUTINES. . .  C SEG    0027H       REL=UNIT
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

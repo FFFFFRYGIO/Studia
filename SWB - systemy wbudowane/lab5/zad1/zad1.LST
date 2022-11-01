@@ -1,0 +1,106 @@
+C51 COMPILER V8.12   ZAD1                                                                  06/05/2022 12:52:45 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE ZAD1
+OBJECT MODULE PLACED IN zad1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE zad1.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          //PWM_Przyklad
+   2          // zmiana wspolczynnika wypelnienia
+   3          // zmiana czestotliwosci impulsow PWM (Pulse Width Modulation)
+   4          
+   5          #include <REGX52.H>
+   6          
+   7          // PWM_Pin
+   8          sbit PWM_Pin = P2^0;               // Pin P2.0 to PWM_Pin
+   9          
+  10          // deklaracje
+  11          void InitTimer0(void);
+  12          void InitPWM(void);
+  13          
+  14          // zmienne globalne
+  15          unsigned char PWM = 94;   // wartosc od 0 (0% duty cycle) do 255 (100% duty cycle)
+  16          unsigned int temp = 0;    // zmienna robocza w procedurze obs³ugi przerwania Timer0
+  17          
+  18          
+  19          #define PWM_Freq_Num   40        //  1 = najwyzsza czestotliwosc gdy PWM_Freq_Num, zakres 1 - 255
+  20          
+  21          
+  22          // Main Function
+  23          int main(void)
+  24          {
+  25   1         InitPWM();              // Start PWM
+  26   1       
+  27   1         PWM = 94;              // 127 = 50% wspolczynnik wypelnienia
+  28   1      
+  29   1         while(1) {;}
+  30   1      }
+  31          
+  32          
+  33          // Timer0 init
+  34          void InitTimer0(void)
+  35          {
+  36   1              TMOD &= 0xF0;    // wyzeruj bity dla Timer0
+  37   1              TMOD |= 0x01;    // ustaw tryb mode 1 = 16bit mode
+  38   1              
+  39   1              TH0 = 0x00;      // Pierwsze
+  40   1              TL0 = 0x00;      // ustawienie
+  41   1              
+  42   1              ET0 = 1;         // Enable Timer0 interrupts
+  43   1              EA  = 1;         // Enable All
+  44   1              
+  45   1              TR0 = 1;         // Start Timer 0
+  46   1      }
+  47          
+  48          // PWM init
+  49          void InitPWM(void)
+  50          {
+  51   1              PWM = 0;         // poczatkowo zero
+  52   1              InitTimer0();    // Init Timer0 dla rozpoczecia generacji przerwan
+  53   1      }
+  54          
+  55          // Timer0 ISR
+C51 COMPILER V8.12   ZAD1                                                                  06/05/2022 12:52:45 PAGE 2   
+
+  56          void Timer0_ISR (void) interrupt 1   
+  57          {
+  58   1              TR0 = 0;    // Stop Timer 0
+  59   1      
+  60   1              if(PWM_Pin)     // if PWM_Pin =1 wyzeruj sygnal PWM i zaladuj licznik
+  61   1              {
+  62   2                      PWM_Pin = 0;
+  63   2                      temp = (255-PWM)*PWM_Freq_Num;
+  64   2                      TH0  = 0xFF - (temp>>8)&0xFF;
+  65   2                      TL0  = 0xFF - temp&0xFF;        
+  66   2              }
+  67   1              else         // if PWM_Pin =0 ustaw pin na 1 i zaladuj licznik
+  68   1              {
+  69   2                      PWM_Pin = 1;
+  70   2                      temp = PWM*PWM_Freq_Num;
+  71   2                      TH0  = 0xFF - (temp>>8)&0xFF;
+  72   2                      TL0  = 0xFF - temp&0xFF;
+  73   2              }
+  74   1      
+  75   1              TF0 = 0;     // wyczysc flage
+  76   1              TR0 = 1;     // Start Timer 0
+  77   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    134    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      3    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

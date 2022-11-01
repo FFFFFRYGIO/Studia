@@ -1,0 +1,91 @@
+C51 COMPILER V8.12   PROG3                                                                 04/30/2022 17:57:40 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE PROG3
+OBJECT MODULE PLACED IN prog3.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE prog3.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          void Delay(void)
+   4          {
+   5   1              unsigned char j;
+   6   1              unsigned char i;
+   7   1              for(i=0;i<100;i++)
+   8   1                      for(j=0;j<254;j++);
+   9   1      }
+  10          
+  11          void main (void)
+  12          {
+  13   1              unsigned char zmienna;
+  14   1              // zmienna temp sluzy do sprawdzania, kiedy zostana
+  15   1              // zapalone wszystkie diody i trzeba je zgasic 
+  16   1              bit temp = !P3_2;
+  17   1              while(1)
+  18   1        {
+  19   2                      if(!P3_2)
+  20   2                      {
+  21   3                              // Narasta od lewej
+  22   3                              if(temp)
+  23   3                              {
+  24   4                                      // Na poczatku
+  25   4                                      temp = 0;
+  26   4                                      P2 = 255;
+  27   4                                      zmienna = 255;
+  28   4                                      Delay();
+  29   4                                      Delay();
+  30   4                              } else {
+  31   4                                      // Kolejne kroki
+  32   4                                      zmienna /= 2;
+  33   4                                      P2 = zmienna;
+  34   4                                      Delay();
+  35   4                                      if(zmienna == 0)
+  36   4                                              // Jak wszystkie sie zapala, to zerujemy
+  37   4                                              temp = 1;
+  38   4                              }
+  39   3                      }
+  40   2                      else
+  41   2                      {
+  42   3                              //Narasta od prawej
+  43   3                              if(!temp)
+  44   3                              {
+  45   4                                      // Na poczatku
+  46   4                                      temp = 1;
+  47   4                                      zmienna = 1;
+  48   4                                      P2 = 255;
+  49   4                                      Delay();
+  50   4                                      Delay();
+  51   4                              } else {
+  52   4                                      // Kolejne kroki
+  53   4                                      zmienna *= 2;
+  54   4                                      P2 = 255 ^ (zmienna-1);
+  55   4                                      Delay();
+C51 COMPILER V8.12   PROG3                                                                 04/30/2022 17:57:40 PAGE 2   
+
+  56   4                                      if((zmienna-1) == 255)
+  57   4                                              // Jak wszystkie sie zapala, to zerujemy
+  58   4                                              temp = 0;
+  59   4                              }
+  60   3                      }
+  61   2        }
+  62   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     88    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

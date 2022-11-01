@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\Pulpit\SWB\lab4\zad2\zad4_2.uv2
+Project File Date:  05/28/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling zad2.c...
+linking...
+Program Size: data=10.0 xdata=0 const=4 code=225
+creating hex file from "zad4_2"...
+"zad4_2" - 0 Error(s), 0 Warning(s).
+compiling zad2.c...
+zad2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 const=4 code=225
+creating hex file from "zad4_2"...
+"zad4_2" - 0 Error(s), 0 Warning(s).

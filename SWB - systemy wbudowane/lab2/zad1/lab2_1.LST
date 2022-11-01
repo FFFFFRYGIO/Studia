@@ -1,0 +1,81 @@
+C51 COMPILER V8.12   LAB2_1                                                                05/13/2022 13:52:22 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE LAB2_1
+OBJECT MODULE PLACED IN lab2_1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE lab2_1.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          void Delay(void)
+   4          {
+   5   1              unsigned char j;
+   6   1              unsigned char i;
+   7   1              for(i=0;i<100;i++)
+   8   1              {
+   9   2                      for(j=0;j<100;j++){};
+  10   2              }
+  11   1      }
+  12          
+  13          unsigned char zmiennaAA=0;
+  14          unsigned char granica = 5+9;
+  15          unsigned char krok = 1;
+  16          
+  17          void wyswietl(liczba)
+  18          {
+  19   1              unsigned char wypisz = 0xFF;
+  20   1              if(liczba%10)
+  21   1              {
+  22   2                      wypisz = wypisz ^ (liczba/10 * 0x10);   
+  23   2              }
+  24   1              wypisz = wypisz ^ (liczba%10);
+  25   1              P2=0xFF-wypisz;
+  26   1      }
+  27          
+  28          void main(void)
+  29          {
+  30   1              while(1)
+  31   1              {
+  32   2                      // wyswietlanie
+  33   2                      if(zmiennaAA==0)
+  34   2                      {
+  35   3                              P2=0xFF;
+  36   3                      }
+  37   2                      else if(zmiennaAA%2)
+  38   2                      {
+  39   3                              wyswietl(zmiennaAA);
+  40   3                      }
+  41   2                      //iteracja
+  42   2                      if(zmiennaAA>=granica)
+  43   2                      {
+  44   3                              zmiennaAA=0;    
+  45   3                      }
+  46   2                      else
+  47   2                      {
+  48   3                              zmiennaAA+=krok;        
+  49   3                      }
+  50   2                      Delay();                
+  51   2              }
+  52   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+C51 COMPILER V8.12   LAB2_1                                                                05/13/2022 13:52:22 PAGE 2   
+
+   CODE SIZE        =    111    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      3       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

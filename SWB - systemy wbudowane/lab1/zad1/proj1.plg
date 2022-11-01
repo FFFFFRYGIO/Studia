@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\Pulpit\SWB\Lab1\Lab1\zad1\proj1.uv2
+Project File Date:  04/28/2022
+
+<h2>Output:</h2>
+compiling prog1.c...
+prog1.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 const=0 code=52
+creating hex file from "proj1"...
+"proj1" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,54 @@
+C51 COMPILER V8.12   PROG1                                                                 04/30/2022 15:35:58 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE PROG1
+OBJECT MODULE PLACED IN prog1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE prog1.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          void Delay(void) // funkcja okreslajaca dlugosc przerwy miedzy kazda iteracja
+   4          {
+   5   1              unsigned char j;
+   6   1              unsigned char i;
+   7   1              for(i=0;i<100;i++)
+   8   1                      for(j=0;j<254;j++);
+   9   1      }
+  10          
+  11          void main (void)
+  12          {
+  13   1              unsigned char zmienna = 1;
+  14   1              while(1)
+  15   1        {
+  16   2                      // Do portu P2 przekazywana jest liczba 1111 1111 pomniejszona o bit
+  17   2                      // tego wyjscia, na ktorym chcemy zwrocic 1, aby dioda sie swiecila  
+  18   2                      P2 = (255 - zmienna);
+  19   2                      Delay();
+  20   2                      if(zmienna == 128)
+  21   2                              // jesli swieci pierwsza po lewej, zmien na pierwsza z prawej
+  22   2                              zmienna = 1; 
+  23   2                      else
+  24   2                              // przejdz do nastepnego bitu (o 2 razy wiekszej wartosci decymalnej)
+  25   2                              zmienna *= 2; 
+  26   2        }
+  27   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     37    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

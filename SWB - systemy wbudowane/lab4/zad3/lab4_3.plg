@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\Pulpit\SWB\lab4\zad3\lab4_3.uv2
+Project File Date:  05/28/2022
+
+<h2>Output:</h2>
+compiling zad3.c...
+zad3.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 const=28 code=350
+creating hex file from "lab4_3"...
+"lab4_3" - 0 Error(s), 0 Warning(s).

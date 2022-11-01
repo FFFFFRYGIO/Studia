@@ -1,0 +1,8 @@
+Hello! my name is Radek and Im from poland.
+I live in Warsaw and study in Military University of Technology.
+Im a student of Computer Science on the fourth semester of study.
+This is some text which I will encrypt and then decrypt with a frequency of appearances.
+I will do it by a monoalphabetic cipher.
+Monoalphabetic cipher is a method of encrypting text with usage of arrangement of letters in a alphabet.
+When you want to encrypt a character you have to convert that letter to letter that is given steps further in alphabet.
+You have to note the fact that the changes goes as a cycle.

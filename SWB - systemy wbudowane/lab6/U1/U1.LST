@@ -1,0 +1,154 @@
+C51 COMPILER V9.51   U1                                                                    06/23/2022 13:51:27 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE U1
+OBJECT MODULE PLACED IN U1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE U1.c OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          unsigned char code tab[] = {0xEF, 0xDF, 0xBF, 0x7F};
+   4          
+   5          unsigned char code Koder[] = {
+   6            0x31, // 1
+   7            0x32, // 2
+   8            0x33, // 3
+   9            0x34, // 4
+  10            0x35, // 5
+  11            0x36, // 6
+  12            0x37, // 7
+  13            0x38, // 8
+  14            0x39, // 9
+  15            0x2A, // *
+  16            0x30, // 0
+  17            0x23, // #
+  18          };
+  19          
+  20          unsigned char c;
+  21          unsigned char temp;
+  22          unsigned char row;
+  23          unsigned char col;
+  24          unsigned char x = 128;
+  25          unsigned char q;
+  26          
+  27          void Delay(void)
+  28          {
+  29   1        unsigned char i, j;
+  30   1        for(i=0;i<100;i++) 
+  31   1          for(j=0;j<50;j++) {;}
+  32   1      }
+  33          
+  34          void smallDelay(void)
+  35          {
+  36   1        unsigned char i, j;
+  37   1        for(i=0;i<100;i++) 
+  38   1          for(j=0;j<10;j++) {;}
+  39   1      }
+  40          
+  41          void print_char(void)
+  42          {
+  43   1          // Pobierz wiersz
+  44   1          if(!(P2_4)) row=0;
+  45   1          else if(!(P2_5)) row=1;
+  46   1          else if(!(P2_6)) row=2;
+  47   1          else if(!(P2_7)) row=3;
+  48   1      
+  49   1          // Pobierz kolumne
+  50   1          if(!(P2_3)) col=0;
+  51   1          else if(!(P2_2)) col=1;
+  52   1          else if(!(P2_1)) col=2;
+  53   1          
+  54   1          c = Koder[row*3+col];
+  55   1          temp = c;
+C51 COMPILER V9.51   U1                                                                    06/23/2022 13:51:27 PAGE 2   
+
+  56   1          
+  57   1          for(q=0; q<8; q++)
+  58   1          {
+  59   2              if(temp>=x) // 1 bin
+  60   2              {
+  61   3                  P0_0 = 0;
+  62   3                  Delay();
+  63   3                  P0_0 = 1;
+  64   3                  smallDelay();
+  65   3                  temp -= x;
+  66   3              }
+  67   2              else // 0 bin
+  68   2              {
+  69   3                  P0_0 = 0;
+  70   3                  smallDelay();
+  71   3                  P0_0 = 1;
+  72   3                  Delay();
+  73   3              }
+  74   2              x /= 2;
+  75   2          }
+  76   1          x = 128;
+  77   1      }
+  78          
+  79          void init(void)
+  80          {
+  81   1          P3_4=0;
+  82   1          SCON=0x50;
+  83   1          T2CON=0x30;
+  84   1          TH2=0xFF;
+  85   1          TL2=0xDC;
+  86   1          RCAP2H=0xFF;
+  87   1          RCAP2L=0xDC;
+  88   1          EA=1;
+  89   1          TR2=1;
+  90   1      }
+  91          
+  92          void send(unsigned char value)
+  93          {
+  94   1        P3_4=1;
+  95   1        TI=0;
+  96   1        SBUF=value;
+  97   1        while(TI==0){;}
+  98   1        TI=0;
+  99   1        P3_4=0;
+ 100   1      }
+ 101          
+ 102          void main (void)
+ 103          {
+ 104   1        unsigned char data i=0;
+ 105   1        init();
+ 106   1        while(1)
+ 107   1        {
+ 108   2          P2=tab[i];
+ 109   2          if(!(P2_1 & P2_2 & P2_3))
+ 110   2          {
+ 111   3            print_char();
+ 112   3            send(c);
+ 113   3            while(!(P2_1 & P2_2 & P2_3));
+ 114   3          }
+ 115   2          else
+ 116   2          {
+ 117   3            if(i<3)
+C51 COMPILER V9.51   U1                                                                    06/23/2022 13:51:27 PAGE 3   
+
+ 118   3              i++;
+ 119   3            else
+ 120   3              i=0;
+ 121   3          }
+ 122   2        }
+ 123   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    259    ----
+   CONSTANT SIZE    =     16    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      6    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

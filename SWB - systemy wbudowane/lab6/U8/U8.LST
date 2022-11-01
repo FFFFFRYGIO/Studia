@@ -1,0 +1,139 @@
+C51 COMPILER V9.51   U8                                                                    06/24/2022 18:01:58 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE U8
+OBJECT MODULE PLACED IN U8.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE U8.c OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          extern void LcdInit();
+   4          extern void LcdWelcome();
+   5          extern void Lcd_Cursor(char row, char column);
+   6          extern void Lcd_DisplayCharacter(char a_char);
+   7          extern void Lcd_DisplayString(char row, char column, char *string);
+   8          extern void Lcd_WriteControl(unsigned char LcdCommand);
+   9          
+  10          unsigned char data Var1, Var2, Var3;
+  11          volatile unsigned char data Title[] = {"Odczyt ASCII   "};
+  12          
+  13          unsigned char curr_char;
+  14          unsigned char pos;
+  15          unsigned char temp;
+  16          
+  17          void init(void)
+  18          {
+  19   1          P3_4=0;
+  20   1          SCON=0x50;
+  21   1          T2CON=0x30;
+  22   1          TH2=0xFF;
+  23   1          TL2=0xDC;
+  24   1          RCAP2H=0xFF;
+  25   1          RCAP2L=0xDC;
+  26   1      
+  27   1          // Konfiguracja odbiornika
+  28   1          ES=1;
+  29   1          PS=0x10;
+  30   1        
+  31   1          EA=1;
+  32   1          TR2=1;
+  33   1      }
+  34          
+  35          void display_new(unsigned char c)
+  36          {
+  37   1        Lcd_Cursor(2, 10);
+  38   1        Lcd_DisplayCharacter(c);
+  39   1      
+  40   1          // Dec
+  41   1          pos = 13;
+  42   1          temp = c;
+  43   1      
+  44   1        if(c>=100)
+  45   1          {
+  46   2              Lcd_Cursor(3, pos++);
+  47   2              Lcd_DisplayCharacter ('0' + temp/100);
+  48   2              temp = temp%100;
+  49   2          }
+  50   1          if(c>=10)
+  51   1          {
+  52   2              Lcd_Cursor(3, pos++);
+  53   2              Lcd_DisplayCharacter ('0'+ temp/10);
+  54   2              temp = temp%10;
+  55   2          }
+C51 COMPILER V9.51   U8                                                                    06/24/2022 18:01:58 PAGE 2   
+
+  56   1          if(c>=0)
+  57   1          {
+  58   2              Lcd_Cursor(3, pos++);
+  59   2              Lcd_DisplayCharacter ('0'+ temp);
+  60   2          }
+  61   1      
+  62   1          // Hex
+  63   1          pos = 13;
+  64   1          temp = c;
+  65   1      
+  66   1        if(c>=16)
+  67   1          {
+  68   2              Lcd_Cursor(4, pos++);
+  69   2              if(temp/16 >= 10)
+  70   2                  Lcd_DisplayCharacter ('A' + temp/16 - 10);
+  71   2              else
+  72   2                  Lcd_DisplayCharacter ('0' + temp/16);
+  73   2              temp = temp%16;
+  74   2          }
+  75   1          if(c>=0)
+  76   1          {
+  77   2              Lcd_Cursor(4, pos++);
+  78   2              if(temp >= 10)
+  79   2                  Lcd_DisplayCharacter ('A' + temp - 10);
+  80   2              else
+  81   2                  Lcd_DisplayCharacter ('0' + temp);
+  82   2          }
+  83   1      }
+  84          
+  85          void main(void)
+  86          {
+  87   1        LcdInit();
+  88   1        init();
+  89   1        LcdWelcome();
+  90   1          Lcd_DisplayString(1, 1, Title);
+  91   1        Lcd_Cursor(2,10);
+  92   1        while(1){;}
+  93   1      
+  94   1      }
+  95          
+  96          void ISR_Serial(void) interrupt 4 
+  97          {
+  98   1          if(TI==1){TI=0;}
+  99   1          if(RI==1)
+ 100   1          {
+ 101   2          if(SBUF != curr_char)
+ 102   2          {
+ 103   3              display_new(SBUF);
+ 104   3              curr_char = SBUF;
+ 105   3          }
+ 106   2          RI=0;
+ 107   2          }
+ 108   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    349    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     22       1
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.51   U8                                                                    06/24/2022 18:01:58 PAGE 3   
+
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

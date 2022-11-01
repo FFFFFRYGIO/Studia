@@ -1,0 +1,60 @@
+C51 COMPILER V8.12   LAB3_1                                                                05/22/2022 17:07:58 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE LAB3_1
+OBJECT MODULE PLACED IN lab3_1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE lab3_1.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          unsigned char code tab[] = {0xEF, 0xDF, 0xBF, 0x7F};
+   4          
+   5          void Delay(void)
+   6          {
+   7   1              unsigned char i, j;
+   8   1              for(i=0;i<190;i++) 
+   9   1                      for(j=0;j<200;j++) {;}
+  10   1      }
+  11          
+  12          void main (void)
+  13          {
+  14   1              unsigned char data ind = 0;
+  15   1              bit Enabled = 1;
+  16   1              while(1) {
+  17   2                      P2 = tab[ind];
+  18   2                      if(!(P2_1 & P2_2 & P2_3)) {
+  19   3                              if (Enabled) {
+  20   4                                      P0_0 = 0;
+  21   4                                      Delay();
+  22   4                                      P0_0 = 1;
+  23   4                                      Enabled = 0;
+  24   4                              }
+  25   3                      } else {
+  26   3                              if (ind < 3) 
+  27   3                                      ind++;
+  28   3                              else 
+  29   3                                      ind = 0;
+  30   3                              Enabled = 1;
+  31   3                      }
+  32   2              }
+  33   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     61    ----
+   CONSTANT SIZE    =      4    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

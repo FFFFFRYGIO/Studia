@@ -1,0 +1,174 @@
+C51 COMPILER V9.51   U5                                                                    06/23/2022 14:14:10 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE U5
+OBJECT MODULE PLACED IN U5.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE U5.c OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          #define en2 P2_4
+   4          #define in3 P2_5
+   5          #define in4 P2_6
+   6          #define en1 P2_3
+   7          #define in1 P2_1
+   8          #define in2 P2_2
+   9          
+  10          unsigned char code Koder[] = {
+  11            0x31, // 1
+  12            0x32, // 2
+  13            0x33, // 3
+  14            0x34, // 4
+  15            0x35, // 5
+  16            0x36, // 6
+  17            0x37, // 7
+  18            0x38, // 8
+  19            0x39, // 9
+  20            0x2A, // *
+  21            0x30, // 0
+  22            0x23, // #
+  23          };
+  24          
+  25          unsigned char PWM = 1; //255*0.5;   // wartosc od 0 (0% duty cycle) do 255 (100% duty cycle)
+  26          unsigned int temp = 0;    // zmienna robocza w procedurze obslugi przerwania Timer0
+  27          #define PWM_Freq_Num 30  //  1 = najwyzsza czestotliwosc gdy PWM_Freq_Num, zakres 1 - 255
+  28          
+  29          unsigned char get_char;
+  30          bit is_moving_left_up = 0;
+  31          bit lighst_off = 0;
+  32          
+  33          void recive(void) interrupt 4
+  34          {
+  35   1          // Odbior znaku
+  36   1          if(TI==1){TI=0;}
+  37   1          if(RI==1)
+  38   1          {
+  39   2          get_char = SBUF;
+  40   2          RI=0;
+  41   2          }
+  42   1          
+  43   1          if(get_char==Koder[9]) // * - wlacz/wylacz zarowki
+  44   1          {
+  45   2            lighst_off = !lighst_off;
+  46   2          }
+  47   1          else if(get_char==Koder[11]) // # - zmiana kierunku obiotow
+  48   1          {
+  49   2            if(!lighst_off)
+  50   2              {in1 = !in1; in2 = !in2;}
+  51   2            in3 = !in3; in4 = !in4;
+  52   2            is_moving_left_up = !is_moving_left_up;
+  53   2          }
+  54   1          else if (get_char%2) // nieparzysta - ruch w lewo w gore
+  55   1          {
+C51 COMPILER V9.51   U5                                                                    06/23/2022 14:14:10 PAGE 2   
+
+  56   2            if(!lighst_off)
+  57   2              {in1 = 0; in2 = 1;}
+  58   2            in3 = 0; in4 = 1;
+  59   2            is_moving_left_up = 1;
+  60   2            
+  61   2            en1 = 1; en2 = 1;
+  62   2          }
+  63   1          else // parzysta - ruch w prawo w dol
+  64   1          {
+  65   2            if(!lighst_off)
+  66   2              {in1 = 1; in2 = 0;}
+  67   2            in3 = 1; in4 = 0;
+  68   2            is_moving_left_up = 0;
+  69   2            
+  70   2            en1 = 1; en2 = 1;
+  71   2          }
+  72   1      }
+  73          
+  74          void handle_PWM(void) interrupt 3   {
+  75   1        P1 = 0;
+  76   1        TR1=0;
+  77   1        if(en2){
+  78   2          en2=0;
+  79   2          temp=(255-PWM)*PWM_Freq_Num;
+  80   2          TH1=0xFF-(temp>>8)&0xFF;
+  81   2          TL1=0xFF-temp&0xFF; 
+  82   2        }else{
+  83   2          en2=1;
+  84   2          temp=PWM*PWM_Freq_Num;
+  85   2          TH1=0xFF-(temp>>8)&0xFF;
+  86   2          TL1=0xFF-temp&0xFF;
+  87   2        }
+  88   1        TF1=0;
+  89   1        TR1=1;
+  90   1      }
+  91          
+  92          
+  93          void handle_engine(void) interrupt 0{
+  94   1        if(lighst_off) // Dla wylaczonych
+  95   1          {in1 = 0; in2 = 0;}
+  96   1        else
+  97   1        if(is_moving_left_up) // Dla obrotow w lewo
+  98   1        {
+  99   2          in1 = 1;
+ 100   2          in2 = !in2;
+ 101   2        }
+ 102   1        else  // Dla obrotow w prawo
+ 103   1        {
+ 104   2          in2 = 1;
+ 105   2          in1 = !in1;
+ 106   2        }
+ 107   1      }
+ 108          
+ 109          void init(void){
+ 110   1          P2 = 0; // Na poczatku silnik i zarowki nie dzialaja
+ 111   1        
+ 112   1          P3_4=0;
+ 113   1          SCON=0x50;
+ 114   1          T2CON=0x30;
+ 115   1          TH2=0xFF;
+ 116   1          TL2=0xDC;
+ 117   1          RCAP2H=0xFF;
+C51 COMPILER V9.51   U5                                                                    06/23/2022 14:14:10 PAGE 3   
+
+ 118   1          RCAP2L=0xDC;
+ 119   1      
+ 120   1          // Konfiguracja odbiornika
+ 121   1          ES=1;
+ 122   1          PS=0x10;
+ 123   1      
+ 124   1          // timer1 - interrupt 3, do obslugi PWM
+ 125   1          TCON=0x00;
+ 126   1          TMOD=TMOD & 0x0F;
+ 127   1          TMOD=TMOD | 0x20;
+ 128   1          TL1=TH1=0x00;
+ 129   1          ET1=1;
+ 130   1      
+ 131   1          IT0=1;
+ 132   1          EX0=1;
+ 133   1      
+ 134   1          EA=1;
+ 135   1          TR2=1;
+ 136   1          
+ 137   1          TR1 = 1;
+ 138   1      }
+ 139          
+ 140          void main (void){
+ 141   1        init();
+ 142   1        while(1){;}
+ 143   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    291    ----
+   CONSTANT SIZE    =     12    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      2    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,72 @@
+C51 COMPILER V8.12   LAB2_2                                                                05/13/2022 14:15:02 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE LAB2_2
+OBJECT MODULE PLACED IN lab2_2.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE lab2_2.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          unsigned char zmiennaAA=0;
+   4          unsigned char granica=5+9;
+   5          unsigned char krok=1;
+   6          unsigned char numer=9;
+   7          unsigned char stanP;
+   8          
+   9          void wyswietl(void)
+  10          {
+  11   1              // wyswietlanie
+  12   1              if(zmiennaAA==0)
+  13   1              {
+  14   2                      P2=0xFF;
+  15   2              }
+  16   1              else if(zmiennaAA%2)
+  17   1              {
+  18   2                      P2 = numer * 0x10 + (zmiennaAA%10); 
+  19   2              }
+  20   1              //iteracja
+  21   1              if(zmiennaAA>=granica)
+  22   1              {
+  23   2                      zmiennaAA=0;    
+  24   2              }
+  25   1              else
+  26   1              {
+  27   2                      zmiennaAA+=krok;        
+  28   2              }       
+  29   1      }
+  30          
+  31          void main (void)
+  32          {
+  33   1              stanP=P3_2;
+  34   1              wyswietl();
+  35   1              while(1)
+  36   1              {
+  37   2                      if(stanP==0 && P3_2)
+  38   2                      {
+  39   3                              wyswietl();     
+  40   3                      }
+  41   2                      stanP=P3_2;             
+  42   2              }
+  43   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     72    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      5    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+C51 COMPILER V8.12   LAB2_2                                                                05/13/2022 14:15:02 PAGE 2   
+
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

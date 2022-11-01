@@ -1,0 +1,154 @@
+C51 COMPILER V8.12   ZAD2                                                                  05/28/2022 18:33:35 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE ZAD2
+OBJECT MODULE PLACED IN zad2.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE zad2.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>    // plik nagl. rej. procesora
+   2          
+   3          #define Port P2
+   4          #define No_Key 0x0C
+   5          #define Key_is_Off P3_2==1
+   6          #define ON  0
+   7          #define OFF 1
+   8          
+   9          volatile unsigned char data ind; // indeks wiersza klawiatury, musi byc globalny, uzywany w proc IRQ
+  10          sbit Led = P0^0;
+  11          
+  12          void Init(void)                                         // Funkcja inicjujaca elementy wewnetrzne uC
+  13          {
+  14   1          TMOD = 0x22;          // Konfiguracja Timera 1                      
+  15   1          TH1  = 0x00;          // konfiguracja Timera 1
+  16   1          TL1  = 0x00;          // konfiguracja Timera 1
+  17   1          TCON = 0x10;          // konfiguracja Timera 1
+  18   1          ET1  = 1;             // dolaczenie przerwania od Timer1 do systemu przerwan
+  19   1      
+  20   1          EX0 = 1;              // wlaczenie przerwania od INT0
+  21   1          IT0 = 1;              // przerwanie aktywne zboczem opadajacym
+  22   1      
+  23   1      //    SCON  = 0x40;         // serial control - 8-Bit var. Baud Rate
+  24   1      //    TCLK  = 1;            // dolacz taktowanie do nadajnika portu szeregowego
+  25   1      //    T2CON = 0x10;         // Timer2 jako Baud Rate Generator 2400b/sek
+  26   1      //    RCAP2H = TH2 = 0xFF;  // wartosc poczatkowa licznika T2 - czesc H
+  27   1      //    RCAP2L = TL2 = 0xEE;  // wartosc poczatkowa licznika T2 - czesc L
+  28   1      //    TR2 = 1;              // uruchom Timer 2 - taktowanie nadajnika RS
+  29   1          TR1 = 1;              // wlaczenie timera 1
+  30   1          EA = 1;               // wlaczenie systemu przerwan
+  31   1      }
+  32          
+  33          //unsigned char Szukaj(unsigned char Kod_przycisku) // zamiana scankodu na dowolny kod ASCII
+  34          //{
+  35          //    unsigned char data Value, licznik;                               // zmienne pomocnicze
+  36          //    unsigned char code Koder[] = {0xE7, 0xEB, 0xED, 0xD7, 0xDB, 0xDD,
+  37          //                                  0xB7, 0xBB, 0xBD, 0x7B, 0x77, 0x7D};    // tablica scankodow
+  38          //    unsigned char code New_Char[] = {'1','2','3','4','5','6',
+  39          //                                     '7','8','9','0','*','#'}; // tablica kod?w ASCII
+  40          //
+  41          //    licznik=0x00;                                                    // zacznij od poczatku
+  42          //    while((Koder[licznik]!=Kod_przycisku)&(licznik<No_Key)){licznik++;} // znajdz scankod
+  43          //    Value = No_Key;
+  44          //    if(licznik!=No_Key){Value = New_Char[licznik];}                  // przypisz kod ASCII
+  45          //    return Value;                                                    // zwroc kod ASCII lub No_Key
+  46          //}
+  47          
+  48          void ISR_Timer1 (void) interrupt 3      // Timera 1 - generacja krazacego zera na porcie P2
+  49          {
+  50   1      unsigned char code Kod[] = {0xEF, 0xDF, 0xBF, 0x7F};     // skanuj kolejne wiersze klawiatury
+  51   1                  
+  52   1      Port = Kod[ind];                                      // wystawienie zera na port
+  53   1      if(Key_is_Off) {if(ind<3) {ind++;} else {ind=0;}} // Wazne, bramka wprowadza opoznienie 10ns.
+  54   1      // Zmiana indeksu tablicy generowana jest tylko
+  55   1      // wtedy, gdy zaden przycisk nie jest wcisniety
+C51 COMPILER V8.12   ZAD2                                                                  05/28/2022 18:33:35 PAGE 2   
+
+  56   1      }
+  57          
+  58          void sleep(void)              // odczekaj chwile
+  59          {
+  60   1          unsigned char data x,y;
+  61   1          for(x=0;x<190;x++)
+  62   1              for(y=0;y<100;y++){;}
+  63   1      }
+  64          
+  65          //void sleep_half(void)              // odczekaj chwile
+  66          //{
+  67          //    unsigned char data x,y;
+  68          //    for(x=0;x<190;x++)
+  69          //        for(y=0;y<50;y++){;}
+  70          //}
+  71          
+  72          void ISR_INT0 (void) interrupt 0          // INT0 - wylapywanie wcisnietych przycisku
+  73          {
+  74   1      unsigned char data Key, j, kodWiersza, wiersz;  // zmienne pomocnicze
+  75   1      TR1=0;               // wylacz timer 1
+  76   1      Key = Port;               // pobranie kodu klawisza
+  77   1      //Value = Szukaj(Key);     // okresl kod ASCII przycisku
+  78   1      //if(Value!=No_Key)        // wykonaj jesli kod ASCII jest prawidlowy
+  79   1      //{
+  80   1      //Led=0;
+  81   1      //sleep_half();
+  82   1      //Led=1;
+  83   1      //sleep();
+  84   1      
+  85   1      kodWiersza=(Key/16);
+  86   1      if(kodWiersza==0xE) wiersz=1;
+  87   1      else if(kodWiersza==0xD) wiersz=2;
+  88   1      else if(kodWiersza==0xB) wiersz=3;
+  89   1      else if(kodWiersza==0x7) wiersz=4;
+  90   1      
+  91   1      for(j=0; j<wiersz; j++){
+  92   2      Led=0;
+  93   2      sleep();
+  94   2      Led=1;
+  95   2      sleep();
+  96   2      }
+  97   1      sleep();
+  98   1      sleep();
+  99   1      Led=0;
+ 100   1      sleep();
+ 101   1      Led=1;
+ 102   1      
+ 103   1      EX0 = 0;             // wylacz przerwanie INT0 (czytanie przyciskow)
+ 104   1      //TI = 0;             // przygotuj wysylanie znakow
+ 105   1      //SBUF = Value;      // Obsluga: transmisja znaku portem szeregowym
+ 106   1      //while(TI==0){;}    // odczekaj dopoki znak jest transmitowany
+ 107   1      IE0 = 0;             // na wszelki wypadek wygas flage przerwania od INT0
+ 108   1      EX0 = 1;             // wlacz obsluge INT0
+ 109   1      //}
+ 110   1      TR1=1;                  // wlacz timer 1
+ 111   1      }
+ 112          void Default(void)
+ 113          {
+ 114   1          ind  = 0;              // indeks wiersza klawiatury
+ 115   1          Port = P2;              // inicjowanie portu klawiatury
+ 116   1      }
+ 117          
+C51 COMPILER V8.12   ZAD2                                                                  05/28/2022 18:33:35 PAGE 3   
+
+ 118          void main(void)  // program glowny
+ 119          {
+ 120   1          Default();   // inicjowanie zmiennych
+ 121   1          Init();      // inicjowanie urzadzen wewnetrznych
+ 122   1          while(1) {;} // pusta petla programu, a program dziala :)
+ 123   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    210    ----
+   CONSTANT SIZE    =      4    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

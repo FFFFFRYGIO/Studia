@@ -1,0 +1,62 @@
+Lab 1 (4h) - Konfigurowanie interfejsu sieciowego komputera klasy PC. Arytmetyka sieciowa (ćw.1). 4h
+	1. Arytmetyka sieciowa IPv4
+	2. Model ISO/OSI (w szczególności warstwa fizyczna i łącza danych)
+
+Lab 2 (2h) - Tworzenie kabli przyłączeniowych. Wykorzystanie testerów okablowania sieciowego (ćw. 2). 2h
+	1. Łącza światłowodowe, jedno i wielomodowe (budowa, wygląd, wykorzystanie)
+	2. Łącza miedziane: kable UTP/STP/FTP, kable koncentryczne, kable szeregowe (serial), konsolowe, proste, krosowane (budowa, wygląd, wykorzystanie)
+	3. Rodzaje połączeń, jakie urządzenia jakimi kablami łączyć (polecam trening w packet tracerze)
+	4. Rozróżniać rodzaje kabli (wizualnie)
+	5. Problemy występujące podczas przesyłu danych za pomocą łączy przewodowych (miedzianych, optycznych) i bezprzewodowych
+
+Lab 3 (4h) - Tworzenie sieci LAN w oparciu o koncentrator, przełącznik i bezprzewodowy punkt dostępowy (ćw. 3). 4h
+	1. Domena kolizyjna i rozgłoszeniowa
+	2. CSMA, CSMA/CD, CSMA/CA
+	3. Konfiguracja urządzeń sieciowych Cisco (routery, switche...)
+	4. Sieci przewodowe i bezprzewodowe - porównanie (zastosowanie, zalety i wady)
+	5. Metody uwierzytelnienia w sieciach bezprzewodowych (IEEE 802.11): WEP, WPA, WPA2 (Enterprise i Personal)
+	6. Standardy sieci bezprzewodowych lokalnych IEEE 802.11 (a, b, g, n, ac) - pasmo częstotliwości, szybkości transmisji
+	7. DHCP (czym jest i do czego służy)
+
+Lab 4 (4h) - Przełączanie w sieciach Ethernet. Sieci VLAN (ćw. 4). 4h
+	1. Model ISO/OSI!
+	2. Przełącznik - definicja, zastosowanie, zasada działania, tryby przekazywania ramek.
+	3. Sieci wirtualne (VLAN IEEE 802.1Q) - zastosowanie, działanie, konfiguracja na sprzęcie Cisco (!)
+	4. Protokół STP
+	5. Rodzaje sieci: LAN, WAN, MAN, SAN
+
+Lab 5 (4h) - Analiza zawartości ramek w trakcie transmisji przez sieć (z koncentratorem i przełącznikiem) w symulatorze Packet Tracer (ćw. 5). 4h
+	1. Model ISO/OSI (dokładny opis każdej z warstw!)
+	2. Porównanie modelu ISO/OSI z modelem TCP/IP
+	3. Znajomość pojęć bity, ramki, pakiety, segmenty
+	4. Znajomość protokołów IP, ARP, RARP, ICMP (która warstwa i do czego służą)
+	5. Protokół telnet i SSH - właściwości, wykorzystanie, różnice, która warstwa i do czego służą
+	6. Potrafić rozróżniać nagłówki protokołów: Ethernet (IEEE 802.3), IPv4, TCP, UDP, ICMP (ang. protocol header, np. ICMP header)
+	7. Inicjowanie i kończenie połączenia TCP (three-way-handshake i four-way-handshake/termination handshake)
+
+Lab 6 (4h) - Planowanie adresacji dla sieci. Tworzenie i testowanie sieci obejmującej kilka routerów (Packet Tracer) (ćw.6). 4h
+	1. Dzielenie sieci na podsieci z wykorzystaniem masek zmiennej długości
+	2. Dzielenie sieci na podsieci z wykorzystaniem masek ze stałą długością
+	3. Konfiguracja routingu statycznego z wykorzystaniem routerów Cisco
+
+Lab 7 (4h) - Konfigurowanie broadband routera (ćw. 7a). Odkodowywanie ramek. 4h
+	1. W której warstwie znajduje się dany protokół (pl.wikipedia.org: "Model OSI" lista warstw i protokołów w nich się znajdujących (po prawej stronie))
+	2. Protokoły warstwy transportowej, w szczególności połączeniowe i bezpołączeniowe (TCP i UDP): zastosowanie, różnice, zalety i wady
+	3. Protokoły warstwy aplikacji: DNS, FTP, TFTP, HTTP, Telnet, SSH, SMTP, DHCP: zastosowanie, charakterystyka, podstawowe informacje, rozwinięcie nazw (np. FTP - File Transfer Protocol...)
+	4. Konfiguracja routera Cisco (Z WIERSZA POLECEŃ i PEŁNE POLECENIA):
+	 - usuwanie konfiguracji startowej,
+	 - zapisywanie konfiguracji obecnej,
+	 - konfiguracja interfejsów sieciowych,
+	 - konfiguracja serwera telnet,
+	 - sprawdzanie osiągalności hosta z poziomu routera,
+	 - komendy diagnostyczne (sprawdzenie stanu interfejsów, sprawdzenie konfiguracji obecnej, sprawdzenie tablicy routingu, sprawdzenie tablicy ARP)
+
+Lab 8 (4h) - Konfigurowanie interfejsu routera i wykonanie podstawowej konfiguracji dla protokołu routingu dynamicznego (ćw. 7b). 4h
+	1. Znajomość pojęcia routing dynamiczny.
+	2. Różnice między routingiem statycznym i dynamicznym (zalety, wady, zastosowania).
+	3. Znajomość przykładów protokołów routingu dynamicznego.
+
+
+
+
+

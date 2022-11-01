@@ -1,0 +1,98 @@
+C51 COMPILER V8.12   ZAD2_3                                                                05/13/2022 16:00:26 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE ZAD2_3
+OBJECT MODULE PLACED IN zad2_3.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE zad2_3.c OMF2 BROWSE DEBUG
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          void Delay(unsigned char x)
+   4          {
+   5   1              unsigned char j;
+   6   1              unsigned char i;
+   7   1              for(i=0;i<100;i++)
+   8   1              {
+   9   2                      for(j=0;j<x;j++){};
+  10   2              }
+  11   1      }
+  12          
+  13          unsigned char zmiennaAA=0;
+  14          unsigned char granica=10+9;
+  15          unsigned char krok=1;
+  16          unsigned char stan;
+  17          
+  18          unsigned char code KoderP[] =
+  19                  {0xBF, 0x86, 0xDB, 0xCF , 0xE6 , 0xED , 0xFD , 0x87 , 0xFF , 0xEF};
+  20          unsigned char code KoderL[] =
+  21                  {0xC0, 0xCF, 0x92, 0x86 , 0x8D , 0xA4 , 0xA0 , 0xCE , 0x80 , 0x84}; 
+  22          
+  23          void operacja(unsigned char q)
+  24          {
+  25   1              if(q)
+  26   1              {
+  27   2                      if(zmiennaAA>=granica)
+  28   2                      {
+  29   3                              zmiennaAA=0;    
+  30   3                      }
+  31   2                      else
+  32   2                      {
+  33   3                              zmiennaAA+=krok;
+  34   3                      }       
+  35   2              }
+  36   1              else
+  37   1              {
+  38   2                      if(zmiennaAA<=0)
+  39   2                      {
+  40   3                              zmiennaAA=granica;      
+  41   3                      }
+  42   2                      else
+  43   2                      {
+  44   3                              zmiennaAA-=krok;
+  45   3                      }
+  46   2              }
+  47   1              P1 = KoderL[zmiennaAA/10];
+  48   1              P3 = KoderP[zmiennaAA%10];
+  49   1              Delay(50);
+  50   1      }
+  51          
+  52          void main(void)
+  53          {
+  54   1              stan=P3_7;
+  55   1              while(1)
+C51 COMPILER V8.12   ZAD2_3                                                                05/13/2022 16:00:26 PAGE 2   
+
+  56   1              {
+  57   2                      while(P3_7)
+  58   2                      {
+  59   3                              operacja(1); // 1 dla zwiekszania       
+  60   3                      }
+  61   2                      Delay(100);
+  62   2      
+  63   2                      while(!P3_7)
+  64   2                      {
+  65   3                              operacja(0); // 0 dla zmniejszania      
+  66   3                      }
+  67   2                      Delay(100);
+  68   2              }
+  69   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    128    ----
+   CONSTANT SIZE    =     20    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
