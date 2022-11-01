@@ -1,4 +1,4 @@
-# Inżynieria ooprogramowania
+# Inżynieria oprogramowania
 
 Zagadnienia:
 * Diagram przypadków użycia
