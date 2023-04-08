@@ -7,6 +7,7 @@ Przekształcanie obrazu:
 * Zasłanianie
 * Przewijanie
 * Zmniejsanie
+
 Poprawa jakości obrazu:
 * Wyznaczanie oraz modyfikacja janości i kontrastu
 * Liniowa korekta tonalna
