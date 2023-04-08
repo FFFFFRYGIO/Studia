@@ -1,0 +1,45 @@
+Instrukcje
+Napisać funkcje, które dla danych z załączonego pliku wyznaczą:
+1. Łączną liczbę meczów rozegranych w danym roku. Funkcja ma przyjmować opcjonalny argument team oznaczający zespół
+(nazwa funkcji: total_matches_by_year)
+
+2. Listę meczów o największej liczbie zdobytych bramek przez gospodarzy i gości łącznie (nazwa funkcji: most_goals). Funkcja ma zwracać listę krotek
+(data rozegrania spotkania, nazwa drużyny gospodarza, nazwa drużyny gościa, łączna liczba zdobytych bramek) posortowaną malejąco 
+po dacie rozegrania spotkania oraz liczbie zdobytych bramek i przyjmować argument ograniczający liczbę zwracanych rekordów (typu int).
+
+Przykład zwracanych wartości (należy zachować format daty YYYY-MM-DD:
+[("2020-10-10", "Bolton Wanderers","Derby County",5),("2010-10-10", "Bolton Wanderers","Derby County",3)]
+(nazwa funkcji: total_matches_home_away)
+
+
+3. Liczbę meczów wygranych, przegranych, zremisowanych i zakończonych w rzutach karnych
+(kolumna full_time: "F"=game ended in 90', "E"=extra time, "P"=penalty shoot-out)
+przez daną drużynę w podziale na lata. Wynik powinien zostać wyznaczony dla podanej reprezentacji i zwrócony w postaci słownika (dict), 
+którego kluczem będzie tekstowa reprezentacja roku (np. "2018"), a wartością słownik o kluczach i wartościach:
+"w" - liczba meczów wygranych przez drużynę w danym roku
+"l" - liczba meczów przegranych przez drużynę w danym roku
+"d" - liczba meczów zremisowanych przez daną drużynę w danym roku
+"p" - liczba meczów zakończonych w rzutach karnych
+
+np.:
+{"2020":{"w":2,"l":1,"d":0,"p":0},"2021":{"w":1,"l":1,"d":1,"p":0}}
+(nazwa funkcji: team_matches_stats_per_year)
+
+4. Podsumowanie wszystkich meczów. Funkcja powinna przyjmować jako opcjonalny argument typu int oznaczający liczbę zwracanych wyników.
+Wynik powinien zostać zwrócony w postaci listy słowników (dict) o kluczach i wartościach:
+
+"played" - liczba rozegranych meczów przez drużynę
+"won" - liczba wygranych meczów przez drużynę
+"draw" - liczba zremisowanych meczów przez drużynę
+"lost" - liczba przegranych meczów przez drużynę
+"for" - liczba zdobytych bramek przez drużynę
+"against" - liczba straconych bramek przez drużynę
+"gd" - bilans bramkowy: różnica pomiędzy wartością "for" a wartością "against"
+"points" liczba zdobytych punktów, wyznaczana jako: 3*"won" + "draw"
+Lista ma być posortowana malejąco po wartości "points".
+(nazwa funkcji: teams_summary)
+
+W ramach rozwiązania należy dołączyć plik *.py zawierający kod źródłowy w języku Python w wersji co najmniej 3.10.7 realizujący wymienione funkcje wraz z
+wywołaniem dla przykładowych danych. Nazwy funkcji, typy argumentów oraz typy wartości zwracanych przez funkcje muszą być zgodne z treścią zadania.
+
+Każdy załączony plik z kodem źródłowym powinien być podpisany. Podpis musi zawierać: imię i nazwisko oraz oznaczenie grupy zajęciowej.

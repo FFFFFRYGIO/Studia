@@ -1,0 +1,1000 @@
+home,away,date,gh,ga,full_time,competition,home_ident,away_ident,home_country,away_country,home_code,away_code,home_continent,away_continent,continent,level
+Bolton Wanderers,Derby County,1888-09-08,3,6,F,england,Bolton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Accrington FC,1888-09-08,2,1,F,england,Everton FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Burnley FC,1888-09-08,5,2,F,england,Preston North End (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,West Bromwich Albion,1888-09-08,0,2,F,england,Stoke City (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Aston Villa,1888-09-08,1,1,F,england,Wolverhampton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Stoke City,1888-09-15,5,1,F,england,Aston Villa (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Accrington FC,1888-09-15,5,5,F,england,Blackburn Rovers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Burnley FC,1888-09-15,3,4,F,england,Bolton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,West Bromwich Albion,1888-09-15,1,2,F,england,Derby County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Notts County,1888-09-15,2,1,F,england,Everton FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Preston North End,1888-09-15,0,4,F,england,Wolverhampton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Everton FC,1888-09-22,2,1,F,england,Aston Villa (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,West Bromwich Albion,1888-09-22,6,2,F,england,Blackburn Rovers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Accrington FC,1888-09-22,1,1,F,england,Derby County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Bolton Wanderers,1888-09-22,3,1,F,england,Preston North End (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Notts County,1888-09-22,3,0,F,england,Stoke City (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Burnley FC,1888-09-22,4,1,F,england,Wolverhampton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Notts County,1888-09-29,9,1,F,england,Aston Villa (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Everton FC,1888-09-29,6,2,F,england,Bolton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Preston North End,1888-09-29,2,3,F,england,Derby County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Accrington FC,1888-09-29,2,4,F,england,Stoke City (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Burnley FC,1888-09-29,4,3,F,england,West Bromwich Albion (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Blackburn Rovers,1888-09-29,2,2,F,england,Wolverhampton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Wolverhampton Wanderers,1888-10-06,4,4,F,england,Accrington FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Bolton Wanderers,1888-10-06,4,1,F,england,Burnley FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Aston Villa,1888-10-06,2,0,F,england,Everton FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Blackburn Rovers,1888-10-06,3,3,F,england,Notts County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Stoke City,1888-10-06,7,0,F,england,Preston North End (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Derby County,1888-10-06,5,0,F,england,West Bromwich Albion (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Derby County,1888-10-13,6,2,F,england,Accrington FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Blackburn Rovers,1888-10-13,6,1,F,england,Aston Villa (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Stoke City,1888-10-13,2,1,F,england,Bolton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Wolverhampton Wanderers,1888-10-13,0,4,F,england,Burnley FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Everton FC,1888-10-13,3,1,F,england,Notts County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,West Bromwich Albion,1888-10-13,3,0,F,england,Preston North End (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Preston North End,1888-10-20,0,0,F,england,Accrington FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Wolverhampton Wanderers,1888-10-20,2,2,F,england,Blackburn Rovers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Aston Villa,1888-10-20,2,3,F,england,Bolton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Everton FC,1888-10-20,2,4,F,england,Derby County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Burnley FC,1888-10-20,4,3,F,england,Stoke City (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Notts County,1888-10-20,4,2,F,england,West Bromwich Albion (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Accrington FC,1888-10-27,4,3,F,england,Aston Villa (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Stoke City,1888-10-27,5,2,F,england,Blackburn Rovers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Derby County,1888-10-27,6,2,F,england,Everton FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Burnley FC,1888-10-27,6,1,F,england,Notts County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Wolverhampton Wanderers,1888-10-27,5,2,F,england,Preston North End (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Blackburn Rovers,1888-11-03,1,7,F,england,Burnley FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Bolton Wanderers,1888-11-03,2,1,F,england,Everton FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Preston North End,1888-11-03,0,7,F,england,Notts County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Aston Villa,1888-11-03,1,1,F,england,Stoke City (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Accrington FC,1888-11-03,2,2,F,england,West Bromwich Albion (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Derby County,1888-11-03,4,1,F,england,Wolverhampton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Bolton Wanderers,1888-11-05,1,5,F,england,West Bromwich Albion (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Everton FC,1888-11-10,3,0,F,england,Blackburn Rovers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,West Bromwich Albion,1888-11-10,2,0,F,england,Burnley FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Accrington FC,1888-11-10,3,3,F,england,Notts County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Aston Villa,1888-11-10,1,1,F,england,Preston North End (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Bolton Wanderers,1888-11-10,3,2,F,england,Wolverhampton Wanderers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Preston North End,1888-11-12,0,3,F,england,Stoke City (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Aston Villa,1888-11-17,5,1,F,england,Blackburn Rovers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,West Bromwich Albion,1888-11-17,1,2,F,england,Bolton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Everton FC,1888-11-17,2,2,F,england,Burnley FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Accrington FC,1888-11-17,2,0,F,england,Preston North End (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Wolverhampton Wanderers,1888-11-17,0,1,F,england,Stoke City (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,West Bromwich Albion,1888-11-24,2,1,F,england,Accrington FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Wolverhampton Wanderers,1888-11-24,2,1,F,england,Aston Villa (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Preston North End,1888-11-24,2,5,F,england,Bolton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Blackburn Rovers,1888-11-24,0,2,F,england,Derby County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Burnley FC,1888-11-24,3,2,F,england,Everton FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Stoke City,1888-11-24,0,3,F,england,Notts County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Burnley FC,1888-12-01,5,1,F,england,Accrington FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,West Bromwich Albion,1888-12-01,1,4,F,england,Everton FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Blackburn Rovers,1888-12-01,2,1,F,england,Stoke City (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Bolton Wanderers,1888-12-08,4,4,F,england,Blackburn Rovers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Stoke City,1888-12-08,2,1,F,england,Burnley FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Aston Villa,1888-12-08,2,4,F,england,Notts County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Derby County,1888-12-08,5,0,F,england,Preston North End (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Accrington FC,1888-12-08,4,0,F,england,Wolverhampton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Aston Villa,1888-12-15,1,1,F,england,Accrington FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Notts County,1888-12-15,5,2,F,england,Blackburn Rovers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Preston North End,1888-12-15,2,2,F,england,Burnley FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Everton FC,1888-12-15,0,0,F,england,Stoke City (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,West Bromwich Albion,1888-12-15,2,1,F,england,Wolverhampton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Burnley FC,1888-12-22,4,2,F,england,Aston Villa (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Accrington FC,1888-12-22,4,1,F,england,Bolton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Notts County,1888-12-22,3,2,F,england,Derby County (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Everton FC,1888-12-22,3,0,F,england,Preston North End (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Blackburn Rovers,1888-12-22,2,1,F,england,West Bromwich Albion (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Stoke City,1888-12-22,4,1,F,england,Wolverhampton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Bolton Wanderers,1888-12-26,2,3,F,england,Derby County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Preston North End,1888-12-26,0,5,F,england,West Bromwich Albion (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Everton FC,1888-12-29,3,1,F,england,Accrington FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Derby County,1888-12-29,4,2,F,england,Aston Villa (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Wolverhampton Wanderers,1888-12-29,2,1,F,england,Bolton Wanderers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Notts County,1888-12-29,1,0,F,england,Burnley FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Blackburn Rovers,1888-12-29,1,0,F,england,Preston North End (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Stoke City,1888-12-29,2,0,F,england,West Bromwich Albion (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Aston Villa,1889-01-05,4,0,F,england,Burnley FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Notts County,1889-01-05,4,1,F,england,Preston North End (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Wolverhampton Wanderers,1889-01-05,1,3,F,england,West Bromwich Albion (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Bolton Wanderers,1889-01-12,6,2,F,england,Aston Villa (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Preston North End,1889-01-12,2,2,F,england,Blackburn Rovers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Accrington FC,1889-01-12,2,2,F,england,Burnley FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Wolverhampton Wanderers,1889-01-12,3,0,F,england,Derby County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Stoke City,1889-01-12,2,1,F,england,Everton FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,West Bromwich Albion,1889-01-12,2,1,F,england,Notts County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Blackburn Rovers,1889-01-19,0,2,F,england,Accrington FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,West Bromwich Albion,1889-01-19,2,0,F,england,Aston Villa (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Derby County,1889-01-19,1,0,F,england,Burnley FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Preston North End,1889-01-19,0,2,F,england,Everton FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Wolverhampton Wanderers,1889-01-19,3,0,F,england,Notts County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Bolton Wanderers,1889-01-19,2,2,F,england,Stoke City (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Notts County,1889-01-26,1,2,F,england,Accrington FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Blackburn Rovers,1889-01-26,3,2,F,england,Bolton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Stoke City,1889-01-26,2,1,F,england,Derby County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Aston Villa,1889-01-26,3,3,F,england,West Bromwich Albion (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Everton FC,1889-01-26,4,0,F,england,Wolverhampton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Burnley FC,1889-02-04,4,2,F,england,Blackburn Rovers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Preston North End,1889-02-09,0,2,F,england,Aston Villa (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Wolverhampton Wanderers,1889-02-09,1,2,F,england,Everton FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Everton FC,1889-02-23,1,0,F,england,West Bromwich Albion (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Notts County,1889-02-23,2,1,F,england,Wolverhampton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Burnley FC,1889-03-02,1,0,F,england,Derby County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Bolton Wanderers,1889-03-05,0,4,F,england,Notts County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Notts County,1889-03-09,7,3,F,england,Bolton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Aston Villa,1889-03-09,5,2,F,england,Derby County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Derby County,1889-03-16,3,5,F,england,Notts County (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Bolton Wanderers,1889-03-23,2,3,F,england,Accrington FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Blackburn Rovers,1889-03-30,3,1,F,england,Everton FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Derby County,1889-04-06,1,1,F,england,Stoke City (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Derby County,1889-04-15,3,0,F,england,Blackburn Rovers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Stoke City,1889-04-20,2,0,F,england,Accrington FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Burnley FC,1889-09-07,2,2,F,england,Aston Villa (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Blackburn Rovers,1889-09-07,3,2,F,england,Everton FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Derby County,1889-09-07,1,1,F,england,Stoke City (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Notts County,1889-09-07,2,0,F,england,Wolverhampton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Notts County,1889-09-14,1,1,F,england,Aston Villa (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Wolverhampton Wanderers,1889-09-14,4,3,F,england,Blackburn Rovers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Accrington FC,1889-09-14,2,4,F,england,Bolton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,West Bromwich Albion,1889-09-14,3,1,F,england,Derby County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Burnley FC,1889-09-14,2,1,F,england,Everton FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Stoke City,1889-09-14,10,0,F,england,Preston North End (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Everton FC,1889-09-16,2,1,F,england,Wolverhampton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Preston North End,1889-09-21,5,3,F,england,Aston Villa (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Derby County,1889-09-21,4,2,F,england,Blackburn Rovers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Everton FC,1889-09-21,3,4,F,england,Bolton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Accrington FC,1889-09-21,2,2,F,england,Burnley FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,West Bromwich Albion,1889-09-21,1,2,F,england,Notts County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Blackburn Rovers,1889-09-28,2,2,F,england,Accrington FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Preston North End,1889-09-28,0,3,F,england,Burnley FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Notts County,1889-09-28,2,0,F,england,Derby County (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Bolton Wanderers,1889-09-28,3,0,F,england,Everton FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Wolverhampton Wanderers,1889-09-28,2,1,F,england,Stoke City (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Aston Villa,1889-09-28,3,0,F,england,West Bromwich Albion (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Wolverhampton Wanderers,1889-09-30,1,1,F,england,Everton FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Aston Villa,1889-10-05,2,6,F,england,Burnley FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Everton FC,1889-10-05,2,2,F,england,Derby County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Stoke City,1889-10-05,3,1,F,england,Notts County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,West Bromwich Albion,1889-10-05,5,0,F,england,Preston North End (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Accrington FC,1889-10-05,2,1,F,england,Wolverhampton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Notts County,1889-10-12,1,8,F,england,Accrington FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Derby County,1889-10-12,7,1,F,england,Aston Villa (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Preston North End,1889-10-12,2,6,F,england,Bolton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,West Bromwich Albion,1889-10-12,1,2,F,england,Burnley FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Stoke City,1889-10-12,2,2,F,england,Wolverhampton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Burnley FC,1889-10-19,2,2,F,england,Accrington FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Aston Villa,1889-10-19,7,0,F,england,Blackburn Rovers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Preston North End,1889-10-19,2,1,F,england,Derby County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Everton FC,1889-10-19,4,3,F,england,Notts County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Bolton Wanderers,1889-10-19,0,1,F,england,Stoke City (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Wolverhampton Wanderers,1889-10-19,1,4,F,england,West Bromwich Albion (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,West Bromwich Albion,1889-10-26,1,0,F,england,Aston Villa (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Burnley FC,1889-10-26,7,1,F,england,Blackburn Rovers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Notts County,1889-10-26,0,4,F,england,Bolton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Stoke City,1889-10-26,2,0,F,england,Derby County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Accrington FC,1889-10-26,2,2,F,england,Everton FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Wolverhampton Wanderers,1889-10-26,0,2,F,england,Preston North End (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Wolverhampton Wanderers,1889-11-02,2,1,F,england,Aston Villa (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Preston North End,1889-11-02,3,4,F,england,Blackburn Rovers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Stoke City,1889-11-02,8,0,F,england,Everton FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Burnley FC,1889-11-02,1,1,F,england,Notts County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Bolton Wanderers,1889-11-04,6,3,F,england,West Bromwich Albion (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Blackburn Rovers,1889-11-09,3,2,F,england,Bolton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Wolverhampton Wanderers,1889-11-09,1,2,F,england,Burnley FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Aston Villa,1889-11-09,1,1,F,england,Notts County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Accrington FC,1889-11-09,3,1,F,england,Preston North End (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Everton FC,1889-11-09,1,2,F,england,Stoke City (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Derby County,1889-11-09,2,3,F,england,West Bromwich Albion (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Preston North End,1889-11-11,1,2,F,england,Stoke City (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Derby County,1889-11-16,6,1,F,england,Accrington FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Notts County,1889-11-16,9,1,F,england,Blackburn Rovers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Aston Villa,1889-11-16,2,0,F,england,Bolton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Preston North End,1889-11-16,1,5,F,england,Everton FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,West Bromwich Albion,1889-11-16,1,3,F,england,Stoke City (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Everton FC,1889-11-23,1,2,F,england,Aston Villa (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Accrington FC,1889-11-23,3,2,F,england,Blackburn Rovers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Wolverhampton Wanderers,1889-11-23,3,3,F,england,Derby County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Bolton Wanderers,1889-11-23,3,1,F,england,Preston North End (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Burnley FC,1889-11-23,6,1,F,england,West Bromwich Albion (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Aston Villa,1889-11-30,4,2,F,england,Accrington FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,West Bromwich Albion,1889-11-30,5,0,F,england,Blackburn Rovers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Derby County,1889-11-30,7,1,F,england,Bolton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Burnley FC,1889-11-30,6,0,F,england,Preston North End (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Stoke City,1889-12-07,6,1,F,england,Aston Villa (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,West Bromwich Albion,1889-12-07,7,0,F,england,Bolton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Notts County,1889-12-07,5,3,F,england,Everton FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Blackburn Rovers,1889-12-07,1,1,F,england,Preston North End (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Burnley FC,1889-12-07,9,1,F,england,Wolverhampton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Wolverhampton Wanderers,1889-12-14,0,2,F,england,Notts County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Bolton Wanderers,1889-12-21,7,1,F,england,Blackburn Rovers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Derby County,1889-12-21,3,1,F,england,Notts County (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Everton FC,1889-12-21,1,2,F,england,Preston North End (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Accrington FC,1889-12-21,4,1,F,england,West Bromwich Albion (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Aston Villa,1889-12-21,1,1,F,england,Wolverhampton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Blackburn Rovers,1889-12-23,0,3,F,england,Stoke City (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Aston Villa,1889-12-25,3,2,F,england,Preston North End (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Accrington FC,1889-12-26,1,2,F,england,Aston Villa (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Bolton Wanderers,1889-12-26,3,2,F,england,Derby County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Preston North End,1889-12-26,2,2,F,england,West Bromwich Albion (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Blackburn Rovers,1889-12-26,2,4,F,england,Wolverhampton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Stoke City,1889-12-28,2,1,F,england,Accrington FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Everton FC,1889-12-28,2,4,F,england,Blackburn Rovers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Aston Villa,1889-12-28,5,0,F,england,Derby County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,West Bromwich Albion,1889-12-28,1,1,F,england,Wolverhampton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Wolverhampton Wanderers,1890-01-01,6,3,F,england,Accrington FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Bolton Wanderers,1890-01-04,3,1,F,england,Accrington FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Stoke City,1890-01-04,8,0,F,england,Blackburn Rovers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Burnley FC,1890-01-04,4,1,F,england,Derby County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Aston Villa,1890-01-04,7,0,F,england,Everton FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Notts County,1890-01-04,4,2,F,england,West Bromwich Albion (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Preston North End,1890-01-04,0,1,F,england,Wolverhampton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Stoke City,1890-01-11,1,3,F,england,Burnley FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Bolton Wanderers,1890-01-11,3,5,F,england,Notts County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Derby County,1890-01-11,5,0,F,england,Preston North End (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Blackburn Rovers,1890-01-11,3,2,F,england,West Bromwich Albion (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Bolton Wanderers,1890-01-25,1,2,F,england,Aston Villa (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Derby County,1890-01-25,2,1,F,england,Wolverhampton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,West Bromwich Albion,1890-02-08,0,0,F,england,Accrington FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Stoke City,1890-02-08,5,0,F,england,Bolton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Everton FC,1890-02-08,0,1,F,england,Burnley FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Blackburn Rovers,1890-02-08,4,0,F,england,Derby County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Accrington FC,1890-02-15,2,3,F,england,Derby County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Blackburn Rovers,1890-02-18,1,1,F,england,Notts County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Everton FC,1890-02-22,5,3,F,england,Accrington FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Blackburn Rovers,1890-02-22,1,2,F,england,Burnley FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Wolverhampton Wanderers,1890-02-24,4,1,F,england,Bolton Wanderers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Bolton Wanderers,1890-03-01,7,0,F,england,Burnley FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Notts County,1890-03-01,4,3,F,england,Preston North End (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Accrington FC,1890-03-01,7,1,F,england,Stoke City (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Derby County,1890-03-08,2,0,F,england,Burnley FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,West Bromwich Albion,1890-03-08,5,1,F,england,Everton FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Burnley FC,1890-03-10,3,4,F,england,Stoke City (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Accrington FC,1890-03-13,3,1,F,england,Notts County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Preston North End,1890-03-15,2,2,F,england,Accrington FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Notts County,1890-03-15,3,0,F,england,Burnley FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Derby County,1890-03-15,3,0,F,england,Everton FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Stoke City,1890-03-15,2,1,F,england,West Bromwich Albion (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Bolton Wanderers,1890-03-15,5,1,F,england,Wolverhampton Wanderers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Burnley FC,1890-03-17,2,2,F,england,Bolton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Aston Villa,1890-03-17,1,1,F,england,Stoke City (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Everton FC,1890-03-22,4,1,F,england,West Bromwich Albion (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Notts County,1890-03-24,1,1,F,england,Stoke City (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Preston North End,1890-03-27,0,1,F,england,Notts County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Blackburn Rovers,1890-03-31,3,0,F,england,Aston Villa (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Vale Of Leven,1890-08-16,8,2,F,scotland,Cambuslang FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Cowlairs FC,1890-08-16,1,1,F,scotland,Dumbarton FC (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Heart Of Midlothian,1890-08-16,5,2,F,scotland,Rangers FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Rangers FC,1890-08-23,2,6,F,scotland,Cambuslang FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,Vale Of Leven,1890-08-23,3,2,F,scotland,Cowlairs FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Celtic FC,1890-08-23,0,5,F,scotland,Heart Of Midlothian (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Dumbarton FC,1890-08-23,1,3,F,scotland,Third Lanark (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Cambuslang FC,1890-08-30,5,2,F,scotland,Celtic FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Heart Of Midlothian,1890-08-30,3,1,F,scotland,Dumbarton FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Cowlairs FC,1890-08-30,5,2,F,scotland,St Mirren FC (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Abercorn FC,1890-08-30,2,1,F,scotland,Vale Of Leven (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Burnley FC,1890-09-06,1,1,F,england,Accrington FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Notts County,1890-09-06,4,2,F,england,Bolton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Blackburn Rovers,1890-09-06,8,5,F,england,Derby County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Everton FC,1890-09-06,1,4,F,england,West Bromwich Albion (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Aston Villa,1890-09-06,2,1,F,england,Wolverhampton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Notts County,1890-09-13,3,2,F,england,Aston Villa (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Accrington FC,1890-09-13,0,0,F,england,Blackburn Rovers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Derby County,1890-09-13,3,1,F,england,Bolton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Wolverhampton Wanderers,1890-09-13,5,0,F,england,Everton FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,West Bromwich Albion,1890-09-13,3,0,F,england,Preston North End (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Burnley FC,1890-09-13,2,3,F,england,Sunderland Afc (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,St Mirren FC,1890-09-13,3,2,F,scotland,Cambuslang FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Rangers FC,1890-09-13,5,1,F,scotland,Dumbarton FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Cowlairs FC,1890-09-13,4,0,F,scotland,Heart Of Midlothian (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Celtic FC,1890-09-13,2,1,F,scotland,Third Lanark (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Sunderland Afc,Wolverhampton Wanderers,1890-09-15,3,4,F,england,Sunderland Afc (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Everton FC,1890-09-20,0,5,F,england,Bolton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Aston Villa,1890-09-20,2,1,F,england,Burnley FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Preston North End,1890-09-20,1,3,F,england,Derby County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Accrington FC,1890-09-20,5,0,F,england,Notts County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Sunderland Afc,1890-09-20,0,4,F,england,West Bromwich Albion (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+St Mirren FC,Abercorn FC,1890-09-20,4,2,F,scotland,St Mirren FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Notts County,1890-09-22,1,1,F,england,Wolverhampton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Everton FC,1890-09-27,1,2,F,england,Accrington FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,West Bromwich Albion,1890-09-27,0,4,F,england,Aston Villa (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Wolverhampton Wanderers,1890-09-27,2,3,F,england,Blackburn Rovers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Sunderland Afc,1890-09-27,3,3,F,england,Burnley FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Derby County,1890-09-27,2,1,F,england,Notts County (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Bolton Wanderers,1890-09-27,1,0,F,england,Preston North End (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Bolton Wanderers,1890-10-02,3,1,F,england,Notts County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Aston Villa,1890-10-04,4,0,F,england,Bolton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Derby County,1890-10-04,7,0,F,england,Everton FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Blackburn Rovers,1890-10-04,1,2,F,england,Preston North End (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Burnley FC,1890-10-04,3,1,F,england,West Bromwich Albion (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Accrington FC,1890-10-04,3,0,F,england,Wolverhampton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Third Lanark,1890-10-04,2,4,F,scotland,Abercorn FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,St Mirren FC,1890-10-04,8,2,F,scotland,Rangers FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Dumbarton FC,1890-10-04,1,3,F,scotland,Vale Of Leven (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Preston North End,1890-10-11,1,3,F,england,Accrington FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Everton FC,1890-10-11,2,2,F,england,Aston Villa (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Sunderland Afc,1890-10-11,3,2,F,england,Blackburn Rovers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Bolton Wanderers,1890-10-11,1,2,F,england,Burnley FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,West Bromwich Albion,1890-10-11,3,2,F,england,Notts County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Derby County,1890-10-11,5,1,F,england,Wolverhampton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Dumbarton FC,Abercorn FC,1890-10-11,5,1,F,scotland,Dumbarton FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Vale Of Leven,1890-10-11,1,1,F,scotland,St Mirren FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Burnley FC,Blackburn Rovers,1890-10-18,1,6,F,england,Burnley FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Aston Villa,1890-10-18,5,4,F,england,Derby County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Bolton Wanderers,1890-10-18,2,0,F,england,Everton FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Wolverhampton Wanderers,1890-10-18,5,1,F,england,Preston North End (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Accrington FC,1890-10-18,2,2,F,england,Sunderland Afc (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Notts County,1890-10-18,1,1,F,england,West Bromwich Albion (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Rangers FC,Cowlairs FC,1890-10-18,1,1,F,scotland,Rangers FC (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Notts County,1890-10-25,3,2,F,england,Accrington FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Derby County,1890-10-25,4,0,F,england,Aston Villa (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Preston North End,1890-10-25,1,0,F,england,Blackburn Rovers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Sunderland Afc,1890-10-25,2,5,F,england,Bolton Wanderers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,West Bromwich Albion,1890-10-25,2,3,F,england,Everton FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Burnley FC,1890-10-25,3,1,F,england,Wolverhampton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Celtic FC,1890-10-25,1,5,F,scotland,Abercorn FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,Dumbarton FC,1890-10-25,1,6,F,scotland,Cowlairs FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Vale Of Leven,1890-10-25,8,1,F,scotland,Heart Of Midlothian (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,St Mirren FC,1890-10-25,5,3,F,scotland,Third Lanark (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Burnley FC,Wolverhampton Wanderers,1890-11-01,4,2,F,england,Burnley FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Everton FC,1890-11-01,3,1,F,england,Notts County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Accrington FC,1890-11-01,1,1,F,england,Preston North End (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Blackburn Rovers,1890-11-01,3,1,F,england,Sunderland Afc (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Aston Villa,1890-11-01,0,3,F,england,West Bromwich Albion (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Bolton Wanderers,1890-11-03,2,4,F,england,West Bromwich Albion (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Derby County,1890-11-08,4,0,F,england,Accrington FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Burnley FC,1890-11-08,4,4,F,england,Aston Villa (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Everton FC,1890-11-08,2,1,F,england,Blackburn Rovers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Notts County,1890-11-08,0,0,F,england,Preston North End (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,West Bromwich Albion,1890-11-08,1,1,F,england,Sunderland Afc (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Bolton Wanderers,1890-11-08,1,0,F,england,Wolverhampton Wanderers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Accrington FC,1890-11-15,3,1,F,england,Aston Villa (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Preston North End,1890-11-15,1,0,F,england,Bolton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Derby County,1890-11-15,6,1,F,england,Burnley FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Sunderland Afc,1890-11-15,1,0,F,england,Everton FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Blackburn Rovers,1890-11-15,1,2,F,england,Notts County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Sunderland Afc,1890-11-22,4,1,F,england,Accrington FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Bolton Wanderers,1890-11-22,5,0,F,england,Aston Villa (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Burnley FC,1890-11-22,5,2,F,england,Blackburn Rovers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,West Bromwich Albion,1890-11-22,3,1,F,england,Derby County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Wolverhampton Wanderers,1890-11-22,1,1,F,england,Notts County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Everton FC,1890-11-22,2,0,F,england,Preston North End (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Accrington FC,1890-11-29,2,0,F,england,Burnley FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Blackburn Rovers,1890-11-29,3,1,F,england,Everton FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Aston Villa,1890-11-29,7,1,F,england,Notts County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Derby County,1890-11-29,3,4,F,england,West Bromwich Albion (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Preston North End,1890-11-29,2,0,F,england,Wolverhampton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Aston Villa,1890-12-06,5,1,F,england,Blackburn Rovers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,West Bromwich Albion,1890-12-06,5,4,F,england,Burnley FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Accrington FC,1890-12-06,1,2,F,england,Derby County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Preston North End,1890-12-06,2,1,F,england,Notts County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Everton FC,1890-12-06,0,1,F,england,Wolverhampton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Cambuslang FC,1890-12-06,2,5,F,scotland,Abercorn FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Aston Villa,Blackburn Rovers,1890-12-13,2,2,F,england,Aston Villa (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Accrington FC,1890-12-13,6,0,F,england,Bolton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Everton FC,1890-12-13,2,6,F,england,Derby County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Wolverhampton Wanderers,1890-12-13,0,1,F,england,West Bromwich Albion (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Sunderland Afc,1890-12-15,2,1,F,england,Notts County (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,West Bromwich Albion,1890-12-20,2,1,F,england,Blackburn Rovers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Notts County,1890-12-20,0,1,F,england,Burnley FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Derby County,1890-12-20,6,0,F,england,Preston North End (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Everton FC,1890-12-20,1,0,F,england,Sunderland Afc (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Sunderland Afc,1890-12-26,0,0,F,england,Aston Villa (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Bolton Wanderers,1890-12-26,1,1,F,england,Derby County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Accrington FC,1890-12-26,3,2,F,england,Everton FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Blackburn Rovers,1890-12-26,2,0,F,england,Wolverhampton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Notts County,1890-12-27,3,1,F,england,Derby County (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Burnley FC,1890-12-27,7,3,F,england,Everton FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Sunderland Afc,1890-12-27,0,3,F,england,Wolverhampton Wanderers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Dumbarton FC,1890-12-27,1,2,F,scotland,Abercorn FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Bolton Wanderers,Wolverhampton Wanderers,1890-12-29,6,0,F,england,Bolton Wanderers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Wolverhampton Wanderers,1891-01-01,1,2,F,england,Accrington FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Aston Villa,1891-01-01,5,0,F,england,Everton FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Derby County,1891-01-03,8,0,F,england,Blackburn Rovers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Notts County,1891-01-03,4,2,F,england,Everton FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,West Bromwich Albion,1891-01-03,4,0,F,england,Wolverhampton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Bolton Wanderers,1891-01-10,2,1,F,england,Accrington FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Wolverhampton Wanderers,1891-01-10,9,0,F,england,Derby County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Preston North End,1891-01-10,0,1,F,england,Everton FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Aston Villa,1891-01-10,5,1,F,england,Sunderland Afc (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Cowlairs FC,1891-01-17,4,0,F,scotland,Cambuslang FC (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Rangers FC,1891-01-17,1,3,F,scotland,Vale Of Leven (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Derby County,Burnley FC,1891-01-24,2,4,F,england,Derby County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Aston Villa,1891-01-24,4,1,F,england,Preston North End (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Notts County,1891-01-24,4,0,F,england,Sunderland Afc (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,St Mirren FC,1891-01-24,5,1,F,scotland,Abercorn FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Cambuslang FC,1891-01-24,5,0,F,scotland,Dumbarton FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Rangers FC,1891-01-24,0,1,F,scotland,Heart Of Midlothian (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Celtic FC,1891-01-24,3,1,F,scotland,Vale Of Leven (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Preston North End,Burnley FC,1891-02-05,7,0,F,england,Preston North End (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Sunderland Afc,1891-02-07,3,1,F,england,Derby County (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Preston North End,1891-02-07,1,3,F,england,West Bromwich Albion (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Rangers FC,1891-02-07,1,1,F,scotland,Abercorn FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,St Mirren FC,1891-02-07,3,2,F,scotland,Celtic FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Cowlairs FC,1891-02-07,2,1,F,scotland,Vale Of Leven (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Notts County,Burnley FC,1891-02-10,4,0,F,england,Notts County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Bolton Wanderers,1891-02-10,2,0,F,england,Sunderland Afc (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Heart Of Midlothian,Cambuslang FC,1891-02-14,2,2,F,scotland,Heart Of Midlothian (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Preston North End,Sunderland Afc,1891-02-21,0,0,F,england,Preston North End (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Dumbarton FC,Celtic FC,1891-02-21,2,2,F,scotland,Dumbarton FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,St Mirren FC,1891-02-21,1,0,F,scotland,Heart Of Midlothian (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Cambuslang FC,1891-02-21,2,1,F,scotland,Rangers FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Vale Of Leven,1891-02-21,4,1,F,scotland,Third Lanark (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Third Lanark,1891-02-28,2,2,F,scotland,Cambuslang FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Heart Of Midlothian,1891-02-28,1,0,F,scotland,Celtic FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,Abercorn FC,1891-02-28,7,5,F,scotland,Cowlairs FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Vale Of Leven,1891-02-28,4,0,F,scotland,Dumbarton FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Rangers FC,1891-02-28,3,7,F,scotland,St Mirren FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Blackburn Rovers,1891-03-04,0,4,F,england,Accrington FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Bolton Wanderers,1891-03-07,0,2,F,england,Blackburn Rovers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Preston North End,1891-03-07,6,2,F,england,Burnley FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Accrington FC,1891-03-07,5,1,F,england,West Bromwich Albion (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Vale Of Leven,1891-03-07,6,0,F,scotland,Abercorn FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Celtic FC,1891-03-07,3,1,F,scotland,Cambuslang FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,Heart Of Midlothian,1891-03-07,1,2,F,scotland,Cowlairs FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,St Mirren FC,1891-03-07,5,1,F,scotland,Dumbarton FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Rangers FC,1891-03-07,0,4,F,scotland,Third Lanark (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Aston Villa,Preston North End,1891-03-09,0,1,F,england,Aston Villa (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Blackburn Rovers,1891-03-09,1,0,F,england,West Bromwich Albion (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Wolverhampton Wanderers,1891-03-14,6,2,F,england,Aston Villa (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Notts County,1891-03-14,1,7,F,england,Blackburn Rovers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,West Bromwich Albion,1891-03-14,7,1,F,england,Bolton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Everton FC,1891-03-14,3,2,F,england,Burnley FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Preston North End,1891-03-14,3,0,F,england,Sunderland Afc (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Celtic FC,Cowlairs FC,1891-03-14,2,0,F,scotland,Celtic FC (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Abercorn FC,1891-03-14,2,0,F,scotland,Rangers FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Third Lanark,1891-03-14,3,2,F,scotland,St Mirren FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Aston Villa,1891-03-21,1,3,F,england,Accrington FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Burnley FC,1891-03-21,1,0,F,england,Bolton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Derby County,1891-03-21,5,1,F,england,Sunderland Afc (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Cowlairs FC,1891-03-21,1,0,F,scotland,Abercorn FC (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Dumbarton FC,1891-03-21,2,2,F,scotland,Cambuslang FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Rangers FC,1891-03-21,2,2,F,scotland,Celtic FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Third Lanark,1891-03-21,4,1,F,scotland,Heart Of Midlothian (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,St Mirren FC,1891-03-21,5,2,F,scotland,Vale Of Leven (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Bolton Wanderers,Blackburn Rovers,1891-03-28,2,0,F,england,Bolton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cowlairs FC,Rangers FC,1891-03-28,0,2,F,scotland,Cowlairs FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Third Lanark,1891-03-28,5,1,F,scotland,Dumbarton FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Abercorn FC,1891-03-28,1,1,F,scotland,Heart Of Midlothian (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Cambuslang FC,1891-03-28,2,3,F,scotland,St Mirren FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Vale Of Leven,1891-04-04,4,0,F,scotland,Rangers FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Celtic FC,1891-04-04,1,0,F,scotland,St Mirren FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Cambuslang FC,1891-04-04,1,2,F,scotland,Third Lanark (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Abercorn FC,1891-04-11,4,5,F,scotland,Cambuslang FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Dumbarton FC,1891-04-11,1,0,F,scotland,Celtic FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,Third Lanark,1891-04-11,2,2,F,scotland,Cowlairs FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Heart Of Midlothian,1891-04-11,3,2,F,scotland,St Mirren FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,West Bromwich Albion,1891-04-18,1,0,F,england,Accrington FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cowlairs FC,Cambuslang FC,1891-04-18,1,1,F,scotland,Cowlairs FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Heart Of Midlothian,1891-04-18,4,0,F,scotland,Third Lanark (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Dumbarton FC,1891-04-20,0,4,F,scotland,Heart Of Midlothian (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Abercorn FC,Heart Of Midlothian,1891-04-25,1,0,F,scotland,Abercorn FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Third Lanark,1891-04-25,1,1,F,scotland,Celtic FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,St Mirren FC,1891-04-25,4,2,F,scotland,Cowlairs FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Dumbarton FC,1891-04-25,4,2,F,scotland,Rangers FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Cambuslang FC,1891-04-25,2,1,F,scotland,Vale Of Leven (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Abercorn FC,1891-04-28,2,1,F,scotland,Third Lanark (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cowlairs FC,Celtic FC,1891-04-29,0,5,F,scotland,Cowlairs FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Heart Of Midlothian,1891-05-02,2,0,F,scotland,Cambuslang FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Celtic FC,1891-05-02,1,2,F,scotland,Rangers FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Dumbarton FC,1891-05-02,2,4,F,scotland,St Mirren FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Third Lanark,1891-05-02,1,2,F,scotland,Vale Of Leven (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Vale Of Leven,1891-05-05,9,1,F,scotland,Celtic FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Cowlairs FC,1891-05-06,3,0,F,scotland,Third Lanark (Scotland),Cowlairs FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Third Lanark,1891-05-09,4,1,F,scotland,Rangers FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Heart Of Midlothian,1891-05-09,2,4,F,scotland,Vale Of Leven (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Abercorn FC,1891-05-12,2,0,F,scotland,Celtic FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Rangers FC,1891-05-18,2,2,F,scotland,Dumbarton FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Dumbarton FC,1891-08-15,0,2,F,scotland,Cambuslang FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Vale Of Leven,1891-08-15,10,3,F,scotland,Clyde FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Celtic FC,1891-08-15,3,1,F,scotland,Heart Of Midlothian (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Rangers FC,1891-08-15,1,4,F,scotland,Renton FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Leith Athletic,1891-08-15,0,3,F,scotland,Third Lanark (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Rangers FC,1891-08-22,3,0,F,scotland,Celtic FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Abercorn FC,1891-08-22,8,1,F,scotland,Dumbarton FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Renton FC,1891-08-22,2,3,F,scotland,Leith Athletic (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Heart Of Midlothian,1891-08-22,2,5,F,scotland,St Mirren FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Cambuslang FC,1891-08-22,0,1,F,scotland,Vale Of Leven (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Abercorn FC,Leith Athletic,1891-08-29,3,2,F,scotland,Abercorn FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,St Mirren FC,1891-08-29,1,1,F,scotland,Cambuslang FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Celtic FC,1891-08-29,2,7,F,scotland,Clyde FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Dumbarton FC,1891-08-29,3,1,F,scotland,Heart Of Midlothian (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Third Lanark,1891-08-29,2,3,F,scotland,Rangers FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Vale Of Leven,1891-08-29,3,0,F,scotland,Renton FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Burnley FC,1891-09-05,1,0,F,england,Accrington FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Blackburn Rovers,1891-09-05,5,1,F,england,Aston Villa (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Bolton Wanderers,1891-09-05,1,2,F,england,Darwen (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Preston North End,1891-09-05,2,0,F,england,Notts County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Derby County,1891-09-05,2,1,F,england,Stoke City (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Wolverhampton Wanderers,1891-09-05,5,2,F,england,Sunderland Afc (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Everton FC,1891-09-05,4,0,F,england,West Bromwich Albion (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Heart Of Midlothian,1891-09-05,3,3,F,scotland,Cambuslang FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Renton FC,1891-09-05,3,0,F,scotland,Celtic FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Clyde FC,1891-09-05,1,0,F,scotland,Leith Athletic (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Dumbarton FC,1891-09-05,1,3,F,scotland,Rangers FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Third Lanark,1891-09-05,1,2,F,scotland,St Mirren FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Abercorn FC,1891-09-05,0,3,F,scotland,Vale Of Leven (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Burnley FC,Preston North End,1891-09-07,2,0,F,england,Burnley FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Darwen,1891-09-07,5,3,F,england,Everton FC (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,West Bromwich Albion,1891-09-12,5,1,F,england,Aston Villa (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Notts County,1891-09-12,5,4,F,england,Blackburn Rovers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Darwen,1891-09-12,1,0,F,england,Bolton Wanderers (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Accrington FC,1891-09-12,3,1,F,england,Derby County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Sunderland Afc,1891-09-12,3,1,F,england,Preston North End (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Wolverhampton Wanderers,1891-09-12,1,3,F,england,Stoke City (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Celtic FC,1891-09-12,2,5,F,scotland,Abercorn FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,St Mirren FC,1891-09-12,4,1,F,scotland,Clyde FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Leith Athletic,1891-09-12,6,0,F,scotland,Dumbarton FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Renton FC,1891-09-12,4,2,F,scotland,Heart Of Midlothian (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Cambuslang FC,1891-09-12,3,1,F,scotland,Third Lanark (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Rangers FC,1891-09-12,1,6,F,scotland,Vale Of Leven (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Accrington FC,1891-09-14,5,0,F,england,Wolverhampton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Sunderland Afc,1891-09-19,4,3,F,england,Bolton Wanderers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Stoke City,1891-09-19,4,1,F,england,Burnley FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Accrington FC,1891-09-19,5,2,F,england,Darwen (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Notts County,1891-09-19,3,0,F,england,Derby County (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Blackburn Rovers,1891-09-19,3,1,F,england,Everton FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Aston Villa,1891-09-19,0,1,F,england,Preston North End (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Wolverhampton Wanderers,1891-09-19,4,3,F,england,West Bromwich Albion (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,St Mirren FC,1891-09-19,1,1,F,scotland,Abercorn FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Heart Of Midlothian,1891-09-19,5,1,F,scotland,Dumbarton FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Vale Of Leven,1891-09-19,10,0,F,scotland,Leith Athletic (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Preston North End,Burnley FC,1891-09-21,5,1,F,england,Preston North End (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Heart Of Midlothian,Abercorn FC,1891-09-21,2,1,F,scotland,Heart Of Midlothian (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,St Mirren FC,1891-09-21,4,2,F,scotland,Leith Athletic (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Everton FC,1891-09-26,1,1,F,england,Accrington FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Burnley FC,1891-09-26,3,3,F,england,Blackburn Rovers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Preston North End,1891-09-26,3,0,F,england,Bolton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Stoke City,1891-09-26,1,1,F,england,Notts County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Derby County,1891-09-26,1,3,F,england,Wolverhampton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Leith Athletic,1891-09-26,1,3,F,scotland,Cambuslang FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Dumbarton FC,1891-09-26,2,0,F,scotland,Celtic FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Third Lanark,1891-09-26,2,0,F,scotland,Heart Of Midlothian (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Abercorn FC,1891-09-26,6,2,F,scotland,Rangers FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Clyde FC,1891-09-26,2,1,F,scotland,Renton FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Vale Of Leven,1891-09-26,6,4,F,scotland,St Mirren FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Aston Villa,Sunderland Afc,1891-09-28,5,3,F,england,Aston Villa (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Darwen,1891-09-28,2,2,F,england,Wolverhampton Wanderers (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Bolton Wanderers,1891-10-01,2,0,F,england,Notts County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Accrington FC,1891-10-03,3,4,F,england,Bolton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Stoke City,1891-10-03,9,3,F,england,Darwen (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Aston Villa,1891-10-03,4,2,F,england,Derby County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Wolverhampton Wanderers,1891-10-03,2,0,F,england,Preston North End (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Everton FC,1891-10-03,2,1,F,england,Sunderland Afc (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Blackburn Rovers,1891-10-03,2,2,F,england,West Bromwich Albion (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Abercorn FC,1891-10-03,0,2,F,scotland,Cambuslang FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Heart Of Midlothian,1891-10-03,3,10,F,scotland,Clyde FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Rangers FC,1891-10-03,3,1,F,scotland,Leith Athletic (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Celtic FC,1891-10-03,1,2,F,scotland,St Mirren FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Renton FC,1891-10-03,1,1,F,scotland,Third Lanark (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Dumbarton FC,1891-10-03,1,2,F,scotland,Vale Of Leven (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Darwen,1891-10-10,1,1,F,england,Accrington FC (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Bolton Wanderers,1891-10-10,1,2,F,england,Aston Villa (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Wolverhampton Wanderers,1891-10-10,2,0,F,england,Blackburn Rovers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Preston North End,1891-10-10,1,1,F,england,Everton FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,West Bromwich Albion,1891-10-10,4,0,F,england,Notts County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Burnley FC,1891-10-10,3,0,F,england,Stoke City (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Vale Of Leven,1891-10-10,6,3,F,scotland,Abercorn FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,St Mirren FC,1891-10-10,2,2,F,scotland,Heart Of Midlothian (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Leith Athletic,1891-10-10,3,0,F,scotland,Renton FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Rangers FC,1891-10-10,2,2,F,scotland,Third Lanark (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Bolton Wanderers,Everton FC,1891-10-17,1,0,F,england,Bolton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Aston Villa,1891-10-17,4,1,F,england,Burnley FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Blackburn Rovers,1891-10-17,3,5,F,england,Darwen (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Stoke City,1891-10-17,3,3,F,england,Derby County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Sunderland Afc,1891-10-17,2,5,F,england,West Bromwich Albion (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Notts County,1891-10-17,2,1,F,england,Wolverhampton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Celtic FC,Heart Of Midlothian,1891-10-17,3,1,F,scotland,Celtic FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Third Lanark,1891-10-17,2,0,F,scotland,Dumbarton FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Abercorn FC,1891-10-17,3,2,F,scotland,Leith Athletic (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Cambuslang FC,1891-10-17,2,1,F,scotland,Rangers FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Renton FC,1891-10-17,2,1,F,scotland,St Mirren FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Clyde FC,1891-10-17,2,2,F,scotland,Vale Of Leven (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Wolverhampton Wanderers,1891-10-24,3,2,F,england,Accrington FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Preston North End,1891-10-24,2,4,F,england,Blackburn Rovers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Burnley FC,1891-10-24,2,0,F,england,Bolton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Everton FC,1891-10-24,0,3,F,england,Derby County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Darwen,1891-10-24,5,0,F,england,Notts County (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Aston Villa,1891-10-24,2,3,F,england,Stoke City (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,West Bromwich Albion,1891-10-24,4,0,F,england,Sunderland Afc (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Third Lanark,1891-10-24,2,4,F,scotland,Abercorn FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Vale Of Leven,1891-10-24,6,1,F,scotland,Celtic FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,St Mirren FC,1891-10-24,4,2,F,scotland,Dumbarton FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Leith Athletic,1891-10-24,3,1,F,scotland,Heart Of Midlothian (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Clyde FC,1891-10-24,1,5,F,scotland,Rangers FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Cambuslang FC,1891-10-24,1,1,F,scotland,Renton FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Bolton Wanderers,Blackburn Rovers,1891-10-31,4,2,F,england,Bolton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Aston Villa,1891-10-31,1,5,F,england,Darwen (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Wolverhampton Wanderers,1891-10-31,2,1,F,england,Derby County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Everton FC,1891-10-31,4,0,F,england,Preston North End (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Accrington FC,1891-10-31,4,1,F,england,Sunderland Afc (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Notts County,1891-10-31,2,2,F,england,West Bromwich Albion (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Leith Athletic,Dumbarton FC,1891-10-31,1,3,F,scotland,Leith Athletic (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Heart Of Midlothian,1891-10-31,2,2,F,scotland,Vale Of Leven (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+West Bromwich Albion,Bolton Wanderers,1891-11-02,0,2,F,england,West Bromwich Albion (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Bolton Wanderers,1891-11-07,0,3,F,england,Accrington FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Notts County,1891-11-07,5,1,F,england,Aston Villa (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Sunderland Afc,1891-11-07,3,1,F,england,Blackburn Rovers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,West Bromwich Albion,1891-11-07,4,3,F,england,Everton FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Preston North End,1891-11-07,0,1,F,england,Stoke City (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Burnley FC,1891-11-07,0,0,F,england,Wolverhampton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Blackburn Rovers,1891-11-09,0,1,F,england,Stoke City (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Stoke City,1891-11-14,1,1,F,england,Bolton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Accrington FC,1891-11-14,2,1,F,england,Burnley FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Everton FC,1891-11-14,3,1,F,england,Darwen (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Wolverhampton Wanderers,1891-11-14,2,2,F,england,Notts County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Blackburn Rovers,1891-11-14,3,2,F,england,Preston North End (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Derby County,1891-11-14,7,1,F,england,Sunderland Afc (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Aston Villa,1891-11-14,0,3,F,england,West Bromwich Albion (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Renton FC,1891-11-15,3,3,F,scotland,Abercorn FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Vale Of Leven,1891-11-15,1,0,F,scotland,Cambuslang FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Clyde FC,1891-11-15,8,2,F,scotland,Dumbarton FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Third Lanark,1891-11-15,3,1,F,scotland,Leith Athletic (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Heart Of Midlothian,1891-11-15,0,1,F,scotland,Rangers FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Dumbarton FC,1891-11-15,1,2,F,scotland,Renton FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Third Lanark,1891-11-15,1,0,F,scotland,Renton FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Leith Athletic,1891-11-15,3,1,F,scotland,St Mirren FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,St Mirren FC,1891-11-15,2,2,F,scotland,Vale Of Leven (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Notts County,1891-11-21,2,0,F,england,Accrington FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Stoke City,1891-11-21,2,1,F,england,Aston Villa (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Bolton Wanderers,1891-11-21,4,0,F,england,Blackburn Rovers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Darwen,1891-11-21,7,0,F,england,Derby County (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Burnley FC,1891-11-21,2,1,F,england,Sunderland Afc (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Preston North End,1891-11-21,1,2,F,england,West Bromwich Albion (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Everton FC,1891-11-21,5,1,F,england,Wolverhampton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,West Bromwich Albion,1891-11-28,3,2,F,england,Burnley FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Derby County,1891-11-28,2,0,F,england,Darwen (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Aston Villa,1891-11-28,5,1,F,england,Everton FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Accrington FC,1891-11-28,9,0,F,england,Notts County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Bolton Wanderers,1891-11-28,4,0,F,england,Preston North End (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Sunderland Afc,1891-11-28,1,3,F,england,Stoke City (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Blackburn Rovers,1891-11-28,6,1,F,england,Wolverhampton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Burnley FC,1891-12-05,6,1,F,england,Aston Villa (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Everton FC,1891-12-05,2,2,F,england,Blackburn Rovers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Wolverhampton Wanderers,1891-12-05,3,0,F,england,Bolton Wanderers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Preston North End,1891-12-05,1,2,F,england,Derby County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Darwen,1891-12-05,5,1,F,england,Stoke City (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Notts County,1891-12-05,4,0,F,england,Sunderland Afc (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Accrington FC,1891-12-05,3,1,F,england,West Bromwich Albion (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Blackburn Rovers,1891-12-12,3,0,F,england,Burnley FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Wolverhampton Wanderers,1891-12-12,2,1,F,england,Everton FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Notts County,1891-12-12,6,0,F,england,Preston North End (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Bolton Wanderers,1891-12-12,0,1,F,england,Stoke City (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Darwen,1891-12-12,7,0,F,england,Sunderland Afc (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Derby County,1891-12-12,4,2,F,england,West Bromwich Albion (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Clyde FC,1891-12-15,3,3,F,scotland,Abercorn FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,St Mirren FC,1891-12-15,2,1,F,scotland,Celtic FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Cambuslang FC,1891-12-15,2,0,F,scotland,Clyde FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Renton FC,1891-12-15,2,1,F,scotland,Dumbarton FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Vale Of Leven,1891-12-15,8,0,F,scotland,Dumbarton FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Cambuslang FC,1891-12-15,1,0,F,scotland,Heart Of Midlothian (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Abercorn FC,1891-12-15,2,1,F,scotland,Renton FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Rangers FC,1891-12-15,3,4,F,scotland,St Mirren FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Dumbarton FC,1891-12-15,2,5,F,scotland,Third Lanark (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Vale Of Leven,1891-12-15,9,2,F,scotland,Third Lanark (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Bolton Wanderers,West Bromwich Albion,1891-12-19,1,1,F,england,Bolton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Burnley FC,1891-12-19,0,1,F,england,Derby County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Blackburn Rovers,1891-12-19,2,2,F,england,Notts County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Accrington FC,1891-12-19,3,1,F,england,Stoke City (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Aston Villa,1891-12-19,2,0,F,england,Wolverhampton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Darwen,1891-12-25,4,0,F,england,Blackburn Rovers (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Sunderland Afc,1891-12-25,0,4,F,england,Everton FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Stoke City,1891-12-25,3,2,F,england,Preston North End (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Darwen,1891-12-26,7,0,F,england,Aston Villa (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Accrington FC,1891-12-26,2,2,F,england,Blackburn Rovers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Bolton Wanderers,1891-12-26,3,2,F,england,Derby County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Burnley FC,1891-12-26,1,0,F,england,West Bromwich Albion (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Sunderland Afc,1891-12-26,1,3,F,england,Wolverhampton Wanderers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Everton FC,1891-12-28,3,4,F,england,Aston Villa (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,West Bromwich Albion,1891-12-28,2,1,F,england,Wolverhampton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Derby County,1892-01-01,3,1,F,england,Bolton Wanderers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Preston North End,1892-01-01,0,4,F,england,Darwen (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Preston North End,1892-01-02,1,3,F,england,Accrington FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Derby County,1892-01-02,0,2,F,england,Blackburn Rovers (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Burnley FC,1892-01-02,1,1,F,england,Everton FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Aston Villa,1892-01-02,5,2,F,england,Notts County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Stoke City,1892-01-02,4,1,F,england,Wolverhampton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Aston Villa,1892-01-04,3,2,F,england,Accrington FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Stoke City,1892-01-09,3,0,F,england,Accrington FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Derby County,1892-01-09,6,0,F,england,Aston Villa (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Darwen,1892-01-09,9,0,F,england,Burnley FC (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Everton FC,1892-01-09,1,3,F,england,Notts County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,West Bromwich Albion,1892-01-09,1,0,F,england,Preston North End (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,West Bromwich Albion,1892-01-23,4,2,F,england,Accrington FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Clyde FC,1892-01-23,3,5,F,scotland,Cambuslang FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,St Mirren FC,1892-01-23,2,3,F,scotland,Third Lanark (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Abercorn FC,1892-01-30,7,2,F,scotland,Clyde FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Leith Athletic,1892-01-30,0,3,F,scotland,Vale Of Leven (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Cambuslang FC,Celtic FC,1892-01-30,0,4,F,scotland,Cambuslang FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Derby County,West Bromwich Albion,1892-02-06,1,1,F,england,Derby County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Notts County,1892-02-06,1,3,F,england,Stoke City (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Cambuslang FC,1892-02-06,3,1,F,scotland,Abercorn FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Third Lanark,1892-02-06,0,2,F,scotland,Vale Of Leven (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Burnley FC,Everton FC,1892-02-13,1,0,F,england,Burnley FC (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Rangers FC,Vale Of Leven,1892-02-13,7,0,F,scotland,Rangers FC (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Clyde FC,1892-02-13,3,2,F,scotland,Third Lanark (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Notts County,Derby County,1892-02-20,2,1,F,england,Notts County (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Blackburn Rovers,1892-02-27,1,0,F,england,Accrington FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Notts County,1892-02-27,2,3,F,england,Darwen (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Rangers FC,1892-02-27,0,6,F,scotland,Cambuslang FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Third Lanark,1892-02-27,5,1,F,scotland,Celtic FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Abercorn FC,1892-02-27,0,3,F,scotland,St Mirren FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Darwen,Wolverhampton Wanderers,1892-03-01,1,4,F,england,Darwen (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Burnley FC,1892-03-01,5,1,F,england,Notts County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Bolton Wanderers,1892-03-01,4,1,F,england,Sunderland Afc (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Sunderland Afc,1892-03-05,3,5,F,england,Accrington FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Aston Villa,1892-03-05,4,3,F,england,Blackburn Rovers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Bolton Wanderers,1892-03-05,1,2,F,england,Burnley FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Stoke City,1892-03-05,1,0,F,england,Everton FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Derby County,1892-03-05,3,0,F,england,Preston North End (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Accrington FC,1892-03-12,12,2,F,england,Aston Villa (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,West Bromwich Albion,1892-03-12,3,2,F,england,Blackburn Rovers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Everton FC,1892-03-12,0,1,F,england,Stoke City (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Preston North End,1892-03-12,4,1,F,england,Sunderland Afc (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Heart Of Midlothian,1892-03-12,1,3,F,scotland,Abercorn FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,St Mirren FC,1892-03-12,5,2,F,scotland,Renton FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Blackburn Rovers,Stoke City,1892-03-19,5,3,F,england,Blackburn Rovers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Sunderland Afc,1892-03-19,0,1,F,england,Derby County (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Accrington FC,1892-03-19,3,0,F,england,Everton FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Celtic FC,Clyde FC,1892-03-19,0,0,F,scotland,Celtic FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Vale Of Leven,1892-03-19,7,0,F,scotland,Heart Of Midlothian (Scotland),Vale Of Leven (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Renton FC,1892-03-19,5,2,F,scotland,Rangers FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Dumbarton FC,1892-03-19,2,3,F,scotland,St Mirren FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Abercorn FC,1892-03-19,1,1,F,scotland,Third Lanark (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Bolton Wanderers,Notts County,1892-03-26,2,0,F,england,Bolton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Wolverhampton Wanderers,1892-03-26,1,1,F,england,Burnley FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Blackburn Rovers,1892-03-26,1,1,F,england,Derby County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Aston Villa,1892-03-26,2,1,F,england,Sunderland Afc (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Rangers FC,1892-03-26,0,1,F,scotland,Abercorn FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Cambuslang FC,1892-03-26,5,2,F,scotland,Dumbarton FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Derby County,1892-04-02,1,1,F,england,Accrington FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Aston Villa,1892-04-02,1,2,F,england,Bolton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,Burnley FC,1892-04-02,2,6,F,england,Darwen (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Stoke City,1892-04-02,4,1,F,england,Sunderland Afc (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Preston North End,1892-04-02,3,0,F,england,Wolverhampton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+St Mirren FC,Clyde FC,1892-04-02,1,4,F,scotland,St Mirren FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Celtic FC,1892-04-02,2,2,F,scotland,Vale Of Leven (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+West Bromwich Albion,Darwen,1892-04-04,12,0,F,england,West Bromwich Albion (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Clyde FC,Renton FC,1892-04-04,1,3,F,scotland,Clyde FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Notts County,Sunderland Afc,1892-04-09,1,0,F,england,Notts County (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Third Lanark,1892-04-09,1,1,F,scotland,Cambuslang FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Heart Of Midlothian,1892-04-09,0,3,F,scotland,Renton FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+West Bromwich Albion,Stoke City,1892-04-11,2,2,F,england,West Bromwich Albion (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Notts County,1892-04-15,1,0,F,england,Burnley FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Derby County,1892-04-15,1,2,F,england,Everton FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Accrington FC,1892-04-15,4,1,F,england,Preston North End (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Preston North End,1892-04-16,3,1,F,england,Aston Villa (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Derby County,1892-04-16,2,4,F,england,Burnley FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Darwen,West Bromwich Albion,1892-04-16,1,1,F,england,Darwen (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Notts County,1892-04-16,4,0,F,england,Everton FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Blackburn Rovers,1892-04-16,6,1,F,england,Sunderland Afc (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Bolton Wanderers,1892-04-16,1,2,F,england,Wolverhampton Wanderers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Celtic FC,Cambuslang FC,1892-04-16,3,1,F,scotland,Celtic FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Clyde FC,1892-04-16,2,1,F,scotland,Heart Of Midlothian (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Leith Athletic,1892-04-16,3,2,F,scotland,Rangers FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Aston Villa,Wolverhampton Wanderers,1892-04-18,3,6,F,england,Aston Villa (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Bolton Wanderers,1892-04-18,2,5,F,england,Everton FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Darwen,1892-04-18,4,0,F,england,Preston North End (England),Darwen (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Leith Athletic,Celtic FC,1892-04-18,2,1,F,scotland,Leith Athletic (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Darwen,Sunderland Afc,1892-04-23,1,7,F,england,Darwen (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,West Bromwich Albion,1892-04-23,1,0,F,england,Stoke City (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Clyde FC,Third Lanark,1892-04-23,3,3,F,scotland,Clyde FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Celtic FC,1892-04-23,1,0,F,scotland,Dumbarton FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Rangers FC,1892-04-23,3,2,F,scotland,Heart Of Midlothian (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Cambuslang FC,1892-04-23,2,2,F,scotland,St Mirren FC (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Burnley FC,Sunderland Afc,1892-04-30,1,2,F,england,Burnley FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Cambuslang FC,Renton FC,1892-04-30,1,1,F,scotland,Cambuslang FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Abercorn FC,1892-04-30,3,1,F,scotland,Celtic FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Dumbarton FC,1892-04-30,4,1,F,scotland,Clyde FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Heart Of Midlothian,1892-04-30,2,2,F,scotland,Leith Athletic (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Rangers FC,1892-05-04,6,0,F,scotland,Dumbarton FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Cambuslang FC,1892-05-05,3,0,F,scotland,Leith Athletic (Scotland),Cambuslang FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Celtic FC,1892-05-05,0,4,F,scotland,Renton FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Abercorn FC,Dumbarton FC,1892-05-07,1,1,F,scotland,Abercorn FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Leith Athletic,1892-05-07,1,2,F,scotland,Clyde FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Celtic FC,1892-05-07,1,1,F,scotland,Rangers FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Heart Of Midlothian,1892-05-07,3,2,F,scotland,Third Lanark (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Vale Of Leven,Renton FC,1892-05-07,1,1,F,scotland,Vale Of Leven (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,St Mirren FC,1892-05-10,2,3,F,scotland,Rangers FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Leith Athletic,1892-05-14,2,0,F,scotland,Celtic FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Rangers FC,1892-05-21,1,3,F,scotland,Clyde FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Celtic FC,1892-05-24,1,3,F,scotland,Third Lanark (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Abercorn FC,Rangers FC,1892-08-20,0,4,F,scotland,Abercorn FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Renton FC,1892-08-20,4,3,F,scotland,Celtic FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,St Mirren FC,1892-08-20,1,2,F,scotland,Dumbarton FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Clyde FC,1892-08-20,3,0,F,scotland,Leith Athletic (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Heart Of Midlothian,1892-08-20,1,4,F,scotland,Third Lanark (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Abercorn FC,1892-08-27,5,2,F,scotland,Clyde FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Celtic FC,1892-08-27,3,1,F,scotland,Heart Of Midlothian (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Leith Athletic,1892-08-27,3,2,F,scotland,Rangers FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Third Lanark,1892-08-27,1,4,F,scotland,St Mirren FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Sunderland Afc,1892-09-03,0,6,F,england,Accrington FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Manchester United,1892-09-03,4,3,F,england,Blackburn Rovers (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Nottingham Forest,1892-09-03,2,2,F,england,Everton FC (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Sheffield Wednesday,1892-09-03,0,1,F,england,Notts County (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Bolton Wanderers,1892-09-03,2,1,F,england,Preston North End (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Derby County,1892-09-03,1,3,F,england,Stoke City (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Burnley FC,1892-09-03,1,0,F,england,Wolverhampton Wanderers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Heart Of Midlothian,1892-09-03,3,4,F,scotland,Abercorn FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Third Lanark,1892-09-03,1,4,F,scotland,Clyde FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Dumbarton FC,1892-09-03,3,2,F,scotland,Rangers FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,St Mirren FC,1892-09-03,3,2,F,scotland,Renton FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Burnley FC,Aston Villa,1892-09-05,0,2,F,england,Burnley FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Everton FC,1892-09-10,4,1,F,england,Aston Villa (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,West Bromwich Albion,1892-09-10,3,1,F,england,Bolton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Preston North End,1892-09-10,1,2,F,england,Derby County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Burnley FC,1892-09-10,1,1,F,england,Manchester United (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Stoke City,1892-09-10,3,4,F,england,Nottingham Forest (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Accrington FC,1892-09-10,5,2,F,england,Sheffield Wednesday (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Notts County,1892-09-10,2,2,F,england,Sunderland Afc (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Blackburn Rovers,1892-09-10,4,2,F,england,Wolverhampton Wanderers (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Celtic FC,Abercorn FC,1892-09-10,3,2,F,scotland,Celtic FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Leith Athletic,1892-09-10,2,1,F,scotland,Dumbarton FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,Renton FC,1892-09-10,2,2,F,scotland,Heart Of Midlothian (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Clyde FC,1892-09-10,8,1,F,scotland,St Mirren FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Rangers FC,1892-09-10,2,4,F,scotland,Third Lanark (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Preston North End,Sheffield Wednesday,1892-09-12,4,1,F,england,Preston North End (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Aston Villa,1892-09-12,0,1,F,england,Stoke City (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Sunderland Afc,1892-09-17,1,6,F,england,Aston Villa (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Everton FC,1892-09-17,2,2,F,england,Blackburn Rovers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Sheffield Wednesday,1892-09-17,1,0,F,england,Bolton Wanderers (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Manchester United,1892-09-17,4,1,F,england,Burnley FC (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Derby County,1892-09-17,1,1,F,england,Notts County (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Nottingham Forest,1892-09-17,1,0,F,england,Preston North End (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Accrington FC,1892-09-17,2,2,F,england,Stoke City (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Wolverhampton Wanderers,1892-09-17,2,1,F,england,West Bromwich Albion (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Leith Athletic,Heart Of Midlothian,1892-09-17,1,3,F,scotland,Leith Athletic (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Abercorn FC,1892-09-17,4,0,F,scotland,St Mirren FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+West Bromwich Albion,Aston Villa,1892-09-19,3,2,F,england,West Bromwich Albion (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Sheffield Wednesday,1892-09-24,4,2,F,england,Accrington FC (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Aston Villa,1892-09-24,5,0,F,england,Bolton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Stoke City,1892-09-24,3,2,F,england,Burnley FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,West Bromwich Albion,1892-09-24,1,1,F,england,Derby County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Manchester United,1892-09-24,6,0,F,england,Everton FC (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Preston North End,1892-09-24,1,2,F,england,Nottingham Forest (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Blackburn Rovers,1892-09-24,5,0,F,england,Sunderland Afc (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Notts County,1892-09-24,3,0,F,england,Wolverhampton Wanderers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Leith Athletic,1892-09-24,1,0,F,scotland,Abercorn FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Renton FC,1892-09-24,2,2,F,scotland,Clyde FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Third Lanark,1892-09-24,1,2,F,scotland,Dumbarton FC (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Heart Of Midlothian,St Mirren FC,1892-09-24,4,0,F,scotland,Heart Of Midlothian (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Celtic FC,1892-09-24,2,2,F,scotland,Rangers FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Blackburn Rovers,Accrington FC,1892-10-01,3,3,F,england,Blackburn Rovers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Wolverhampton Wanderers,1892-10-01,3,1,F,england,Bolton Wanderers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Nottingham Forest,1892-10-01,2,3,F,england,Derby County (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Aston Villa,1892-10-01,1,0,F,england,Everton FC (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Preston North End,1892-10-01,3,1,F,england,Notts County (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Burnley FC,1892-10-01,2,0,F,england,Sheffield Wednesday (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Stoke City,1892-10-01,3,1,F,england,Sunderland Afc (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Manchester United,1892-10-01,0,0,F,england,West Bromwich Albion (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Celtic FC,Clyde FC,1892-10-01,3,1,F,scotland,Celtic FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Rangers FC,1892-10-01,1,2,F,scotland,Leith Athletic (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Heart Of Midlothian,1892-10-01,4,1,F,scotland,Renton FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Dumbarton FC,1892-10-01,3,2,F,scotland,St Mirren FC (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Abercorn FC,1892-10-01,8,0,F,scotland,Third Lanark (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Sheffield Wednesday,Nottingham Forest,1892-10-03,2,2,F,england,Sheffield Wednesday (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Bolton Wanderers,1892-10-06,2,2,F,england,Notts County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Bolton Wanderers,1892-10-08,1,1,F,england,Accrington FC (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Derby County,1892-10-08,2,1,F,england,Burnley FC (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Sunderland Afc,1892-10-08,1,4,F,england,Everton FC (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,West Bromwich Albion,1892-10-08,2,4,F,england,Manchester United (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Nottingham Forest,1892-10-08,3,0,F,england,Notts County (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Blackburn Rovers,1892-10-08,2,1,F,england,Preston North End (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Aston Villa,1892-10-08,2,1,F,england,Wolverhampton Wanderers (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Heart Of Midlothian,Dumbarton FC,1892-10-08,1,3,F,scotland,Heart Of Midlothian (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Leith Athletic,1892-10-08,2,3,F,scotland,Renton FC (Scotland),Leith Athletic (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Aston Villa,Stoke City,1892-10-10,3,2,F,england,Aston Villa (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Nottingham Forest,1892-10-15,1,0,F,england,Aston Villa (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Sheffield Wednesday,1892-10-15,0,2,F,england,Blackburn Rovers (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Stoke City,1892-10-15,4,4,F,england,Bolton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Wolverhampton Wanderers,1892-10-15,10,1,F,england,Manchester United (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Burnley FC,1892-10-15,2,0,F,england,Preston North End (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Accrington FC,1892-10-15,4,2,F,england,Sunderland Afc (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Everton FC,1892-10-15,3,0,F,england,West Bromwich Albion (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Renton FC,1892-10-15,1,2,F,scotland,Abercorn FC (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Clyde FC,Heart Of Midlothian,1892-10-15,2,3,F,scotland,Clyde FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Dumbarton FC,Celtic FC,1892-10-15,0,3,F,scotland,Dumbarton FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,Third Lanark,1892-10-15,2,1,F,scotland,Leith Athletic (Scotland),Third Lanark (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,St Mirren FC,1892-10-15,0,0,F,scotland,Rangers FC (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Derby County,Notts County,1892-10-19,4,5,F,england,Derby County (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Everton FC,1892-10-19,3,4,F,england,Manchester United (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Bolton Wanderers,1892-10-20,2,0,F,england,Nottingham Forest (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Notts County,1892-10-22,3,0,F,england,Burnley FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Blackburn Rovers,1892-10-22,3,0,F,england,Derby County (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Accrington FC,1892-10-22,1,1,F,england,Everton FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Aston Villa,1892-10-22,4,1,F,england,Preston North End (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Manchester United,1892-10-22,1,0,F,england,Sheffield Wednesday (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Nottingham Forest,1892-10-22,3,0,F,england,Stoke City (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,West Bromwich Albion,1892-10-22,8,1,F,england,Sunderland Afc (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Bolton Wanderers,1892-10-22,1,2,F,england,Wolverhampton Wanderers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Dumbarton FC,Abercorn FC,1892-10-22,5,1,F,scotland,Dumbarton FC (Scotland),Abercorn FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Rangers FC,Clyde FC,1892-10-22,4,2,F,scotland,Rangers FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+St Mirren FC,Celtic FC,1892-10-22,1,3,F,scotland,St Mirren FC (Scotland),Celtic FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Renton FC,1892-10-22,6,2,F,scotland,Third Lanark (Scotland),Renton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Aston Villa,Derby County,1892-10-29,6,1,F,england,Aston Villa (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Preston North End,1892-10-29,0,0,F,england,Blackburn Rovers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Everton FC,1892-10-29,4,1,F,england,Bolton Wanderers (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Accrington FC,1892-10-29,1,3,F,england,Burnley FC (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Manchester United,1892-10-29,1,1,F,england,Nottingham Forest (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Sunderland Afc,1892-10-29,3,2,F,england,Sheffield Wednesday (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Wolverhampton Wanderers,1892-10-29,2,1,F,england,Stoke City (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Notts County,1892-10-29,4,2,F,england,West Bromwich Albion (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Preston North End,1892-11-05,1,2,F,england,Accrington FC (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,West Bromwich Albion,1892-11-05,5,2,F,england,Aston Villa (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Everton FC,1892-11-05,1,6,F,england,Derby County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Blackburn Rovers,1892-11-05,4,4,F,england,Manchester United (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Stoke City,1892-11-05,0,1,F,england,Notts County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Bolton Wanderers,1892-11-05,4,2,F,england,Sheffield Wednesday (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Burnley FC,1892-11-05,2,0,F,england,Sunderland Afc (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Nottingham Forest,1892-11-05,2,2,F,england,Wolverhampton Wanderers (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Abercorn FC,Clyde FC,1892-11-05,5,1,F,scotland,Abercorn FC (Scotland),Clyde FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Celtic FC,Heart Of Midlothian,1892-11-05,5,0,F,scotland,Celtic FC (Scotland),Heart Of Midlothian (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Leith Athletic,St Mirren FC,1892-11-05,5,1,F,scotland,Leith Athletic (Scotland),St Mirren FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Renton FC,Rangers FC,1892-11-05,2,2,F,scotland,Renton FC (Scotland),Rangers FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Third Lanark,Dumbarton FC,1892-11-05,3,0,F,scotland,Third Lanark (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+West Bromwich Albion,Bolton Wanderers,1892-11-07,1,0,F,england,West Bromwich Albion (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Wolverhampton Wanderers,1892-11-12,3,3,F,england,Blackburn Rovers (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Burnley FC,1892-11-12,1,0,F,england,Derby County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Stoke City,1892-11-12,2,2,F,england,Everton FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Notts County,1892-11-12,1,3,F,england,Manchester United (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Aston Villa,1892-11-12,4,5,F,england,Nottingham Forest (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Accrington FC,1892-11-12,4,0,F,england,West Bromwich Albion (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Preston North End,1892-11-14,2,1,F,england,Stoke City (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Preston North End,1892-11-19,2,4,F,england,Bolton Wanderers (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Aston Villa,1892-11-19,2,0,F,england,Manchester United (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,West Bromwich Albion,1892-11-19,8,1,F,england,Notts County (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Blackburn Rovers,1892-11-19,0,3,F,england,Sheffield Wednesday (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Burnley FC,1892-11-19,4,1,F,england,Stoke City (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Nottingham Forest,1892-11-19,1,0,F,england,Sunderland Afc (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Accrington FC,1892-11-19,5,3,F,england,Wolverhampton Wanderers (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Leith Athletic,Dumbarton FC,1892-11-19,3,0,F,scotland,Leith Athletic (Scotland),Dumbarton FC (Scotland),scotland,scotland,SCO,SCO,Europe,Europe,Europe,national
+Accrington FC,Manchester United,1892-11-26,2,2,F,england,Accrington FC (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Preston North End,1892-11-26,3,1,F,england,Aston Villa (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Bolton Wanderers,1892-11-26,3,0,F,england,Blackburn Rovers (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Nottingham Forest,1892-11-26,1,1,F,england,Burnley FC (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Wolverhampton Wanderers,1892-11-26,2,2,F,england,Derby County (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Sheffield Wednesday,1892-11-26,3,5,F,england,Everton FC (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Sunderland Afc,1892-11-26,3,1,F,england,Notts County (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Stoke City,1892-11-26,1,2,F,england,West Bromwich Albion (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Sheffield Wednesday,1892-12-01,2,0,F,england,Nottingham Forest (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Bolton Wanderers,Manchester United,1892-12-03,4,1,F,england,Bolton Wanderers (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,Blackburn Rovers,1892-12-03,0,0,F,england,Burnley FC (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Accrington FC,1892-12-03,3,3,F,england,Derby County (England),Accrington FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Sunderland Afc,1892-12-03,0,5,F,england,Nottingham Forest (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Everton FC,1892-12-03,5,0,F,england,Preston North End (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Aston Villa,1892-12-03,5,3,F,england,Sheffield Wednesday (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Stoke City,1892-12-03,1,0,F,england,Wolverhampton Wanderers (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Burnley FC,1892-12-08,3,1,F,england,Notts County (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Notts County,1892-12-10,4,2,F,england,Accrington FC (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Blackburn Rovers,1892-12-10,4,1,F,england,Aston Villa (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Wolverhampton Wanderers,1892-12-10,3,2,F,england,Everton FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Bolton Wanderers,1892-12-10,1,0,F,england,Manchester United (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Burnley FC,1892-12-10,2,2,F,england,Nottingham Forest (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sheffield Wednesday,Derby County,1892-12-10,3,3,F,england,Sheffield Wednesday (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Preston North End,1892-12-10,0,1,F,england,West Bromwich Albion (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,West Bromwich Albion,1892-12-17,5,4,F,england,Accrington FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Burnley FC,1892-12-17,2,0,F,england,Blackburn Rovers (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Aston Villa,1892-12-17,2,1,F,england,Derby County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Everton FC,1892-12-17,1,2,F,england,Notts County (England),Everton FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Stoke City,Sheffield Wednesday,1892-12-17,2,0,F,england,Stoke City (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Sunderland Afc,Preston North End,1892-12-17,2,0,F,england,Sunderland Afc (England),Preston North End (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Manchester United,1892-12-17,2,0,F,england,Wolverhampton Wanderers (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Aston Villa,Bolton Wanderers,1892-12-24,1,1,F,england,Aston Villa (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Notts County,1892-12-24,1,0,F,england,Blackburn Rovers (England),Notts County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Stoke City,1892-12-24,1,0,F,england,Derby County (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Everton FC,Burnley FC,1892-12-24,0,1,F,england,Everton FC (England),Burnley FC (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Sheffield Wednesday,1892-12-24,1,5,F,england,Manchester United (England),Sheffield Wednesday (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Nottingham Forest,Wolverhampton Wanderers,1892-12-24,3,1,F,england,Nottingham Forest (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Sunderland Afc,1892-12-24,1,3,F,england,West Bromwich Albion (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Stoke City,1892-12-26,5,2,F,england,Accrington FC (England),Stoke City (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Derby County,Bolton Wanderers,1892-12-26,1,1,F,england,Derby County (England),Bolton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Preston North End,Manchester United,1892-12-26,2,1,F,england,Preston North End (England),Manchester United (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+West Bromwich Albion,Blackburn Rovers,1892-12-26,1,2,F,england,West Bromwich Albion (England),Blackburn Rovers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,Sunderland Afc,1892-12-26,2,0,F,england,Wolverhampton Wanderers (England),Sunderland Afc (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Wolverhampton Wanderers,West Bromwich Albion,1892-12-27,1,1,F,england,Wolverhampton Wanderers (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Accrington FC,Wolverhampton Wanderers,1892-12-31,4,0,F,england,Accrington FC (England),Wolverhampton Wanderers (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Blackburn Rovers,Nottingham Forest,1892-12-31,0,1,F,england,Blackburn Rovers (England),Nottingham Forest (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Burnley FC,West Bromwich Albion,1892-12-31,5,0,F,england,Burnley FC (England),West Bromwich Albion (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Manchester United,Derby County,1892-12-31,7,1,F,england,Manchester United (England),Derby County (England),england,england,ENG,ENG,Europe,Europe,Europe,national
+Notts County,Aston Villa,1892-12-31,1,4,F,england,Notts County (England),Aston Villa (England),england,england,ENG,ENG,Europe,Europe,Europe,national
