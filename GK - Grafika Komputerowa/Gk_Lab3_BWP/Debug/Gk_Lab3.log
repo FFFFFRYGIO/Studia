@@ -1,0 +1,3 @@
+﻿  robot.c
+C:\STUDIA\sem5\GK - Grafika Komputerowa\lab1-3\Gk_Lab3_BWP\robot.c(264,9): warning C4013: niezdefiniowany "exit"; przy założeniu, że extern zwraca int
+  Gk_Lab3.vcxproj -> C:\STUDIA\sem5\GK - Grafika Komputerowa\lab1-3\Gk_Lab3_BWP\Debug\Gk_Lab3.exe

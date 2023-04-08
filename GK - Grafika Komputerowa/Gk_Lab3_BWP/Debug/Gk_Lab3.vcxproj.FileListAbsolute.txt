@@ -1,0 +1,5 @@
+D:\GK2020\Gk_Lab3\Debug\Gk_Lab3.exe
+D:\GK2020\Gk_Lab3\Debug\Gk_Lab3.pdb
+C:\Users\radek\Downloads\Gk_Lab3\Debug\Gk_Lab3.exe
+C:\Users\radek\Downloads\Gk_Lab3_BWP\Debug\Gk_Lab3.exe
+C:\STUDIA\sem5\GK - Grafika Komputerowa\lab1-3\Gk_Lab3_BWP\Debug\Gk_Lab3.exe

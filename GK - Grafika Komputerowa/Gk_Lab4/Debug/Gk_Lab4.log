@@ -1,0 +1,3 @@
+﻿  szescian.c
+C:\STUDIA\github\Studia\GK - Grafika Komputerowa\Gk_Lab4\szescian.c(300,18): warning C4087: "glutMainLoop": zadeklarowano z listą parametrów "void"
+  Gk_Lab4.vcxproj -> C:\STUDIA\github\Studia\GK - Grafika Komputerowa\Gk_Lab4\Debug\Gk_Lab4.exe
