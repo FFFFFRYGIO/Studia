@@ -1,0 +1,28 @@
+Kod:
+public class ValuePassing {
+	public static int changei(int i) {
+		int[] a = {i}; /* (a) */
+		++i; /* (b) */
+		return (i + a[0]);
+	}
+ 
+	public static void main(String[] args) {
+		int i = 2; /* (1) */
+		System.out.println("Przed wykonaniem i ma wartość" + i);
+		int return_i = 0;
+		return_i = changei(i); /* (2) */
+		System.out.println("Changei daje w wyniku " + return_i);
+		System.out.println("Wartosc i po wynosi " + i);
+	}
+}
+
+Odpowiedź:
+1. [(args, []), (i, 2)]main
+
+2. [(args, []), (i, 2), (return_i, 5)]main
+
+a. [(i, 2), (a, [2])]changei
+   [(args, []), (return_i, 0), (i, 2)]main
+
+b. [(a, [2]), (i, 3)]changei
+   [(args, []), (return_i, 0), (i, 2)]main
