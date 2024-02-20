@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+    <h1>Welcome to home page {{ user }}!</h1>
+    {% if jokes_count == 0 %}
+        <h4>You have no jokes yet</h4>
+    {% else %}
+        <h3>Your Jokes: {{ jokes_count }}</h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Joke</th>
+                <th>Category</th>
+                <th>Mark</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for joke in jokes_list %}
+                <tr>
+                    <td>{{ joke.joke }}</td>
+                    <td>{{ joke.category }}</td>
+                    <td>{{ joke.mark }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <form action="#" method="post">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('You are about to delete all jokes\nAre You sure?')">Delete all jokes
+            </button>
+            <br>
+        </form>
+    {% endif %}
+
+{% endblock %}

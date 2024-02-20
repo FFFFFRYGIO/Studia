@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+    <h1>Welcome to get joke page {{ user }}!</h1>
+    <h2>Rendered joke:</h2>
+    <form method="post" action="{% url 'get_joke' %}">
+        {% csrf_token %}
+        {{ joke_form.as_p }}
+        <button type="submit" class="btn btn-primary">Add joke</button>
+    </form>
+{% endblock %}

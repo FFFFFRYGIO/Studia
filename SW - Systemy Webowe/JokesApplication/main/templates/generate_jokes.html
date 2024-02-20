@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+    <h1>Welcome to generate jokes page {{ user }}!</h1>
+    <form method="post" action="{% url 'generate_jokes' %}">
+        {% csrf_token %}
+        {{ generate_jokes_form.as_p }}
+        {# TODO: Save new jokes 2level menu: Save and go home, Save and import, Don't save and go home #}
+        <button type="submit" class="btn btn-primary" name="save_and_go_home" value="save_and_go_home">
+            Save new jokes and go home</button>
+        <button type="submit" class="btn btn-primary" name="save_and_import" value="save_and_import">
+            Save new jokes and import</button>
+        <button type="submit" class="btn btn-primary" name="dont_save_and_go_home" value="dont_save_and_go_home">
+            Don't save and go home</button>
+
+    </form>
+{% endblock %}
