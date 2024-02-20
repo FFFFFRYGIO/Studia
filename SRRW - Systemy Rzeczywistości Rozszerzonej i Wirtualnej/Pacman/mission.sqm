@@ -1,0 +1,95 @@
+version=24;
+MapGeoCenter[]={0.53023785,2.2804947,0.61562353};
+class Mission
+{
+	addOns[]=
+	{
+		"vbs2_people_pl_pl_army_rifleman"
+	};
+	addOnsAuto[]=
+	{
+		"vbs2_people_pl_pl_army_rifleman"
+	};
+	randomSeed=13418697;
+	class Intel
+	{
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+		forecastWaterOpacity=-7.3850168e-32;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			name="1-1-A-1";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1000001.5,34.86533,1000018.1};
+					positionASL[]={1000001.5,34.86533,1000018.1};
+					special="CAN_COLLIDE";
+					id=0;
+					side="WEST";
+					vehicle="vbs_pl_army_afvCrew_wdl_m_medium_none_none_aks74u";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="Kowalski";
+					sidc="SFGPEWRR----";
+				};
+			};
+			sidc="------------";
+		};
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
+class Intro
+{
+	randomSeed=12356777;
+	class Intel
+	{
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+		forecastWaterOpacity=0;
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
+class OutroWin
+{
+	randomSeed=11168021;
+	class Intel
+	{
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+		forecastWaterOpacity=0;
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
+class OutroLoose
+{
+	randomSeed=6193531;
+	class Intel
+	{
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+		forecastWaterOpacity=0;
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};

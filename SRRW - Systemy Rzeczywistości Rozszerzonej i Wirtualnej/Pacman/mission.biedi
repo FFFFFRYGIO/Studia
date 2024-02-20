@@ -1,0 +1,42 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+		VERSION="11";
+		ADDON="vbs2_people_pl_pl_army_rifleman";
+	};
+	MapGeoCenter[]={0.53023783,2.2804947,0.61562353};
+	layers[]={};
+	DeletedMapObjects[]={};
+	SeastatesRandomSeed=-1675712787;
+};
+class _unit_0
+{
+	objectType="unit";
+	height=0.0033381176;
+	class Arguments
+	{
+		OME_ID="8";
+		NAME="Kowalski";
+		SIDE="west";
+		TYPE="vbs_pl_army_afvCrew_wdl_m_medium_none_none_aks74u";
+		PLAYER="true";
+		PLAYABLE="true";
+		PLAYABILITY="Player";
+		NO_DAMAGE="DEFAULT";
+		UNLIMITED_AMMO="DEFAULT";
+		POSITION="[1000001.50000, 1000018.06250, 34.86533]";
+		COLOR="[0.5999895,0.5999895,0.9999825]";
+		DISPLAY_NAME="(P) (PL) (Kowalski) AFV Crew - AKS-74U";
+		DISPLAY_NAME_TREE="(P) (PL) (Kowalski) AFV Crew - AKS-74U";
+		TASK_CONTROLAI="";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};

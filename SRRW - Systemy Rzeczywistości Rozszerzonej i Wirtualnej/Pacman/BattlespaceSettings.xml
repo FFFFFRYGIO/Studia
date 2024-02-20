@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<BattlespaceSettingsRoot version="1">
+	<Weather>
+		<Overcast>
+			<!-- - Available options: -->
+			<!--   - ClearSky: Clear Sky -->
+			<!--   - DenseOvercast: Dense Overcast -->
+			<!--   - LightOvercast: Light Overcast -->
+			<!--   - ScatteredClouds: Scattered Clouds -->
+			<!--   - CUSTOM_VALUES: Custom -->
+			<Preset>CUSTOM_VALUES</Preset>
+			<!-- Layer 0 -->
+			<Layer_0>
+				<!-- Coverage -->
+				<Coverage>0.000000000</Coverage>
+				<!-- Density of the cloud layer. -->
+				<Density>100.000000000</Density>
+				<!-- Type of the rendered clouds. 0 = cumulus, 1 = stratus. -->
+				<Type>0.750000000</Type>
+				<!-- The altitude at which clouds begin to form and the altitude at which they disappear. -->
+				<Altitude>
+					<Min>1100.000000000</Min>
+					<Max>1450.000000000</Max>
+				</Altitude>
+			</Layer_0>
+			<!-- Layer 1 -->
+			<Layer_1>
+				<!-- Coverage -->
+				<Coverage>0.000000000</Coverage>
+				<!-- Density of the cloud layer. -->
+				<Density>0.000000000</Density>
+				<!-- Type of the rendered clouds. 0 = cumulus, 1 = stratus. -->
+				<Type>0.000000000</Type>
+				<!-- The altitude at which clouds begin to form and the altitude at which they disappear. -->
+				<Altitude>
+					<Min>0.000000000</Min>
+					<Max>0.000000000</Max>
+				</Altitude>
+			</Layer_1>
+		</Overcast>
+		<Precipitation>
+			<!-- - Available options: -->
+			<!--   - Hail -->
+			<!--   - NoPrecipitation: No Precipitation -->
+			<!--   - Rain -->
+			<!--   - Sleet -->
+			<!--   - Snow -->
+			<!--   - CUSTOM_VALUES: Custom -->
+			<Preset>CUSTOM_VALUES</Preset>
+			<!-- - Available options: -->
+			<!--   - 0: Rain -->
+			<!--   - 1: Snow -->
+			<!--   - 2: Sleet -->
+			<!--   - 3: Hail -->
+			<Type>0</Type>
+			<Altitude>8200.000000000</Altitude>
+			<Density>0.000000000</Density>
+			<!-- How fast the precipitation is falling. -->
+			<Severity>1.000000000</Severity>
+		</Precipitation>
+		<Wind>
+			<!-- - Available options: -->
+			<!--   - LightWind: Light Wind -->
+			<!--   - NoWind: No Wind -->
+			<!--   - StrongWind: Strong Wind -->
+			<!--   - CUSTOM_VALUES: Custom -->
+			<Preset>CUSTOM_VALUES</Preset>
+			<!-- Wind Direction -->
+			<!--   - Wind Propagation Direction -->
+			<!--   - Available options: -->
+			<!--     - 0: Propagate from North -->
+			<!--     - 1: Propagate from North East -->
+			<!--     - 2: Propagate from East -->
+			<!--     - 3: Propagate from South East -->
+			<!--     - 4: Propagate from South -->
+			<!--     - 5: Propagate from South West -->
+			<!--     - 6: Propagate from West -->
+			<!--     - 7: Propagate from North West -->
+			<WindDirection>4</WindDirection>
+			<!-- Wind Speed -->
+			<WindSpeed>0.000000000</WindSpeed>
+			<!-- Gust Speed -->
+			<GustSpeed>
+				<Min>0.000000000</Min>
+				<Max>0.000000000</Max>
+			</GustSpeed>
+			<!-- Gust Duration -->
+			<GustDuration>
+				<Min>0.000000000</Min>
+				<Max>0.000000000</Max>
+			</GustDuration>
+			<!-- Gust Interval -->
+			<GustInterval>30.000000000</GustInterval>
+		</Wind>
+		<Fog>
+			<!-- - Available options: -->
+			<!--   - DenseFog: Dense Fog -->
+			<!--   - LightFog: Light Fog -->
+			<!--   - NoFog: No Fog -->
+			<!--   - CUSTOM_VALUES: Custom -->
+			<Preset>CUSTOM_VALUES</Preset>
+			<!-- Base Altitude -->
+			<!--   - Base fog altitude above sea level in meters. -->
+			<BaseAltitude>0.000000000</BaseAltitude>
+			<!-- How fast fog density changes with altitude. -->
+			<Decay>0.004933300</Decay>
+			<!-- The density of the fog. -->
+			<Density>0.000000000</Density>
+			<!-- Color -->
+			<FogColor>
+				<Red>255.000000000</Red>
+				<Green>255.000000000</Green>
+				<Blue>255.000000000</Blue>
+				<Alpha>0.000000000</Alpha>
+			</FogColor>
+		</Fog>
+		<!-- Sea State -->
+		<SeaState>
+			<!-- - Available options: -->
+			<!--   - CalmSea: Calm Sea -->
+			<!--   - LargeWaves: Large Waves -->
+			<!--   - CUSTOM_VALUES: Custom -->
+			<Preset>CUSTOM_VALUES</Preset>
+			<!-- Sea State Control -->
+			<!--   - Decides which settings influence the current Sea State. Either the Sea State Settings on this tab or the Wind Settings. -->
+			<!--   - Available options: -->
+			<!--     - 0: Use Sea State Settings -->
+			<!--     - 1: Sea State is linked to Wind Settings -->
+			<SeaControl>0</SeaControl>
+			<!-- Wave Direction -->
+			<!--   - Sea waves propagation direction. -->
+			<!--   - Available options: -->
+			<!--     - 0: Propagate from North -->
+			<!--     - 1: Propagate from North East -->
+			<!--     - 2: Propagate from East -->
+			<!--     - 3: Propagate from South East -->
+			<!--     - 4: Propagate from South -->
+			<!--     - 5: Propagate from South West -->
+			<!--     - 6: Propagate from West -->
+			<!--     - 7: Propagate from North West -->
+			<WaveDirection>4</WaveDirection>
+			<!-- Sea state force - represents the wave height (water roughness) corresponding to the Beauford scale. -->
+			<Force>0.000000000</Force>
+			<!-- Sea Color -->
+			<SeaColor>
+				<Red>5.000000000</Red>
+				<Green>20.000000000</Green>
+				<Blue>31.000000000</Blue>
+				<Alpha>1.000000000</Alpha>
+			</SeaColor>
+		</SeaState>
+		<Surface>
+			<!-- - Available options: -->
+			<!--   - Dry: Dry Surface -->
+			<!--   - Moisture: Puddles -->
+			<!--   - Snow -->
+			<!--   - SnowPlowed: Snow (Plowed Roads) -->
+			<!--   - CUSTOM_VALUES: Custom -->
+			<Preset>CUSTOM_VALUES</Preset>
+			<!-- Surface Moisture -->
+			<!--   - Amount of water in soil. -->
+			<MoistureAmount>0.000000000</MoistureAmount>
+			<!-- Visualize Moisture -->
+			<MoistureVisualization>true</MoistureVisualization>
+			<!-- Snow Coverage -->
+			<!--   - Depth & uniformity of snow coverage. The smaller the value the less even the coverage. -->
+			<SnowCoverage>0.000000000</SnowCoverage>
+			<!-- Snow on Vegetation -->
+			<SnowOnTrees>0.000000000</SnowOnTrees>
+			<!-- Snow on Buildings -->
+			<SnowOnBuildings>0.000000000</SnowOnBuildings>
+			<!-- Road Plowing -->
+			<!--   - The coverage of the snow plowing on roads. -->
+			<RoadPlowingCoverage>0.000000000</RoadPlowingCoverage>
+		</Surface>
+	</Weather>
+</BattlespaceSettingsRoot>
