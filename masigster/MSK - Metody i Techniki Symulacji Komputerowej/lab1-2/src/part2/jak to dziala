@@ -1,0 +1,10 @@
+program symuluje loty 2 samolotów
+
+W nieograniczonym czasowo cyklu startów, leceń i lądowań
+
+Punkty na wykresie reprezentują moment zakończenia eventu
+
+Eventy obsugiwane są w zerowym czasie symulacji, natomiast w konsoli widać że
+dzieje się to w odpowiedniej kolejności (na podstawie nadanych priorytetów)
+
+Wykres przedstawia licznik
