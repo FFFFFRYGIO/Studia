@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "ZOGYAWiqLSfB1/XF8CPiYALQ+WYlic/m4USgn5n4Xcg=",
+  "Source": "Lab7EchoBotRadek",
+  "BasePath": "_content/Lab7EchoBotRadek",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab7EchoBotRadek\\wwwroot",
+      "Source": "Lab7EchoBotRadek",
+      "ContentRoot": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu Systemów Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\wwwroot\\",
+      "BasePath": "_content/Lab7EchoBotRadek",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu Systemów Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\wwwroot\\default.htm",
+      "SourceId": "Lab7EchoBotRadek",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu Systemów Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\wwwroot\\",
+      "BasePath": "_content/Lab7EchoBotRadek",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#chat-container {
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 95%;
+    border-top: 5px solid #1976D2;
+    animation: chatEntry 0.5s ease;
+}
+
+#chat-header {
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    animation: headerEntry 1s ease;
+}
+
+#chat-header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#chat-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    overflow-y: auto;
+    flex-grow: 1;
+    border-radius: 10px;
+    margin: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: boxEntry 1s ease;
+}
+
+#chat-output {
+    padding: 10px;
+    word-wrap: break-word;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+#chat-input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: inputEntry 1s ease;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#send-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+@keyframes chatEntry {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes headerEntry {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes boxEntry {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes inputEntry {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}

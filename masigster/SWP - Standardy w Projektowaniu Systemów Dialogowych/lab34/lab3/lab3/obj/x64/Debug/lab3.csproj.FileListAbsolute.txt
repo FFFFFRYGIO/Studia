@@ -1,0 +1,17 @@
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.csproj.AssemblyReference.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\MainWindow.g.cs
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\App.g.cs
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3_MarkupCompile.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3_MarkupCompile.lref
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\bin\x64\Debug\lab3.exe.config
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\bin\x64\Debug\lab3.exe
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\bin\x64\Debug\lab3.pdb
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\bin\x64\Debug\Microsoft.Speech.dll
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\MainWindow.baml
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.g.resources
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.Properties.Resources.resources
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.csproj.GenerateResource.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.csproj.CoreCompileInputs.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.csproj.Up2Date
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.exe
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab34\lab3\lab3\obj\x64\Debug\lab3.pdb

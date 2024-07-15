@@ -1,0 +1,58 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hi", "What's up?", "Howdy"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "Hello! How can I assist you today?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "See you", "Catch you later", "Farewell"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Goodbye! Take care."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Much appreciated", "Thanks a lot"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I'm not sure I get that. Can you rephrase?"],
+            "context": []
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help do you provide?", "How you can be", "What services are available?", "How can you assist me?"],
+            "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals", "I can assist with checking adverse drug reactions, tracking blood pressure, and finding hospitals."],
+            "context": [""]
+        },
+        {
+            "tag": "adverse_drug",
+            "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of adverse drugs", "Show me adverse drug reactions", "Adverse drug list", "Adverse drug reactions info"],
+            "responses": ["Navigating to Adverse drug reaction module", "Here is the list of adverse drug reactions.", "Opening adverse drug reactions module."],
+            "context": [""]
+        },
+        {
+            "tag": "help",
+            "patterns": ["I need help", "Can you help me?", "I require assistance", "Help me", "I need support"],
+            "responses": ["Sure, I'm here to help. What do you need assistance with?", "I'm here to help. Please tell me more about what you need."],
+            "context": [""]
+        },
+        {
+            "tag": "complaint",
+            "patterns": ["I have a complaint", "There is an issue", "I'm not happy", "Something went wrong"],
+            "responses": ["I'm sorry to hear that. Please tell me more about the issue.", "I'm here to help. Let's sort this out together."],
+            "context": [""]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["I have some feedback", "I'd like to give feedback", "Here's my feedback", "I have a suggestion"],
+            "responses": ["Thank you for your feedback! We always strive to improve.", "Your feedback is important to us. Please go ahead."],
+            "context": [""]
+        }
+    ]
+}

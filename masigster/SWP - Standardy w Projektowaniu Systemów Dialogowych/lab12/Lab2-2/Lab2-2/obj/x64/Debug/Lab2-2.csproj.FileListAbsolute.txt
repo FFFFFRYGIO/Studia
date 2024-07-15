@@ -1,0 +1,32 @@
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.AssemblyReference.cache
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\MainWindow.g.cs
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\App.g.cs
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2_MarkupCompile.cache
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2_MarkupCompile.lref
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\bin\x64\Debug\Lab2-2.exe.config
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\bin\x64\Debug\Lab2-2.exe
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\bin\x64\Debug\Lab2-2.pdb
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\bin\x64\Debug\Microsoft.Speech.dll
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\MainWindow.baml
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.g.resources
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2_2.Properties.Resources.resources
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.GenerateResource.cache
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.CoreCompileInputs.cache
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.Up2Date
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.exe
+C:\Users\radek\source\repos\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.pdb
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\bin\x64\Debug\Lab2-2.exe.config
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\bin\x64\Debug\Lab2-2.exe
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\bin\x64\Debug\Lab2-2.pdb
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.AssemblyReference.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\MainWindow.g.cs
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\App.g.cs
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2_MarkupCompile.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2_MarkupCompile.lref
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\MainWindow.baml
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.g.resources
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2_2.Properties.Resources.resources
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.GenerateResource.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.csproj.CoreCompileInputs.cache
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.exe
+C:\Users\radek\OneDrive - Wojskowa Akademia Techniczna\magister\sem1\SWP - Standardy w Projektowaniu Systemów Dialogowych\lab12\Lab2-2\Lab2-2\obj\x64\Debug\Lab2-2.pdb

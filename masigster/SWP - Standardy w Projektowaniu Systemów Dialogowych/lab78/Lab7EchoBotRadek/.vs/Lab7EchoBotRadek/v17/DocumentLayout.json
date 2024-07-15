@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\adapterwitherrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\adapterwitherrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\echobot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\echobot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\botwithdialogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\botwithdialogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\lab7echobotradek.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\lab7echobotradek.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|c:\\users\\radek\\onedrive - wojskowa akademia techniczna\\magister\\sem1\\swp - standardy w projektowaniu system\u00F3w dialogowych\\lab78\\lab7echobotradek\\lab7echobotradek\\maindialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF79052-FF8E-4395-ADC5-E8E70640E05F}|Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj|solutionrelative:lab7echobotradek\\maindialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainDialog.cs",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\MainDialog.cs",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\MainDialog.cs",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\MainDialog.cs",
+              "RelativeToolTip": "Lab7EchoBotRadek\\MainDialog.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:42:50.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\Startup.cs",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\Startup.cs",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\Startup.cs",
+              "RelativeToolTip": "Lab7EchoBotRadek\\Startup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:36:15.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BotWithDialogs.cs",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\BotWithDialogs.cs",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\BotWithDialogs.cs",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\BotWithDialogs.cs",
+              "RelativeToolTip": "Lab7EchoBotRadek\\BotWithDialogs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:45:12.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EchoBot.cs",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\EchoBot.cs",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\EchoBot.cs",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\EchoBot.cs",
+              "RelativeToolTip": "Lab7EchoBotRadek\\EchoBot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:36:17.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdapterWithErrorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\AdapterWithErrorHandler.cs",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\AdapterWithErrorHandler.cs",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\AdapterWithErrorHandler.cs",
+              "RelativeToolTip": "Lab7EchoBotRadek\\AdapterWithErrorHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBcAAACYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:36:18.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\Program.cs",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\Program.cs",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\Program.cs",
+              "RelativeToolTip": "Lab7EchoBotRadek\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAawAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:36:16.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lab7EchoBotRadek.csproj",
+              "DocumentMoniker": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj",
+              "RelativeDocumentMoniker": "Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj",
+              "ToolTip": "C:\\Users\\radek\\OneDrive - Wojskowa Akademia Techniczna\\magister\\sem1\\SWP - Standardy w Projektowaniu System\u00F3w Dialogowych\\lab78\\Lab7EchoBotRadek\\Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj",
+              "RelativeToolTip": "Lab7EchoBotRadek\\Lab7EchoBotRadek.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T11:47:30.556Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Good day",
+        "Hey",
+        "Hi",
+        "Good morning",
+        "Good evening",
+        "Greetings",
+        "Howdy",
+        "Hi everyone",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello, welcome to the Sports Advisory Forum!",
+        "Hi there! How can we help you with your sports-related questions today?",
+        "Good day! Need advice on sports training or equipment?",
+        "Hey! How can we assist you with your sports needs today?",
+        "Greetings! What sports issues can we help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks for the help",
+        "Catch you later",
+        "Take care",
+        "See you next time",
+        "I'm off",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Stay active and healthy!",
+        "See you next time, enjoy your sports activities!",
+        "Thank you for visiting the Sports Advisory Forum!",
+        "Bye! Stay fit and have fun!",
+        "Catch you later! Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated",
+        "Thanks for your assistance",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thanks so much",
+        "Many thanks",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome! Happy to help!",
+        "Any time! We're here for all your sports needs.",
+        "Glad to assist! Enjoy your training!",
+        "No problem! We're always here to help.",
+        "You're welcome! Stay active and take care!"
+      ]
+    },
+    {
+      "tag": "training_advice",
+      "patterns": [
+        "How do I improve my running speed?",
+        "What exercises help build muscle?",
+        "Tips for increasing endurance?",
+        "How can I get better at soccer?",
+        "What training is best for basketball?"
+      ],
+      "responses": [
+        "To improve running speed, focus on interval training and strength exercises for your legs.",
+        "Building muscle requires a combination of strength training exercises like weightlifting and a protein-rich diet.",
+        "For endurance, incorporate long-distance running or cycling and mix in interval training.",
+        "Improving at soccer involves practicing ball control, shooting drills, and playing regularly with others.",
+        "Basketball training should include dribbling drills, shooting practice, and agility exercises."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What should I eat before a workout?",
+        "Best foods for muscle recovery?",
+        "How to stay hydrated during exercise?",
+        "What diet is best for athletes?",
+        "Post-workout meal suggestions?"
+      ],
+      "responses": [
+        "Before a workout, eat a balanced meal with carbohydrates and protein about 2-3 hours prior.",
+        "For muscle recovery, consume foods rich in protein like chicken, fish, and legumes, along with carbohydrates.",
+        "Stay hydrated during exercise by drinking water regularly, and consider sports drinks for long-duration activities.",
+        "Athletes benefit from a diet rich in lean proteins, whole grains, fruits, and vegetables.",
+        "A good post-workout meal includes protein and carbohydrates, such as a smoothie with protein powder and fruits."
+      ]
+    },
+    {
+      "tag": "equipment_advice",
+      "patterns": [
+        "Best running shoes?",
+        "What type of bike is good for beginners?",
+        "How to choose a tennis racket?",
+        "What equipment do I need for home workouts?",
+        "Recommended brands for sports gear?"
+      ],
+      "responses": [
+        "The best running shoes depend on your foot type and running style; visit a specialty store for a fitting.",
+        "For beginners, a hybrid bike is a good choice as it combines features of road and mountain bikes.",
+        "When choosing a tennis racket, consider your skill level and playing style; consult with a specialist for advice.",
+        "For home workouts, basic equipment includes dumbbells, resistance bands, a yoga mat, and a stability ball.",
+        "Popular and reliable brands for sports gear include Nike, Adidas, Under Armour, and Reebok."
+      ]
+    },
+    {
+      "tag": "injury_prevention",
+      "patterns": [
+        "How to prevent running injuries?",
+        "Tips for avoiding sports injuries?",
+        "What are the best stretches before a workout?",
+        "How to avoid overtraining?",
+        "Preventing muscle strains?"
+      ],
+      "responses": [
+        "To prevent running injuries, ensure proper warm-up, use the right shoes, and gradually increase mileage.",
+        "Avoid sports injuries by warming up properly, using appropriate gear, and following proper techniques.",
+        "Effective pre-workout stretches include dynamic stretches like leg swings, arm circles, and walking lunges.",
+        "Avoid overtraining by allowing adequate rest, listening to your body, and varying your training routine.",
+        "Prevent muscle strains by warming up, incorporating flexibility exercises, and not overexerting yourself."
+      ]
+    },
+    {
+      "tag": "recovery",
+      "patterns": [
+        "How to recover after a marathon?",
+        "Best recovery methods for sore muscles?",
+        "Tips for post-workout recovery?",
+        "How to reduce muscle soreness?",
+        "Effective ways to recover from a workout?"
+      ],
+      "responses": [
+        "After a marathon, focus on hydration, gentle stretching, and rest to allow your body to recover.",
+        "For sore muscles, try foam rolling, gentle stretching, and applying ice or heat as needed.",
+        "Post-workout recovery tips include rehydrating, consuming a balanced meal with protein and carbs, and resting.",
+        "Reduce muscle soreness by staying hydrated, incorporating light activities like walking, and using a foam roller.",
+        "Effective recovery methods include proper hydration, nutrition, stretching, and getting adequate sleep."
+      ]
+    },
+    {
+      "tag": "sports_psychology",
+      "patterns": [
+        "How to stay motivated in sports?",
+        "Tips for overcoming performance anxiety?",
+        "How to set effective sports goals?",
+        "Dealing with pressure in competitions?",
+        "Improving mental toughness?"
+      ],
+      "responses": [
+        "Stay motivated by setting achievable goals, tracking your progress, and finding a workout buddy or coach.",
+        "Overcome performance anxiety by practicing relaxation techniques, visualization, and positive self-talk.",
+        "Set effective sports goals by making them specific, measurable, attainable, relevant, and time-bound (SMART).",
+        "Deal with competition pressure by focusing on your own performance, practicing mindfulness, and staying positive.",
+        "Improve mental toughness by challenging yourself regularly, staying focused on your goals, and building resilience."
+      ]
+    },
+    {
+      "tag": "sports_rules",
+      "patterns": [
+        "What are the basic rules of soccer?",
+        "How is basketball scored?",
+        "What are the rules of tennis?",
+        "How do you play volleyball?",
+        "Explain the offside rule in soccer."
+      ],
+      "responses": [
+        "The basic rules of soccer involve scoring by getting the ball into the opponent's goal and preventing the opposition from scoring.",
+        "Basketball is scored with two points for regular field goals, three points for shots beyond the arc, and one point for free throws.",
+        "Tennis rules include serving diagonally, scoring points through rallies, and winning sets by reaching six games with at least a two-game lead.",
+        "Volleyball is played by hitting a ball over a net with the aim to land it in the opponent's court, and teams can hit the ball up to three times before returning it.",
+        "The offside rule in soccer states that a player is offside if they are nearer to the opponent's goal line than both the ball and the second last opponent when the ball is played to them."
+      ]
+    }
+  ]
+}

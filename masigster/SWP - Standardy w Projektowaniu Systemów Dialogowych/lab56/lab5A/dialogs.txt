@@ -1,0 +1,23 @@
+hi, how are you doing?	i'm fine. how about yourself?
+i'm fine. how about yourself?	i'm pretty good. thanks for asking.
+i'm pretty good. thanks for asking.	no problem. so how have you been?
+no problem. so how have you been?	i've been great. what about you?
+i've been great. what about you?	i've been good. i'm in school right now.
+i've been good. i'm in school right now.	what school do you go to?
+what school do you go to?	i go to pcc.
+i go to pcc.	do you like it there?
+do you like it there?	it's okay. it's a really big campus.
+it's okay. it's a really big campus.	good luck with school.
+good luck with school.	thank you very much.
+how's it going?	i'm doing well. how about you?
+i'm doing well. how about you?	never better, thanks.
+never better, thanks.	so how have you been lately?
+so how have you been lately?	i've actually been pretty good. you?
+i've actually been pretty good. you?	i'm actually in school right now.
+i'm actually in school right now.	which school do you attend?
+which school do you attend?	i'm attending pcc right now.
+i'm attending pcc right now.	are you enjoying it there?
+are you enjoying it there?	it's not bad. there are a lot of people there.
+it's not bad. there are a lot of people there.	good luck with that.
+good luck with that.	thanks.
+how are you doing today?	i'm doing great. what about you?

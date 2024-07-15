@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lab7EchoBotRadek.props" />
+</Project>

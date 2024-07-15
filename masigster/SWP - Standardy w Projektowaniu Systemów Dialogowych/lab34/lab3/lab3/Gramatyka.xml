@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<grammar version="1.0"
+         xmlns="http://www.w3.org/2001/06/grammar"
+         xml:lang="pl-PL"
+         root="root">
+
+  <rule id="root">
+    <one-of>
+      <item>
+        <ruleref uri="#opcje"/>
+      </item>
+      <item>
+        <item>
+          Gałka jeden <ruleref uri="#galka"/>
+        </item>
+      </item>
+      <item>
+        <item>
+          Gałka dwa <ruleref uri="#galka"/>
+        </item>
+      </item>
+      <item>
+        <item>
+          Wafelek <ruleref uri="#wafelek"/>
+        </item>
+      </item>
+      <item>
+        <item>
+          Polewa <ruleref uri="#polewa"/>
+        </item>
+      </item>
+      <item>
+        <item>
+          Posypka <ruleref uri="#posypka"/>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="opcje">
+    <one-of>
+      <item>Stop</item>
+      <item>Pomoc</item>
+      <item>Wyślij formularz</item>
+    </one-of>
+  </rule>
+
+  <rule id="galka">
+    <one-of>
+      <item>Waniliowy</item>
+      <item>Śmietankowy</item>
+      <item>Czekoladowy</item>
+      <item>Truskawkowy</item>
+      <item>Pistacjowy</item>
+    </one-of>
+  </rule>
+
+  <rule id="wafelek">
+    <one-of>
+      <item>Słodki</item>
+      <item>Niesłodki</item>
+      <item>Bezglutenowy</item>
+    </one-of>
+  </rule>
+
+  <rule id="polewa">
+    <one-of>
+      <item>Czekoladowa</item>
+      <item>Karmelowa</item>
+      <item>Truskawkowa</item>
+    </one-of>
+  </rule>
+
+  <rule id="posypka">
+    <one-of>
+      <item>Czekoladowa</item>
+      <item>Orzechowa</item>
+      <item>Kokosowa</item>
+      <item>Cukierkowa</item>
+    </one-of>
+  </rule>
+
+</grammar>
