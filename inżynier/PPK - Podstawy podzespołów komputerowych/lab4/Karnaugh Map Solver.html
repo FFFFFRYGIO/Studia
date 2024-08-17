@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://www.charlie-coleman.com/experiments/kmap/ -->
+<html lang="en"><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Karnaugh Map Solver</title>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Allows the user to input values for a Karnaugh map and recieve boolean expressions for the output.">
+    <link rel="icon" type="icon/x-icon" href="https://www.charlie-coleman.com/resources/favicon.ico">
+  </head>
+  <body>
+    <div id="title">
+      <header id="content-title">Karnaugh Map Solver</header>
+    </div>
+
+    <a class="skip-link" href="https://www.charlie-coleman.com/experiments/kmap/#main">Skip to main</a>
+
+    <main id="main">
+      <div id="information">
+        <div id="inputs">
+          <div id="attributes" class="info-section">
+            <header class="info-header">Function Info</header>
+            <div class="entry">
+              <label for="return-name" class="entry-label">Output Name:</label>
+              <label class="info-tooltip">One string for function result</label>
+              <input id="return-name" type="text" size="30" value="f" class="input-field">
+            </div>
+            <div class="entry">
+              <label for="variable-names" class="entry-label">Input Names:</label>
+              <label class="info-tooltip">Comma separated list of variable names</label>
+              <input id="variable-names" type="text" size="30" value="a, b, c, d" class="input-field">
+            </div>
+          </div>
+
+          <div id="settings" class="info-section">
+            <header class="info-header">Settings:</header>
+            <label class="setting-label"><input type="radio" name="method" value="sop" checked=""> Sum of Products</label>
+            <label class="setting-label"><input type="radio" name="method" value="pos"> Product of Sums</label>
+            <label class="info-tooltip"> (very slow with &gt;10 variables)</label>
+            <label class="setting-label"><input type="checkbox" name="draw-kmap" value="map" checked=""> Draw Kmap</label>
+            <label class="setting-label"><input type="checkbox" name="draw-groups" value="draw" checked=""> Draw groupings</label>
+          </div>
+
+          <div class="clear-button-container">
+            <button id="clear-kmap" class="clear-button" onclick="javascript:resetEverything()">Reset Everything</button>
+          </div>
+        </div>
+
+        <div id="terms" class="info-section">
+          <header class="info-header">Terms</header>
+          <div class="entry">
+            <label for="minterms" class="entry-label">Minterms:</label>
+            <label class="info-tooltip">Comma separated list of numbers</label>
+            <input id="minterms" type="text" size="30" value="" class="input-field">
+          </div>
+          <div class="entry">
+            <label for="dont-cares" class="entry-label">Don't Cares:</label>
+            <label class="info-tooltip">Comma separated list of numbers</label>
+            <input id="dont-cares" type="text" size="30" value="" class="input-field">
+          </div>
+        
+          <div class="clear-button-container">
+            <button id="clear-terms" class="clear-button" onclick="javascript:resetTerms()">Reset Terms</button>
+          </div>
+        </div>
+
+        <div id="solutions" class="info-section">
+          <header class="info-header">Solutions:</header>
+          <div class="solution">
+            <label for="generic-solution" class="solution-label">Generic:</label>
+            <textarea cols="80" rows="4" wrap="soft" class="solution-field" readonly="" id="generic-solution"></textarea>
+          </div>
+          <div class="solution">
+            <label for="vhdl-solution" class="solution-label">VHDL:</label>
+            <textarea cols="80" rows="4" wrap="soft" class="solution-field" readonly="" id="vhdl-solution"></textarea>
+          </div>
+          <div class="solution">
+            <label for="verilog-solution" class="solution-label">Verilog:</label>
+            <textarea cols="80" rows="4" wrap="soft" class="solution-field" readonly="" id="verilog-solution"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div id="kmap-div">
+        <header id="kmap-title">Karnaugh Map</header>
+        <div id="kmap-container">
+          <table id="kmap" class="kmap-table">
+    <tr class="map-row" id="title-row">
+        <td class="var-label" id="return-variable">f</td>
+        <td class="column-label"></td>
+        <td class="var-label" id="col-variables" colspan="4"> c,d</td>
+    </tr>        
+    <tr class="map-row" id="binary-label"><td></td><td></td><td class="col-label" id="col-00">00</td><td class="col-label" id="col-01">01</td><td class="col-label" id="col-11">11</td><td class="col-label" id="col-10">10</td></tr><tr id="row-0" class="kmap-row"><td class="var-label" id="row-variables">a,b</td><td class="row-label" id="row-00">00</td>
+            <td class="kmap-cell" id="cell-0" onclick="javascript:cellChange(0, 2, 0, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-0-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-1" onclick="javascript:cellChange(0, 2, 1, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-1-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-3" onclick="javascript:cellChange(0, 2, 2, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-3-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-2" onclick="javascript:cellChange(0, 2, 3, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-2-label">0</label>
+            </td>
+            </tr><tr id="row-1" class="kmap-row"><td></td><td class="row-label" id="row-01">01</td>
+            <td class="kmap-cell" id="cell-4" onclick="javascript:cellChange(1, 2, 0, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-4-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-5" onclick="javascript:cellChange(1, 2, 1, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-5-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-7" onclick="javascript:cellChange(1, 2, 2, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-7-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-6" onclick="javascript:cellChange(1, 2, 3, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-6-label">0</label>
+            </td>
+            </tr><tr id="row-2" class="kmap-row"><td></td><td class="row-label" id="row-11">11</td>
+            <td class="kmap-cell" id="cell-12" onclick="javascript:cellChange(2, 2, 0, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-12-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-13" onclick="javascript:cellChange(2, 2, 1, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-13-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-15" onclick="javascript:cellChange(2, 2, 2, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-15-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-14" onclick="javascript:cellChange(2, 2, 3, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-14-label">0</label>
+            </td>
+            </tr><tr id="row-3" class="kmap-row"><td></td><td class="row-label" id="row-10">10</td>
+            <td class="kmap-cell" id="cell-8" onclick="javascript:cellChange(3, 2, 0, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-8-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-9" onclick="javascript:cellChange(3, 2, 1, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-9-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-11" onclick="javascript:cellChange(3, 2, 2, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-11-label">0</label>
+            </td>
+            
+            <td class="kmap-cell" id="cell-10" onclick="javascript:cellChange(3, 2, 3, 2)" style="width: 37px; height: 37px;">
+                <label class="kmap-cell-label" id="cell-10-label">0</label>
+            </td>
+            </tr></table>
+        </div>
+      </div>
+
+      <div class="footer">
+        Feel free to send any bugs or feedback to <span class="no-text-wrap"><em>kmaps (at) charlie-coleman.com</em></span>
+      </div>
+    </main>
+  
+
+  <link rel="stylesheet" type="text/css" href="./Karnaugh Map Solver_files/palette.css">
+  <link rel="stylesheet" type="text/css" href="./Karnaugh Map Solver_files/opensans.css">
+  <script src="./Karnaugh Map Solver_files/tracking.js.pobrane"></script>
+  <link rel="stylesheet" type="text/css" href="./Karnaugh Map Solver_files/style.css">
+
+  <script src="./Karnaugh Map Solver_files/jquery-3.4.1.min.js.pobrane"></script>
+  <script src="./Karnaugh Map Solver_files/petrick.js.pobrane"></script>
+  <script src="./Karnaugh Map Solver_files/main.js.pobrane"></script>
+</body></html>

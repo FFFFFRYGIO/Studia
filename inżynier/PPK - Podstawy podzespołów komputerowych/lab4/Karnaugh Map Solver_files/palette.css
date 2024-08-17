@@ -1,0 +1,20 @@
+:root {
+    --mono1: #FFFFF0;
+    --mono2: #e5e5d8;
+    --mono3: #ccccc0;
+    --mono4: #b2b2a8;
+    --mono5: #999990;
+    --mono6: #7f7f78;
+    --mono7: #666660;
+    --mono8: #474743;
+    --mono9: #333330;
+    --mono10: #262624;
+    --mono11: #191918;
+    --mono12: #0d0d0c;
+    --light-important-color: #FF8A4D;
+    --med-important-color: #FF5800;
+    --dark-important-color: #B33E00;
+    --light-comp-color: #4DC1FF;
+    --med-comp-color: #00A7FF;
+    --dark-comp-color: #0075B3;
+}
