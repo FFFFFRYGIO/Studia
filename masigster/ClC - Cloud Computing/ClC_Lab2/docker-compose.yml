@@ -1,0 +1,126 @@
+version: '3'
+
+services:
+  mqtt_broker:
+    container_name: mqttBroker
+    build:
+      context: mqttBroker
+      dockerfile: Dockerfile
+    networks:
+      - base_network
+    ports:
+      - "${MQTT_PORT}:${MQTT_PORT}"
+      - "${MQTT_WEBSOCKETS_PORT}:${MQTT_WEBSOCKETS_PORT}"
+    env_file:
+      - .env
+#    healthcheck:
+#      # test: [ "CMD", "mosquitto_sub", "-h", "localhost", "-p", "${MQTT_PORT}", "-t", "healthcheck", "-C", "1" ]
+#      test: [ "CMD-SHELL", "ping", "localhost" ]
+#      interval: 5s
+#      timeout: 3s
+#      retries: 2
+
+  postgres_db:
+    container_name: postgresDB
+    image: postgres:13
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - base_network
+    ports:
+      - "${POSTGRES_PORT}:${POSTGRES_PORT}"
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}'" ]
+      interval: 5s
+      timeout: 3s
+      retries: 2
+    env_file:
+      - .env
+
+  fastapi_service:
+    container_name: fastapi
+    build:
+      context: fastapiService
+      dockerfile: Dockerfile
+    networks:
+      - base_network
+    ports:
+      - "${FASTAPI_PORT}:${FASTAPI_PORT}"
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+    command: [ "python", "-m", "uvicorn", "fastapi_app:app", "--host", "${FASTAPI_HOST}", "--port", "${FASTAPI_PORT}" ]
+    env_file:
+      - .env
+  #    healthcheck:
+#      # test: [ "CMD-SHELL", "curl", "--fail", "${FASTAPI_CONNECTION_PROTOCOL}://localhost:${FASTAPI_PORT}/health" ]
+#      test: [ "CMD-SHELL", "ping", "${FASTAPI_CONNECTION_PROTOCOL}://localhost:${FASTAPI_PORT}/health" ]
+#      interval: 5s
+#      timeout: 3s
+#      retries: 2
+
+  mqtt_subscriber_q0:
+    build:
+      context: mqttSubscriberQ0
+      dockerfile: Dockerfile
+    networks:
+      - base_network
+    depends_on:
+      fastapi_service:
+        condition: service_started
+      mqtt_broker:
+        condition: service_started
+    env_file:
+      - .env
+
+  mqtt_subscriber_q1:
+    build:
+      context: mqttSubscriberQ1
+      dockerfile: Dockerfile
+    networks:
+      - base_network
+    depends_on:
+      fastapi_service:
+        condition: service_started
+      mqtt_broker:
+        condition: service_started
+    env_file:
+      - .env
+
+  mqtt_subscriber_q2:
+    build:
+      context: mqttSubscriberQ2
+      dockerfile: Dockerfile
+    networks:
+      - base_network
+    depends_on:
+      fastapi_service:
+        condition: service_started
+      mqtt_broker:
+        condition: service_started
+    env_file:
+      - .env
+
+  mqtt_app:
+    build:
+      context: mqttApp
+      dockerfile: Dockerfile
+    networks:
+      - base_network
+    depends_on:
+      - mqtt_subscriber_q0
+      - mqtt_subscriber_q1
+      - mqtt_subscriber_q2
+    env_file:
+      - .env
+
+networks:
+  base_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

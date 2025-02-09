@@ -1,0 +1,94 @@
+1. Crear docker
+docker system prune -a --volumes -f
+
+2. Run register
+docker run -d -p 5000:5000 --name registry registry:latest
+
+3. Start minikube
+minikube start
+
+3. Create and apply pod
+kubectl apply -f nginx-pod.yaml
+
+4. Check pods
+kubectl get pods
+
+5. Create and apply service
+kubectl apply -f nginx-service.yaml
+
+6. Check services
+kubectl get services
+
+7. Check minikube ip
+minikube ip
+
+8. Add service label to pod
+  labels:
+    app: nginx
+
+9. restart pod
+kubectl delete pod nginx-pod
+kubectl apply -f nginx-pod.yaml
+
+10. Check service url
+minikube service nginx-service --url
+
+11. Open url
+http://127.0.0.1:43665/
+
+12. Create and apply deployment
+kubectl apply -f nginx-deployment.yaml
+
+### PersistentVolume ###
+
+kubectl apply -f nginx-pv-pod.yaml
+
+kubectl get pv
+kubectl get pvc
+
+kubectl get pods
+
+kubectl describe pod nginx-pod
+kubectl logs nginx-pod
+
+kubectl exec -it nginx-pod -- /bin/sh
+
+df -h | grep /usr/share/nginx/html
+ls -lah /usr/share/nginx/html
+echo "Test Persistent Volume" > /usr/share/nginx/html/index.html
+exit
+
+kubectl port-forward pod/nginx-pod 8080:80
+http://localhost:8080
+
+### PersistentVolume ###
+
+kubectl apply -f nginx_statefulset.yaml
+
+kubectl get statefulset
+
+kubectl get pods -l app=nginx
+
+kubectl get pv
+kubectl get pvc
+
+kubectl exec -it nginx-statefulset-0 -- /bin/sh
+ls -l /usr/share/nginx/html
+
+kubectl logs nginx-statefulset-0
+
+kubectl exec -it nginx-statefulset-0 -- curl http://nginx-statefulset-0.nginx-service
+
+
+
+
+
+
+
+
+
+
+
+
+
+

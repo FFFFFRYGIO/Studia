@@ -1,0 +1,8 @@
+services:
+  mqtt_broker:
+    container_name: mqttBroker
+    build:
+      context: mqttBroker
+      dockerfile: Dockerfile
+    ports:
+      - "1883:1883"
