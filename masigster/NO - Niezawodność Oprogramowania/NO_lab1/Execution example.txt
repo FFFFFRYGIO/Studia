@@ -1,0 +1,52 @@
+### N_increment_step = 1 ###
+
+Found for accuracy 0.01
+N = 391, phi = 1.7175013183969495e-06
+
+Found for accuracy 0.001
+N = 426, phi = 1.5105599089192798e-06
+
+Found for accuracy 0.0001
+N = 432, phi = 1.479990126492536e-06
+
+Found for accuracy 1e-05
+N = 19584, phi = 2.2561604820126833e-08
+
+Found for accuracy 1e-06
+N = 61982, phi = 7.094808556163782e-09
+
+### N_increment_step = 0.1 ###
+
+Found for accuracy 0.01
+N = 391.0, phi = 1.7175013183969495e-06
+
+Found for accuracy 0.001
+N = 425.8, phi = 1.511600665940712e-06
+
+Found for accuracy 0.0001
+N = 431.3, phi = 1.4834926946514872e-06
+
+Found for accuracy 1e-05
+N = 431.9, phi = 1.4804894804190092e-06
+
+Found for accuracy 1e-06
+N = 61981.8, phi = 7.094831499527368e-09
+
+### N_increment_step = 0.01 ###
+
+Found for accuracy 0.01
+N = 390.99, phi = 1.7175685472160565e-06
+
+Found for accuracy 0.001
+N = 425.8, phi = 1.511600665940712e-06
+
+Found for accuracy 0.0001
+N = 431.29, phi = 1.4835428514528344e-06
+
+Found for accuracy 1e-05
+N = 431.87, phi = 1.4806393523122806e-06
+
+Found for accuracy 1e-06
+N = 431.93, phi = 1.4803396388630525e-06
+
+Process finished with exit code 0

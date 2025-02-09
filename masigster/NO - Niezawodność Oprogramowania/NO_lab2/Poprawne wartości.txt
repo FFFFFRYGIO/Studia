@@ -1,0 +1,23 @@
+Program 1.c
+Unique Operators        6
+Unique Operators list   {'==', '=', '+', '*', '%', '<='}
+Unique Operands         6
+Unique Operands list    {'2', '1', 'k', 'p', 'n', '0'}
+Total Operators         14
+Total Operands          31
+
+Program 2.c
+Unique Operators        15
+Unique Operators list
+Unique Operands         19
+Unique Operands list
+Total Operators         32
+Total Operands          61
+
+Program 3.c
+Unique Operators        8?
+Unique Operators list
+Unique Operands         25
+Unique Operands list
+Total Operators         17?
+Total Operands          81?
