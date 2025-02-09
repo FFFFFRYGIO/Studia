@@ -1,0 +1,199 @@
+run_xgboost <- function(excluded_column) {
+
+##################################
+# 5. Algorytm XGBoost            #
+##################################
+
+# -------------------- #
+# Przygotowanie danych #
+# -------------------- #
+
+# Usuniecie obiektow dla czystego startu nastepnego modelu
+rm(list = setdiff(ls(), "wine_backup"))
+
+# Przywrocenie zbioru z kopii
+wine <- wine_backup
+
+### Usunięcie ze bioru wybranej kolumny
+wine <- wine[, !(names(wine) %in% excluded_column)]
+
+### Normalizacja zmiennych numerycznych
+
+# Funkcja normalizujaca metoda min - max
+normalize <- function(x) {
+  return((x - min(x)) / (max(x) - min(x)))
+}
+
+# Zastosowanie funkcji normalizujacej dla kazdej zmiennej numerycznej
+wine <- wine %>%
+  mutate(across(where(is.numeric), normalize))
+
+###  Podzial zbioru na treningowy i testowy w proporcjach 75% do 25%
+
+set.seed(1234)
+sample_index <-
+  sample(nrow(wine), round(nrow(wine) * .75), replace = FALSE)
+wine_train <- wine[sample_index,]
+wine_test <- wine[-sample_index,]
+
+# Sprawdzenie proporcji klas dla wszystkich trzech zbiorow
+round(prop.table(table(select(wine, quality))),2)
+round(prop.table(table(select(wine_train, quality))),2)
+round(prop.table(table(select(wine_test, quality))),2)
+
+# ---------------- #
+# Tworzenie modelu #
+# ---------------- #
+
+# Budowa modelu za pomoca funkcji randomForest() z pakietu randomForest
+
+modelLookup("xgbTree")
+
+wine_mod <- train(
+  quality ~ .,
+  data = wine_train,
+  metric = "Accuracy",
+  method = "xgbTree",
+  trControl = trainControl(method = "none"),
+  tuneGrid = expand.grid(
+    nrounds = 100,
+    max_depth = 6,
+    eta = 0.3,
+    gamma = 0.01,
+    colsample_bytree = 1,
+    min_child_weight = 1,
+    subsample = 1
+  )
+)
+
+wine_pred <- predict(wine_mod, wine_test, type = "raw")
+
+# ---------------- #
+# Ewaluacja modelu #
+# ---------------- #
+
+### 1. Ewaluacja z wykorzystaniem macierzy pomylek
+confusionMatrix(wine_pred, wine_test$quality)
+
+### 2. Ewaluacja z wykorzystaniem krzywej ROC
+
+# Predykcja wartosci prawdopodobienstw
+wine_pred_p <- predict(wine_mod, wine_test, type = "prob")
+head(wine_pred_p)
+
+roc_pred <-
+  prediction(
+    predictions = wine_pred_p[, "good"],
+    labels = wine_test$quality
+  )
+
+roc_perf <- performance(roc_pred, measure = "tpr", x.measure = "fpr")
+
+plot(roc_perf, main = paste("ROC Curve for excluded", excluded_column), col = "red", lwd = 3)
+abline(a = 0, b = 1, lwd = 3, lty = 2, col = 1)
+
+### 3. Ewaluacja z wykorzystaniem wspolczynnika AUC
+
+# Wygenerowanie obiektu wydajnosci z parametrem measure = "auc"
+auc_perf <- performance(roc_pred, measure = "auc")
+
+# Wydobycie wartosci y.values ze slotu z obiektu auc_perf
+wine_auc <- unlist(slot(auc_perf,"y.values"))
+wine_auc
+
+# ---------------- #
+# Walidacja modelu #
+# ---------------- #
+
+### Walidacja krzyzowa losowa
+random_control <- trainControl(method = "repeatedcv", number = 10, repeats = 3)
+wine_mod_random <- train(
+  quality ~ .,
+  data = wine_train,
+  method = "xgbTree",
+  metric = "Accuracy",
+  trControl = random_control,
+  tuneGrid = expand.grid(
+    nrounds = 100,
+    max_depth = 6,
+    eta = 0.3,
+    gamma = 0.01,
+    colsample_bytree = 1,
+    min_child_weight = 1,
+    subsample = 1
+  )
+)
+print(wine_mod_random)
+
+}
+
+# Pętla do uruchomienia modelu dla wszystkich cech
+for (excluded_column in setdiff(names(wine), "quality")) {
+  print("#####################################")
+  print(paste("run_xgboost for column:", excluded_column))
+  print("#####################################")
+  run_xgboost(excluded_column)
+}
+
+# Uruchomienia pojedynczo dla każdej cechy
+excluded_column <- "fixed_acidity"
+run_xgboost(excluded_column)
+
+
+
+
+
+
+# Ładowanie wymaganych pakietów
+library(tidyverse)
+
+# Przywrócenie kopii danych, jeśli jest potrzebna
+wine <- wine_backup
+
+# Lista cech do analizy (wykluczamy quality)
+features <- colnames(wine)[!(colnames(wine) %in% "quality")]
+
+# Funkcja do przeprowadzania testu T-Studenta dla jednej cechy
+t_test_feature <- function(feature_name, data) {
+  formula <- as.formula(paste(feature_name, "~ quality"))
+  t_test <- t.test(formula, data = data)
+  return(data.frame(
+    Feature = feature_name,
+    p_value = t_test$p.value,
+    Mean_good = t_test$estimate["mean in group good"],
+    Mean_bad = t_test$estimate["mean in group bad"]
+  ))
+}
+
+# Przeprowadzanie testu T-Studenta dla każdej cechy
+t_test_results <- map_dfr(features, ~ t_test_feature(.x, wine))
+
+# Dodanie kolumny z oceną istotności statystycznej (p_value <  0.05)
+t_test_results <- t_test_results %>%
+  mutate(Significant = ifelse(p_value < 0.05, "Yes", "No"))
+
+# Wyświetlenie wyników
+print(t_test_results)
+
+# Zapisanie wyników do pliku CSV
+write_csv(t_test_results, "t_test_results.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
