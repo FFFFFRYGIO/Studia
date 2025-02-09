@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Global_Events">
+			<state id="good" />
+			<state id="neutral" />
+			<state id="bad" />
+			<probabilities>0.1 0.6 0.3</probabilities>
+		</cpt>
+		<cpt id="Market_Condition">
+			<state id="positive" />
+			<state id="negative" />
+			<parents>Global_Events</parents>
+			<probabilities>0.8 0.2 0.5 0.5 0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Company_Income">
+			<state id="grow" />
+			<state id="not_grow" />
+			<probabilities>0.25 0.75</probabilities>
+		</cpt>
+		<cpt id="Company_Reputation">
+			<state id="positive" />
+			<state id="negative" />
+			<probabilities>0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="Action_Cost_Change">
+			<state id="raise" />
+			<state id="not_raise" />
+			<parents>Market_Condition Company_Income Company_Reputation</parents>
+			<probabilities>0.9 0.1 0.6 0.4 0.5 0.5 0.2 0.8 0.7 0.3 0.4 0.6 0.3 0.7 0 1</probabilities>
+		</cpt>
+		<cpt id="Investment_Decision">
+			<state id="yes" />
+			<state id="no" />
+			<parents>Action_Cost_Change</parents>
+			<probabilities>0.6 0.4 0.7 0.3</probabilities>
+		</cpt>
+		<cpt id="apriori">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Company_Reputation Company_Income Global_Events Market_Condition Action_Cost_Change Investment_Decision</parents>
+			<probabilities>1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4722.0 ACADEMIC" name="Network2">
+			<node id="Market_Condition">
+				<name>Market Condition</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>98 176 257 240</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Company_Income">
+				<name>Company Income</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>299 132 392 190</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Company_Reputation">
+				<name>Company Reputation</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>479 167 587 234</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Global_Events">
+				<name>Global Events</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>62 68 140 116</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Action_Cost_Change">
+				<name>Action Cost Change</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>184 306 290 372</position>
+				<barchart active="true" />
+			</node>
+			<node id="Investment_Decision">
+				<name>Investment Decision</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>192 415 296 480</position>
+				<barchart active="true" />
+			</node>
+			<node id="apriori">
+				<name>apriori</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>681 481 729 511</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

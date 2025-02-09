@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Metastatic_Cancer">
+			<state id="present" />
+			<state id="absent" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="Increased_Serum_Calcium">
+			<state id="present" />
+			<state id="absent" />
+			<parents>Metastatic_Cancer</parents>
+			<probabilities>0.8 0.2 0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="Brain_Tumor">
+			<state id="present" />
+			<state id="absent" />
+			<parents>Metastatic_Cancer</parents>
+			<probabilities>0.2 0.8 0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="Coma1">
+			<state id="present" />
+			<state id="absent" />
+			<parents>Brain_Tumor Increased_Serum_Calcium</parents>
+			<probabilities>0.8 0.2 0.8 0.2 0.8 0.2 0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="Severe_Headaches">
+			<state id="present" />
+			<state id="absent" />
+			<parents>Brain_Tumor</parents>
+			<probabilities>0.8 0.2 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="temp1">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Coma1 Severe_Headaches</parents>
+			<probabilities>1 0 1 0 1 0 1 0</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4722.0 ACADEMIC" name="Network2">
+			<node id="Metastatic_Cancer">
+				<name>Metastatic Cancer (MC)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>146 50 243 110</position>
+				<barchart active="true" width="138" height="64" />
+			</node>
+			<node id="Increased_Serum_Calcium">
+				<name>Increased Serum Calcium</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>66 185 159 243</position>
+				<barchart active="true" width="172" height="64" />
+			</node>
+			<node id="Brain_Tumor">
+				<name>Brain Tumor (BT)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>256 189 327 233</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Coma1">
+				<name>Coma1 (C)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>144 319 193 349</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Severe_Headaches">
+				<name>Severe Headaches (SH)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>334 302 437 366</position>
+				<barchart active="true" width="146" height="64" />
+			</node>
+			<node id="temp1">
+				<name>P(C,SH)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>97 466 139 492</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

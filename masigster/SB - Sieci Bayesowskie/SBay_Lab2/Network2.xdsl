@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network3" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="SP">
+			<state id="yes" />
+			<state id="no" />
+			<probabilities>0.96 0.04</probabilities>
+		</cpt>
+		<cpt id="Fu">
+			<state id="yes" />
+			<state id="no" />
+			<probabilities>0.98 0.02</probabilities>
+		</cpt>
+		<noisymax id="St">
+			<state id="yes" />
+			<state id="no" />
+			<parents>SP Fu</parents>
+			<strengths>0 1 0 1</strengths>
+			<parameters>0.99 0.01 0 1 0.95 0.05 0 1 0 1</parameters>
+		</noisymax>
+		<cpt id="FM">
+			<state id="full" />
+			<state id="half" />
+			<state id="empty" />
+			<parents>Fu</parents>
+			<probabilities>0.39 0.6 0.01 0.001 0.001 0.998</probabilities>
+		</cpt>
+		<cpt id="Node5">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>FM St Fu SP</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4722.0 ACADEMIC" name="Network3">
+			<node id="SP">
+				<name>SP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>406 52 442 74</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="St">
+				<name>St</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>414 215 449 236</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Fu">
+				<name>Fu</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>113 54 149 76</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="FM">
+				<name>FM</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>110 213 147 236</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node5">
+				<name>Node5</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>269 317 317 347</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

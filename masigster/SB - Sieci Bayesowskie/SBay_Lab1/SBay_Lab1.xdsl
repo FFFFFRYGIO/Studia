@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="deszcz__D_">
+			<state id="tak" />
+			<state id="nie" />
+			<probabilities>0.35 0.65</probabilities>
+		</cpt>
+		<cpt id="Jakosc_drogi__JD_">
+			<state id="zla" />
+			<state id="dobra" />
+			<probabilities>0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="warunki_drogowe__WD_">
+			<state id="zle" />
+			<state id="dobre" />
+			<parents>deszcz__D_ Jakosc_drogi__JD_</parents>
+			<probabilities>0.75 0.25 0.44 0.5600000000000001 0.45 0.55 0.55 0.45</probabilities>
+		</cpt>
+		<cpt id="Umiejetnosci_kierowcy__UK_">
+			<state id="slabe" />
+			<state id="dobre" />
+			<probabilities>0.55 0.45</probabilities>
+		</cpt>
+		<cpt id="ryzyko_wypadku__RW_">
+			<state id="male" />
+			<state id="srednie" />
+			<state id="duze" />
+			<parents>warunki_drogowe__WD_ Umiejetnosci_kierowcy__UK_</parents>
+			<probabilities>0.15 0.38 0.47 0.22 0.41 0.37 0.27 0.44 0.29 0.44 0.39 0.17</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4722.0 ACADEMIC" name="Ryzyko Wypadku">
+			<node id="deszcz__D_">
+				<name>deszcz (D)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>96 89 164 131</position>
+				<barchart active="true" />
+			</node>
+			<node id="Jakosc_drogi__JD_">
+				<name>Jakosc drogi (JD)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>295 123 390 182</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="warunki_drogowe__WD_">
+				<name>warunki drogowe (WD)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>88 249 179 305</position>
+				<barchart active="true" />
+			</node>
+			<node id="Umiejetnosci_kierowcy__UK_">
+				<name>Umiejetnosci kierowcy (UK)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>302 291 403 354</position>
+				<barchart active="true" />
+			</node>
+			<node id="ryzyko_wypadku__RW_">
+				<name>ryzyko wypadku (RW)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>87 421 178 477</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

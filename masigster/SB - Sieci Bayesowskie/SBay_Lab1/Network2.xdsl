@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Obecnosc_zbyt_wysokiego_poziomu_alkoholu_we_krwi__A_">
+			<state id="yes" />
+			<state id="no" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="Wynik_testu__T_">
+			<state id="yes" />
+			<state id="no" />
+			<parents>Obecnosc_zbyt_wysokiego_poziomu_alkoholu_we_krwi__A_</parents>
+			<probabilities>0.99 0.01 0.001 0.999</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4722.0 ACADEMIC" name="Alkohol">
+			<node id="Obecnosc_zbyt_wysokiego_poziomu_alkoholu_we_krwi__A_">
+				<name>Obecnosc zbyt wysokiego poziomu alkoholu we krwi (A)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>111 96 253 184</position>
+				<barchart active="true" />
+			</node>
+			<node id="Wynik_testu__T_">
+				<name>Wynik testu (T)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>141 295 225 347</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
