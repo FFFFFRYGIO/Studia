@@ -1,0 +1,128 @@
+# Dependabot version updates + grouped security updates
+# Docs: https://docs.github.com/code-security/dependabot/working-with-dependabot/dependabot-options-reference
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directories:
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/fastapiService"
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/mqttApp"
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/mqttSubscriber"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/fastapiService"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttApp"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttSubscriberQ0"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttSubscriberQ1"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttSubscriberQ2"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Warsaw"
+    open-pull-requests-limit: 10
+    groups:
+      pip-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+      pip-security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
+  - package-ecosystem: "maven"
+    directories:
+      - "/inżynier/JTP - Języki i Techniki Programowania/lab1-2"
+      - "/inżynier/JTP - Języki i Techniki Programowania/lab3-4"
+      - "/inżynier/JTP - Języki i Techniki Programowania/lab5-6"
+      - "/inżynier/JTP - Języki i Techniki Programowania/lab7-8"
+      - "/inżynier/PW - Programowanie Współbierzne/statek-projekt"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Warsaw"
+    open-pull-requests-limit: 10
+    groups:
+      maven-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+      maven-security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
+  - package-ecosystem: "nuget"
+    directories:
+      - "/inżynier/GK - Grafika Komputerowa/Gk_Lab1_2"
+      - "/inżynier/GK - Grafika Komputerowa/Gk_Lab3"
+      - "/inżynier/GK - Grafika Komputerowa/Gk_Lab3_BWP"
+      - "/inżynier/GK - Grafika Komputerowa/Gk_Lab4"
+      - "/inżynier/GK - Grafika Komputerowa/Gk_lab5"
+      - "/masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab12/Lab2-2"
+      - "/masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab12/Lab2-2/Lab2-2"
+      - "/masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab34/lab3"
+      - "/masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab34/lab3/lab3"
+      - "/masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab78/Lab7EchoBotRadek"
+      - "/masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab78/Lab7EchoBotRadek/Lab7EchoBotRadek"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Warsaw"
+    open-pull-requests-limit: 10
+    groups:
+      nuget-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+      nuget-security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
+  - package-ecosystem: "docker"
+    directories:
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/fastapiService"
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/mqttApp"
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/mqttBroker"
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project/mqttSubscriber"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab1/mqtt/mqttBroker"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/fastapiService"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttApp"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttBroker"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttSubscriberQ0"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttSubscriberQ1"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2/mqttSubscriberQ2"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Warsaw"
+    open-pull-requests-limit: 10
+    groups:
+      docker-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+      docker-security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
+  - package-ecosystem: "docker-compose"
+    directories:
+      - "/inżynier/TIR - Technologie Internetu Rzeczy/lab3/project"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab1/mqtt"
+      - "/masigster/ClC - Cloud Computing/ClC_Lab2"
+      - "/masigster/SBD - Systemy Baz Danych/wyszukiwarki/Radoslaw_Relidzynski_WCY20IX3S4_db_typu_wyszukiwarki"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Warsaw"
+    open-pull-requests-limit: 10
+    groups:
+      docker_compose-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+      docker_compose-security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
