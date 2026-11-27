@@ -14,7 +14,7 @@ class ThreeAttemptsTest {
 
     @BeforeEach
     void setUp() {
-        lineSeparator = "\r\n";
+        lineSeparator = System.lineSeparator();
         outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
     }
