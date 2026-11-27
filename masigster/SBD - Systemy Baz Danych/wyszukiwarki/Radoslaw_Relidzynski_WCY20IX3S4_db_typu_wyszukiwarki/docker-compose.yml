@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   es01:
-    image: elasticsearch:7.16.2
+    image: elasticsearch:9.5.3
     container_name: es01
     restart: always
     volumes:
@@ -12,6 +12,8 @@ services:
       - discovery.seed_hosts=es02,es03
       - cluster.initial_master_nodes=es01,es02,es03
       - xpack.ml.enabled=false
+      # Elasticsearch 8+ enables TLS/auth by default; this lab talks plain HTTP
+      - xpack.security.enabled=false
       - xpack.monitoring.collection.enabled=true
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx256m -Xms256m"
@@ -25,7 +27,7 @@ services:
       - elastic
 
   es02:
-    image: elasticsearch:7.16.2
+    image: elasticsearch:9.5.3
     container_name: es02
     restart: always
     volumes:
@@ -36,6 +38,8 @@ services:
       - discovery.seed_hosts=es01,es03
       - cluster.initial_master_nodes=es01,es02,es03
       - xpack.ml.enabled=false
+      # Elasticsearch 8+ enables TLS/auth by default; this lab talks plain HTTP
+      - xpack.security.enabled=false
       - xpack.monitoring.collection.enabled=true
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx256m -Xms256m"
@@ -49,7 +53,7 @@ services:
       - elastic
 
   es03:
-    image: elasticsearch:7.16.2
+    image: elasticsearch:9.5.3
     container_name: es03
     restart: always
     volumes:
@@ -60,6 +64,8 @@ services:
       - discovery.seed_hosts=es01,es02
       - cluster.initial_master_nodes=es01,es02,es03
       - xpack.ml.enabled=false
+      # Elasticsearch 8+ enables TLS/auth by default; this lab talks plain HTTP
+      - xpack.security.enabled=false
       - xpack.monitoring.collection.enabled=true
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx256m -Xms256m"
@@ -73,7 +79,7 @@ services:
       - elastic
 
   logstash:
-    image: logstash:7.16.2
+    image: logstash:9.5.3
     container_name: logstash
     restart: always
     volumes:
@@ -89,7 +95,7 @@ services:
       - elastic
 
   kibana:
-    image: kibana:7.16.2
+    image: kibana:9.5.3
     container_name: kibana
     restart: always
     ports:

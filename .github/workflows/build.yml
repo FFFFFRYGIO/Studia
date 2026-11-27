@@ -1,0 +1,63 @@
+name: build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  maven:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        dir:
+          - "inżynier/JTP - Języki i Techniki Programowania/lab1-2"
+          - "inżynier/JTP - Języki i Techniki Programowania/lab3-4"
+          - "inżynier/JTP - Języki i Techniki Programowania/lab5-6"
+          - "inżynier/JTP - Języki i Techniki Programowania/lab7-8"
+          - "inżynier/PW - Programowanie Współbierzne/statek-projekt"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+      - name: mvn verify
+        working-directory: ${{ matrix.dir }}
+        run: |
+          if [ -x ./mvnw ]; then ./mvnw -B verify; else mvn -B verify; fi
+
+  dotnet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: "6.0.x"
+      - name: dotnet build (Lab7EchoBotRadek)
+        working-directory: "masigster/SWP - Standardy w Projektowaniu Systemów Dialogowych/lab78/Lab7EchoBotRadek/Lab7EchoBotRadek"
+        run: dotnet build -c Release
+
+  elk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: "masigster/SBD - Systemy Baz Danych/wyszukiwarki/Radoslaw_Relidzynski_WCY20IX3S4_db_typu_wyszukiwarki"
+    steps:
+      - uses: actions/checkout@v7
+      - run: sudo sysctl -w vm.max_map_count=262144
+      - run: docker compose up -d es01 es02 es03 kibana
+      - name: Wait for 3-node cluster
+        run: |
+          for i in $(seq 1 90); do
+            out=$(curl -fsS 'http://localhost:9200/_cluster/health?wait_for_nodes=3&timeout=1s' || true)
+            echo "$out" | grep -q '"number_of_nodes":3' && echo "$out" && exit 0; sleep 3
+          done
+          docker compose logs --tail 60 es01; exit 1
+      - name: Wait for Kibana
+        run: |
+          for i in $(seq 1 90); do
+            curl -fsS http://localhost:5601/api/status | grep -q '"level":"available"' && echo kibana up && exit 0; sleep 3
+          done
+          docker compose logs --tail 60 kibana; exit 1

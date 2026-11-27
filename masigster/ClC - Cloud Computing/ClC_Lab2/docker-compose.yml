@@ -22,7 +22,7 @@ services:
 
   postgres_db:
     container_name: postgresDB
-    image: postgres:13
+    image: postgres:14
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
