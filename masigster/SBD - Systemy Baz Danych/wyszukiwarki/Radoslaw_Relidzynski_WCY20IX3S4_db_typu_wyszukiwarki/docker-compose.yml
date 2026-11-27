@@ -12,6 +12,8 @@ services:
       - discovery.seed_hosts=es02,es03
       - cluster.initial_master_nodes=es01,es02,es03
       - xpack.ml.enabled=false
+      # Elasticsearch 8+ enables TLS/auth by default; this lab talks plain HTTP
+      - xpack.security.enabled=false
       - xpack.monitoring.collection.enabled=true
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx256m -Xms256m"
@@ -36,6 +38,8 @@ services:
       - discovery.seed_hosts=es01,es03
       - cluster.initial_master_nodes=es01,es02,es03
       - xpack.ml.enabled=false
+      # Elasticsearch 8+ enables TLS/auth by default; this lab talks plain HTTP
+      - xpack.security.enabled=false
       - xpack.monitoring.collection.enabled=true
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx256m -Xms256m"
@@ -60,6 +64,8 @@ services:
       - discovery.seed_hosts=es01,es02
       - cluster.initial_master_nodes=es01,es02,es03
       - xpack.ml.enabled=false
+      # Elasticsearch 8+ enables TLS/auth by default; this lab talks plain HTTP
+      - xpack.security.enabled=false
       - xpack.monitoring.collection.enabled=true
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx256m -Xms256m"
